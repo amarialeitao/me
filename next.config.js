@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
@@ -6,9 +8,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Required for GitHub Pages when repo is not username.github.io
-  basePath: '/me',
-  assetPrefix: '/me/',
+  // Required for GitHub Pages when using repo-name in URL
+  basePath: isProd ? '/me' : '',
+  assetPrefix: isProd ? '/me/' : '',
 }
 
 module.exports = nextConfig

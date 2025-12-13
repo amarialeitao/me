@@ -73,6 +73,12 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" suppressHydrationWarning>
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link 
+          href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Source+Sans+3:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" 
+          rel="stylesheet" 
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -89,6 +95,12 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-white dark:bg-midnight-950 text-midnight-900 dark:text-white antialiased transition-colors duration-300">
+        <noscript>
+          <div style={{ padding: '2rem', textAlign: 'center' }}>
+            <h1>Maria Leitão - Portfolio</h1>
+            <p>Por favor, habilite o JavaScript para visualizar este site.</p>
+          </div>
+        </noscript>
         <ThemeProvider>
           <LanguageProvider>
             {children}
