@@ -6,9 +6,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Remove basePath if using custom domain, keep if using username.github.io/repo
-  // basePath: '/me',
-  // assetPrefix: '/me/',
+  // Required for GitHub Pages when repo is not username.github.io
+  basePath: '/me',
+  assetPrefix: '/me/',
 }
 
 module.exports = nextConfig

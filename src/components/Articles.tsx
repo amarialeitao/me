@@ -1,6 +1,7 @@
 'use client';
 
 import { useLanguage } from '@/contexts/LanguageContext';
+import { getAssetUrl } from '@/lib/constants';
 import { 
   FileText, 
   ExternalLink, 
@@ -60,7 +61,7 @@ export default function Articles() {
               {/* Article Image */}
               <div className="relative h-40 sm:h-48 bg-gradient-to-br from-midnight-100 to-midnight-200 dark:from-midnight-700 dark:to-midnight-800 overflow-hidden">
                 <img 
-                  src={article.image} 
+                  src={getAssetUrl(article.image)}
                   alt={article.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   onError={(e) => {

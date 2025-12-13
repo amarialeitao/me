@@ -1,6 +1,7 @@
 'use client';
 
 import { useLanguage } from '@/contexts/LanguageContext';
+import { getAssetUrl } from '@/lib/constants';
 import { Briefcase, Code2, Target, Zap } from 'lucide-react';
 
 export default function About() {
@@ -32,7 +33,7 @@ export default function About() {
               {/* Profile Photo */}
               <div className="relative w-56 h-56 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-xl sm:rounded-2xl overflow-hidden">
                 <img 
-                  src="/profile.png" 
+                  src={getAssetUrl('/profile.png')}
                   alt="Maria Leitão - Tech Lead & Business Analyst"
                   className="w-full h-full object-cover"
                 />
