@@ -1,6 +1,6 @@
 // Base path for GitHub Pages deployment
-// Change this if deploying to a different repository name
-export const BASE_PATH = process.env.NODE_ENV === 'production' ? '/me' : '';
+// This matches the basePath in next.config.js
+export const BASE_PATH = '/me';
 
 // Helper function to get asset URL
 export function getAssetUrl(path: string): string {
@@ -8,4 +8,3 @@ export function getAssetUrl(path: string): string {
   const normalizedPath = path.startsWith('/') ? path : `/${path}`;
   return `${BASE_PATH}${normalizedPath}`;
 }
-

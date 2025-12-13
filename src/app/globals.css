@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom Fonts via Google Fonts CDN */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Source+Sans+3:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+/* Fonts loaded via link tag in layout.tsx for better performance */
 
 :root {
   --font-outfit: 'Outfit', system-ui, sans-serif;
