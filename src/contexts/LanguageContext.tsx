@@ -7,6 +7,7 @@ interface LanguageContextType {
   locale: Locale;
   setLocale: (locale: Locale) => void;
   t: Translations;
+  mounted: boolean;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
@@ -36,12 +37,8 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
 
   const t = getTranslations(locale);
 
-  if (!mounted) {
-    return null;
-  }
-
   return (
-    <LanguageContext.Provider value={{ locale, setLocale, t }}>
+    <LanguageContext.Provider value={{ locale, setLocale, t, mounted }}>
       {children}
     </LanguageContext.Provider>
   );
@@ -54,4 +51,3 @@ export function useLanguage() {
   }
   return context;
 }
-
