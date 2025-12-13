@@ -1,0 +1,644 @@
+{
+  "meta": {
+    "title": "Maria Leitão | Tech Lead & Business Analyst",
+    "description": "Tech Lead especializada en transformación digital, uniendo visión estratégica de negocios con profundidad técnica. Certificada en Scrum y Especialista en Seguridad de la Información."
+  },
+  "nav": {
+    "about": "Sobre Mí",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "education": "Formación",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Maria Leitão",
+    "title": "Tech Lead & Business Analyst",
+    "tagline": "Transformando estrategias de negocio en soluciones técnicas que generan impacto real.",
+    "subtitle": "El puente entre lo que el negocio necesita y lo que la tecnología entrega.",
+    "cta": {
+      "contact": "Contactar",
+      "projects": "Ver Proyectos"
+    }
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "intro": "Más que escribir código, mi verdadera pasión es entender el <strong>porqué</strong> detrás de cada línea.",
+    "description": [
+      "Mi trayectoria comenzó en ingeniería de software, pero evolucionó naturalmente hacia el análisis de negocios. Hoy, actúo como un <strong>puente estratégico</strong> entre stakeholders y equipos de desarrollo.",
+      "Mi misión es traducir objetivos corporativos complejos en requisitos técnicos claros, garantizando que lo que el negocio necesita sea exactamente lo que la ingeniería entrega."
+    ],
+    "differentials": {
+      "title": "Mi diferencial: hablar ambos idiomas",
+      "business": {
+        "title": "Visión de Negocio",
+        "description": "Expertise en elicitación de requisitos, optimización de procesos y gestión de stakeholders. Transformo estrategias (OKRs) en roadmaps accionables."
+      },
+      "technical": {
+        "title": "Background Técnico",
+        "description": "Experiencia con arquitectura backend (Java, NestJS) y SQL avanzado. Evalúo la viabilidad técnica y dialogo de igual a igual con desarrolladores y arquitectos."
+      }
+    },
+    "current": "Actualmente, aplico esta visión híbrida en la personalización de CRMs y automatización de flujos, siempre guiada por datos (Power BI/Looker Studio) para medir el impacto de las entregas."
+  },
+  "skills": {
+    "title": "Habilidades y Competencias",
+    "categories": {
+      "business": {
+        "title": "Análisis de Negocios",
+        "items": [
+          "Ingeniería de Requisitos",
+          "User Stories",
+          "BPMN",
+          "Casos de Uso",
+          "Gestión de Stakeholders",
+          "OKRs & Roadmaps"
+        ]
+      },
+      "data": {
+        "title": "Datos & BI",
+        "items": [
+          "Modelado de Datos",
+          "SQL Avanzado",
+          "PostgreSQL",
+          "Power BI",
+          "Looker Studio",
+          "Dashboards Estratégicos"
+        ]
+      },
+      "agile": {
+        "title": "Gestión Ágil",
+        "items": [
+          "Scrum Master",
+          "Gestión de Backlog",
+          "Jira",
+          "Automatización de Workflows",
+          "Kanban",
+          "Métricas Ágiles"
+        ]
+      },
+      "tech": {
+        "title": "Tech Stack",
+        "items": [
+          "Java",
+          "Spring Boot",
+          "NestJS",
+          "Node.js",
+          "APIs REST",
+          "Swagger",
+          "Microservicios",
+          "DevOps"
+        ]
+      },
+      "soft": {
+        "title": "Soft Skills",
+        "items": [
+          "Liderazgo Técnico",
+          "Comunicación Ejecutiva",
+          "Mentoría",
+          "Resolución de Problemas",
+          "Pensamiento Estratégico"
+        ]
+      }
+    }
+  },
+  "experience": {
+    "title": "Experiencia Profesional",
+    "positions": [
+      {
+        "title": "Tech Lead",
+        "company": "Instituto Semear",
+        "period": "Dic 2025 - Presente",
+        "location": "Remoto",
+        "description": "Actúo como el puente principal entre la estrategia de negocios (Dirección) y la ejecución técnica, garantizando que la tecnología impulse los objetivos organizacionales.",
+        "highlights": [
+          "Monitoreo de KPIs de rendimiento y eficiencia de la aplicación",
+          "Transformación de datos en insights accionables para stakeholders",
+          "Liderazgo de equipos de alto rendimiento"
+        ]
+      },
+      {
+        "title": "Scrum Master",
+        "company": "Instituto Semear",
+        "period": "Dic 2024 - Presente",
+        "location": "Remoto",
+        "description": "Responsable de estructurar la cultura ágil desde cero, transformando requisitos complejos en un flujo de trabajo predecible y transparente.",
+        "highlights": [
+          "Implementación de metodologías ágiles",
+          "Gestión de ceremonias Scrum",
+          "Mejora continua de procesos"
+        ]
+      },
+      {
+        "title": "Líder de Desarrollo Fullstack",
+        "company": "Instituto Semear",
+        "period": "Nov 2024 - Dic 2025",
+        "location": "Remoto",
+        "description": "Liderazgo técnico en la transformación digital de la plataforma corporativa, con enfoque en alineación estratégica y optimización de procesos.",
+        "highlights": [
+          "100% de entrega del alcance esencial del MVP 2025",
+          "Cobertura de tests del 90% (meta: 80%)",
+          "Análisis de requisitos y priorización de funcionalidades",
+          "Alineación con OKRs estratégicos de la organización"
+        ]
+      },
+      {
+        "title": "Desarrolladora Fullstack",
+        "company": "DO Telematics",
+        "period": "Jul 2024 - Oct 2024",
+        "location": "Florianópolis, Brasil",
+        "description": "Trabajé en la elicitación de requisitos funcionales y no funcionales, creando documentación técnica robusta (Swagger/OpenAPI y diagramas de arquitectura).",
+        "highlights": [
+          "Modelado de soluciones con DDD y Clean Architecture",
+          "Implementación de tests automatizados (unitarios e integración)",
+          "Reducción de bugs en producción",
+          "Comunicación efectiva entre Producto e Ingeniería"
+        ]
+      },
+      {
+        "title": "Pasante de Desarrollo de Software",
+        "company": "DO Telematics",
+        "period": "May 2024 - Jun 2024",
+        "location": "Florianópolis, Brasil",
+        "description": "Contribuí activamente a la creación de automatizaciones de flujo en Jira, eliminando tareas manuales repetitivas y mejorando el cycle time del equipo.",
+        "highlights": [
+          "Automatizaciones de flujo en Jira",
+          "Participación en refinamientos de backlog",
+          "Apoyo en implementación de tests automatizados"
+        ]
+      },
+      {
+        "title": "Pasantía Virtual en Business Intelligence",
+        "company": "PwC Switzerland",
+        "period": "Abr 2024",
+        "location": "Remoto",
+        "description": "Desarrollé dashboards interactivos en Power BI para monitorear KPIs críticos de Call Center (retención) y Diversidad e Inclusión.",
+        "highlights": [
+          "Dashboards interactivos en Power BI",
+          "Extracción y modelado de datos con SQL y Power Query",
+          "Data Storytelling para influir en decisiones gerenciales"
+        ]
+      },
+      {
+        "title": "Pasantía Virtual en Ingeniería de Software",
+        "company": "JPMorgan Chase",
+        "period": "Mar 2024 - Abr 2024",
+        "location": "Remoto",
+        "description": "Desarrollo de herramientas de visualización de datos para ayudar a traders en el monitoreo de precios de acciones en tiempo real.",
+        "highlights": [
+          "Herramientas de visualización de datos financieros",
+          "Scripts en Python para procesar feeds de datos",
+          "Enfoque en rendimiento y precisión de la información"
+        ]
+      },
+      {
+        "title": "Pasante de TI",
+        "company": "Clínica Gástrica Usuy",
+        "period": "May 2023 - Sep 2023",
+        "location": "São José, Brasil",
+        "description": "Responsable de la transformación digital de procesos administrativos y análisis de indicadores de la clínica.",
+        "highlights": [
+          "Identificación de cuellos de botella operacionales",
+          "Scripts en Google Apps Script/JavaScript",
+          "Reducción del 60% en tiempo de trabajo manual"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Casos de éxito con impacto medible en negocios",
+    "viewCode": "Ver Código",
+    "items": [
+      {
+        "title": "Evaluación y Selección de Estructura Cloud",
+        "subtitle": "Reducción de Costos y Aumento de Eficiencia",
+        "company": "Instituto Semear",
+        "period": "Abr 2025",
+        "description": "Conduje análisis comparativo entre soluciones cloud basado en requisitos técnicos, costos e integración para recomendar la estructura más viable.",
+        "problem": "Costos elevados con proveedores enterprise (AWS/Azure), necesidad de equilibrar rendimiento y costo-beneficio, falta de estandarización.",
+        "approach": [
+          "Elicitación de requisitos técnicos y financieros",
+          "Matriz de decisión ponderada (MoSCoW)",
+          "Benchmarking técnico y financiero",
+          "Informe ejecutivo con recomendaciones"
+        ],
+        "impact": "Reducción del 25% en costos operacionales",
+        "skills": [
+          "Cloud",
+          "Análisis de Requisitos",
+          "Gestión de Proyectos"
+        ]
+      },
+      {
+        "title": "Integración entre Equipos de Producto e Ingeniería",
+        "subtitle": "Rediseño de Flujo de Comunicación",
+        "company": "Instituto Semear",
+        "period": "Feb 2025",
+        "description": "Mapeé y rediseñé el flujo de comunicación entre Product Owners e Ingeniería para reducir desalineaciones y aumentar eficiencia.",
+        "problem": "Falta de claridad sobre roles, retrabajo por prioridades conflictivas, ciclos de feedback largos e informales.",
+        "approach": [
+          "Stakeholder Mapping",
+          "Matriz RACI",
+          "Diseño de flujo de gobernanza ágil",
+          "Documentación AS-IS/TO-BE"
+        ],
+        "impact": "Reducción del 20% en ciclos de feedback",
+        "skills": [
+          "Análisis de Negocios",
+          "Comunicación",
+          "Gestión Ágil"
+        ]
+      },
+      {
+        "title": "Estandarización de Requisitos en Equipos Ágiles",
+        "subtitle": "Optimización de User Stories",
+        "company": "Instituto Semear",
+        "period": "Dic 2024 - Feb 2025",
+        "description": "Analicé historias de usuario y procesos de refinamiento para identificar causas de retrabajo. Creé estándares de documentación y criterios de aceptación claros.",
+        "problem": "Retrabajo frecuente por falta de claridad en las historias, dificultad de alineación entre PO y equipo técnico.",
+        "approach": [
+          "Elicitación colaborativa",
+          "Análisis de requisitos con criterios SMART",
+          "Modelado de flujo de aprobaciones",
+          "Templates estandarizados"
+        ],
+        "impact": "Reducción del 30% en retrabajo",
+        "skills": [
+          "Ingeniería de Requisitos",
+          "Metodologías Ágiles",
+          "BPMN"
+        ]
+      },
+      {
+        "title": "Board Jira Integrado con Git y Confluence",
+        "subtitle": "Automatización y Gobernanza Ágil",
+        "company": "DO Telematics",
+        "period": "May - Jul 2024",
+        "description": "Estructuré board de Jira con flujos Kanban optimizados, automatizaciones integradas con Git y documentación viva en Confluence.",
+        "problem": "Falta de estandarización en flujos ágiles, dificultad de rastrear commits y status, documentación dispersa.",
+        "approach": [
+          "Mapeo AS-IS y TO-BE",
+          "Automatización de transiciones Jira + Git",
+          "Integración Jira/Git/Confluence",
+          "Templates de gobernanza"
+        ],
+        "impact": "+35% de visibilidad sobre progreso",
+        "skills": [
+          "Jira",
+          "Git",
+          "Confluence",
+          "Kanban"
+        ]
+      },
+      {
+        "title": "Documentación de API vía Swagger",
+        "subtitle": "Transparencia y Autonomía Frontend",
+        "company": "DO Telematics",
+        "period": "May 2024",
+        "description": "Desarrollé documentación completa de API utilizando Swagger, permitiendo que el frontend validara endpoints de forma autónoma.",
+        "problem": "Ausencia de documentación centralizada, dependencia constante entre equipos, dificultad de visualización por gestión.",
+        "approach": [
+          "Estandarización de endpoints",
+          "Swagger UI interactivo",
+          "Integración con pipeline de versionado",
+          "Alineación entre equipos"
+        ],
+        "impact": "Reducción del 40% en tiempo de integración",
+        "skills": [
+          "Swagger",
+          "APIs REST",
+          "Documentación Técnica"
+        ]
+      },
+      {
+        "title": "Web Services con Spring Boot",
+        "subtitle": "Microservicio de Pedidos",
+        "company": "Senac Santa Catarina",
+        "period": "Feb - Mar 2024",
+        "description": "Proyecto de microservicio enfocado en implementar reglas de negocio e integridad de datos para sistema de pedidos.",
+        "problem": "Necesidad de sistema robusto con modelado de datos, capa de servicio y manejo de excepciones.",
+        "approach": [
+          "Modelado JPA/Hibernate",
+          "Patrón Service Layer",
+          "Manejo de excepciones CRUD",
+          "Integridad referencial"
+        ],
+        "impact": "Sistema robusto y confiable",
+        "skills": [
+          "Spring Boot",
+          "JPA",
+          "Hibernate",
+          "Java"
+        ],
+        "github": "https://github.com/marialuizaleitao"
+      },
+      {
+        "title": "Insights en Datos de Ventas de Walmart",
+        "subtitle": "Análisis de Datos con SQL",
+        "company": "Proyecto Personal",
+        "period": "Dic 2023",
+        "description": "Análisis de datos de ventas (Kaggle) utilizando SQL avanzado para extraer insights de negocios e ingeniería de recursos.",
+        "problem": "Necesidad de identificar patrones de ventas y segmentos de clientes para estrategias de marketing.",
+        "approach": [
+          "Consultas SQL complejas",
+          "Ingeniería de recursos (COGS, IVA)",
+          "Análisis de rentabilidad por sucursal",
+          "Patrones de comportamiento"
+        ],
+        "impact": "Insights accionables para decisiones",
+        "skills": [
+          "SQL",
+          "Análisis de Datos",
+          "Business Intelligence"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Formación y Certificaciones",
+    "subtitles": {
+      "graduation": "Grado",
+      "postgraduate": "Posgrado",
+      "certifications": "Certificaciones",
+      "courses": "Cursos Complementarios",
+      "awards": "Premios"
+    },
+    "graduation": {
+      "title": "Análisis y Desarrollo de Sistemas",
+      "institution": "Senac Santa Catarina",
+      "period": "Feb 2023 - Jun 2025",
+      "status": "Completado",
+      "description": "Formación práctica que unió la técnica de desarrollo con la visión de gestión de proyectos.",
+      "highlights": [
+        "Ingeniería de Requisitos: elicitación, análisis, documentación y BPMN",
+        "Gestión de Proyectos: metodologías ágiles (Scrum/Kanban)",
+        "Base Técnica: Modelado de Datos, SQL, Java/Spring, Arquitectura de Software"
+      ]
+    },
+    "degrees": [
+      {
+        "title": "Posgrado en Seguridad de la Información",
+        "institution": "GRAN",
+        "status": "En curso",
+        "description": "Enfoque en Gestión de Seguridad, Normas ISO 27001/27002/27005, Informática Forense y Legislación Digital."
+      },
+      {
+        "title": "Posgrado en Lenguajes de Programación",
+        "institution": "GRAN",
+        "status": "En curso",
+        "description": "Profundización en Patrones de Diseño, Modelado y Desarrollo, Estructuras de Datos."
+      }
+    ],
+    "mainCertifications": [
+      {
+        "title": "Scrum Fundamentals Certified",
+        "issuer": "SCRUMstudy / VMEdu Inc.",
+        "date": "Dic 2025",
+        "icon": "scrum"
+      },
+      {
+        "title": "Career Essentials in Business Analysis",
+        "issuer": "Microsoft",
+        "date": "Dic 2025",
+        "icon": "microsoft"
+      },
+      {
+        "title": "Análisis de Datos e Inteligencia de Negocios",
+        "issuer": "GRAN",
+        "date": "Oct 2025",
+        "hours": "30h",
+        "icon": "data"
+      },
+      {
+        "title": "Formación SQL con PostgreSQL",
+        "issuer": "Alura",
+        "date": "Jun 2024",
+        "hours": "46h",
+        "icon": "database"
+      },
+      {
+        "title": "Formación Kanban",
+        "issuer": "Alura",
+        "date": "Oct 2024",
+        "hours": "46h",
+        "icon": "agile"
+      },
+      {
+        "title": "Formación en Modelado de Datos",
+        "issuer": "Alura",
+        "date": "Jun 2024",
+        "hours": "34h",
+        "icon": "database"
+      },
+      {
+        "title": "Formación en MongoDB",
+        "issuer": "Alura",
+        "date": "Jun 2024",
+        "hours": "57h",
+        "icon": "database"
+      },
+      {
+        "title": "Management 3.0",
+        "issuer": "Alura",
+        "date": "Oct 2024",
+        "icon": "leadership"
+      },
+      {
+        "title": "Product Management",
+        "issuer": "Alura",
+        "date": "Jun 2024",
+        "icon": "product"
+      },
+      {
+        "title": "Base de Datos y SQL",
+        "issuer": "Udemy",
+        "date": "Oct 2023",
+        "hours": "58h",
+        "icon": "database"
+      },
+      {
+        "title": "Data Storytelling con Excel",
+        "issuer": "Alura",
+        "date": "Oct 2024",
+        "icon": "data"
+      },
+      {
+        "title": "Gestión Ágil",
+        "issuer": "Alura",
+        "date": "Jun 2024",
+        "icon": "agile"
+      },
+      {
+        "title": "Scrum: Agilidad en Proyectos",
+        "issuer": "Alura",
+        "date": "May 2024",
+        "icon": "scrum"
+      },
+      {
+        "title": "Delegación de Tareas",
+        "issuer": "Alura",
+        "date": "Oct 2024",
+        "icon": "leadership"
+      },
+      {
+        "title": "Comunicación Participativa",
+        "issuer": "Alura",
+        "date": "May 2024",
+        "icon": "communication"
+      },
+      {
+        "title": "Gestión de Personas",
+        "issuer": "Sebrae",
+        "date": "Jul 2025",
+        "icon": "leadership"
+      },
+      {
+        "title": "Comunicación Efectiva",
+        "issuer": "Santander",
+        "date": "Jul 2025",
+        "icon": "communication"
+      },
+      {
+        "title": "Desarrollador Web",
+        "issuer": "Senac Santa Catarina",
+        "date": "Ago 2024",
+        "icon": "code"
+      },
+      {
+        "title": "Excel Avanzado",
+        "issuer": "Expert Cursos",
+        "date": "Abr 2023",
+        "icon": "data"
+      }
+    ],
+    "courseGroups": [
+      {
+        "institution": "Senac Santa Catarina",
+        "courses": [
+          "Arquitectura de Software",
+          "Ingeniería de Requisitos",
+          "Ingeniería de Software",
+          "Modelado de Datos",
+          "Análisis Orientado a Objetos",
+          "Estructuras de Datos",
+          "Cloud & IoT",
+          "Gestión de Proyectos",
+          "Sistemas de Bases de Datos"
+        ]
+      },
+      {
+        "institution": "GRAN",
+        "courses": [
+          "Auditoría de Sistemas",
+          "Informática Forense",
+          "Legislación Digital",
+          "Patrones de Diseño",
+          "Modelado y Desarrollo",
+          "Bases de Datos Avanzadas"
+        ]
+      }
+    ],
+    "awards": [
+      {
+        "title": "Ganadora del Reuni Game 2023",
+        "description": "Miembro del equipo Blumer, ganador del mayor evento de emprendimiento universitario de Brasil. Mención de honor por el Pitch."
+      }
+    ]
+  },
+  "articles": {
+    "title": "Artículos y Publicaciones",
+    "subtitle": "Compartiendo conocimiento sobre tecnología y gestión",
+    "readMore": "Ver más artículos",
+    "readArticle": "Leer artículo",
+    "items": [
+      {
+        "title": "Management 3.0: Concepto, Pasos y Consejos para Implementación en Equipos de Alto Rendimiento",
+        "platform": "LinkedIn",
+        "date": "Oct 2024",
+        "description": "Artículo que escribí durante mi período en DO Telematics, como parte de un entrenamiento en Management 3.0. Explora los conceptos de Jurgen Appelo sobre liderazgo moderno, responsabilidad compartida y herramientas prácticas como Feedback Canvas y Feedback Wrap.",
+        "url": "https://www.linkedin.com/pulse/management-30-conceito-passos-e-dicas-para-em-equipes-maria-leit%C3%A3o-ann4f/",
+        "tags": [
+          "Management 3.0",
+          "Liderazgo",
+          "Agile"
+        ],
+        "image": "/management30.png"
+      },
+      {
+        "title": "ACID: El Pilar de las Bases de Datos Relacionales",
+        "platform": "Dev.to",
+        "date": "2024",
+        "description": "Explora los cuatro pilares de las bases de datos relacionales (Atomicidad, Consistencia, Aislamiento y Durabilidad) y su importancia para la integridad y seguridad de los datos en aplicaciones críticas.",
+        "url": "https://dev.to/marialuizaleitao/acid-o-pilar-dos-bancos-de-dados-relacionais-5g47",
+        "tags": [
+          "SQL",
+          "Base de Datos",
+          "ACID"
+        ],
+        "image": "/acid.png"
+      }
+    ],
+    "devtoUrl": "https://dev.to/marialuizaleitao"
+  },
+  "languages": {
+    "title": "Idiomas",
+    "list": [
+      {
+        "name": "Portugués",
+        "level": "Nativo"
+      },
+      {
+        "name": "Inglés",
+        "level": "Fluido"
+      },
+      {
+        "name": "Español",
+        "level": "Intermedio"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Recomendaciones",
+    "items": [
+      {
+        "text": "Líder técnica y mentora excepcional. Su capacidad para guiar el desarrollo de talentos es notable. Bajo su liderazgo, evolucioné significativamente: mis habilidades de comunicación se volvieron más efectivas, gané competencia en Node.js y ¡muchas otras habilidades!",
+        "author": "Kessen Lara Gonçalves de Souza",
+        "role": "Dev Full Stack en Instituto Semear",
+        "date": "Noviembre 2025",
+        "relationship": "Respondía a Maria"
+      },
+      {
+        "text": "Conocí a Maria en la universidad, participamos juntas en Reuni y más tarde tuvimos la oportunidad de trabajar como pasantes en la misma empresa. Es súper dedicada, aprende rápido y siempre está dispuesta a colaborar y enseñar cuando alguien lo necesita. Es alguien con quien fue muy fácil trabajar y que siempre sumó en los intercambios del día a día. Tengo mucho respeto por la forma comprometida y generosa con que se involucra en los proyectos.",
+        "author": "Bárbara Luersen",
+        "role": "Analista de Sistemas | Analista de Negocios | Product Owner",
+        "date": "Abril 2025",
+        "relationship": "Trabajaba en el mismo equipo"
+      },
+      {
+        "text": "Tuve el enorme placer de participar con Maria en Reuni Challenge 2023, siendo una persona fundamental para el equipo con sus opiniones y habilidades. Su excepcional combinación de habilidades técnicas e interpersonales fue crucial para las victorias logradas durante la competición. Su conocimiento en diversas áreas, determinación, puntualidad y su voluntad de hacer que las cosas sucedan aportan mucho a cualquier equipo. Conocer y estar cerca de personas como ella es un placer.",
+        "author": "Victor Luiz",
+        "role": "Desarrollador Pleno Backend .NET | C# | Oracle",
+        "date": "Enero 2024",
+        "relationship": "Trabajaba en el mismo equipo"
+      }
+    ]
+  },
+  "contact": {
+    "title": "¿Conversamos?",
+    "subtitle": "Siempre estoy buscando desafíos donde pueda unir mi visión analítica con mi profundidad técnica para impulsar la transformación digital.",
+    "cta": "Contactar",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "email": "Correo"
+  },
+  "footer": {
+    "copyright": "© 2025 Maria Leitão. Todos los derechos reservados.",
+    "madeWith": "Hecho con"
+  },
+  "theme": {
+    "light": "Modo Claro",
+    "dark": "Modo Oscuro"
+  }
+}
