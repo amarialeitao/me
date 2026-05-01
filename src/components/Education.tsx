@@ -23,6 +23,13 @@ import {
   X
 } from 'lucide-react';
 
+// Helper function to get correct image path with basePath
+function getImagePath(imagePath: string): string {
+  // Remove leading slash and add basePath
+  const cleanPath = imagePath.startsWith('/') ? imagePath.slice(1) : imagePath;
+  return `/me/${cleanPath}`;
+}
+
 interface Certification {
   title: string;
   issuer: string;
@@ -530,7 +537,7 @@ export default function Education() {
                 </h4>
                 <div className="relative rounded-lg overflow-hidden shadow-lg">
                   <img
-                    src={selectedCertification.certificateImage}
+                    src={getImagePath(selectedCertification.certificateImage)}
                     alt={`Certificado: ${selectedCertification.title}`}
                     className="w-full h-auto object-cover"
                     loading="lazy"
