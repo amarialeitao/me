@@ -379,16 +379,16 @@
     },
     "degrees": [
       {
-        "title": "Postgraduate in Information Security",
-        "institution": "GRAN",
-        "status": "In progress",
-        "description": "Focus on Security Management, ISO 27001/27002/27005 Standards, Computer Forensics and Digital Legislation."
-      },
-      {
         "title": "Postgraduate in Programming Languages",
         "institution": "GRAN",
         "status": "Completed",
         "description": "Deep dive into Design Patterns, Modeling and Development, Data Structures."
+      },
+      {
+        "title": "Postgraduate in Information Security",
+        "institution": "GRAN",
+        "status": "In progress",
+        "description": "Focus on Security Management, ISO 27001/27002/27005 Standards, Computer Forensics and Digital Legislation."
       }
     ],
     "mainCertifications": [
@@ -396,121 +396,163 @@
         "title": "Scrum Fundamentals Certified",
         "issuer": "SCRUMstudy / VMEdu Inc.",
         "date": "Dec 2025",
-        "icon": "scrum"
+        "hours": "15h",
+        "icon": "scrum",
+        "description": "I learned the fundamentals of the Scrum framework, understanding its roles, events, and artifacts. I developed a clear vision of how to facilitate teamwork, remove impediments, and ensure the application of agile principles in daily work. I also understood the importance of collaboration, transparency, and incremental deliveries to generate continuous business value.",
+        "certificateImage": "/certificates/scrum-master.jfif"
       },
       {
-        "title": "Career Essentials in Business Analysis",
+        "title": "Career Essentials in Business Analysis by Microsoft and LinkedIn",
         "issuer": "Microsoft",
         "date": "Dec 2025",
-        "icon": "microsoft"
+        "hours": "12h",
+        "icon": "microsoft",
+        "description": "I learned the fundamentals of business analysis, including requirements gathering, problem identification, and proposing solutions aligned with the business. I also practiced processes and tools used in the daily work of a business analyst.",
+        "certificateImage": "/certificates/ba-12h.jfif"
+      },
+      {
+        "title": "Professional Qualification Certification in Web Developer",
+        "issuer": "Senac Santa Catarina",
+        "date": "Aug 2024",
+        "hours": "1600h",
+        "icon": "code",
+        "description": "In the first three phases of the Systems Analysis and Development course, I acquired essential skills in Object-Oriented Programming, Web Development, and Data Structures, in addition to solid foundations in Data Modeling and Software Architecture. The Web Developer Certification reinforces this trajectory, highlighting my progress and preparation for the technology market.",
+        "certificateImage": "/certificates/web-dev.jfif"
       },
       {
         "title": "Data Analysis and Business Intelligence",
         "issuer": "GRAN",
         "date": "Oct 2025",
         "hours": "30h",
-        "icon": "data"
+        "icon": "data",
+        "description": "30-hour training focused on translating raw data into strategic business decisions. I deepened my knowledge of the entire data analysis cycle, from exploration and visualization to applying statistical inference to validate hypotheses. Practice with R Studio consolidated the ability to extract and communicate insights, strengthening my capacity to lead the construction of data-driven products.",
+        "certificateImage": "/certificates/data-analysis-30h.jfif"
       },
       {
-        "title": "SQL with PostgreSQL Training",
-        "issuer": "Alura",
-        "date": "Jun 2024",
-        "hours": "46h",
-        "icon": "database"
+        "title": "Advanced Excel",
+        "issuer": "Expert Cursos",
+        "date": "Apr 2023",
+        "hours": "30h",
+        "icon": "data",
+        "description": "I acquired essential skills for data manipulation and analysis, including creating and formatting spreadsheets, tables, and charts. I learned to use basic and advanced formulas like VLOOKUP, SUMIF, and conditional functions, in addition to implementing data validation and conditional formatting. I developed proficiency in features like Power Query and Power Pivot, and creating macros for task automation.",
+        "certificateImage": "/certificates/excel-30h.jfif"
       },
       {
-        "title": "Kanban Training",
-        "issuer": "Alura",
-        "date": "Oct 2024",
-        "hours": "46h",
-        "icon": "agile"
-      },
-      {
-        "title": "Data Modeling Training",
-        "issuer": "Alura",
-        "date": "Jun 2024",
-        "hours": "34h",
-        "icon": "database"
-      },
-      {
-        "title": "MongoDB Training",
-        "issuer": "Alura",
-        "date": "Jun 2024",
-        "hours": "57h",
-        "icon": "database"
-      },
-      {
-        "title": "Management 3.0",
+        "title": "Data Storytelling: Creating narratives with Excel",
         "issuer": "Alura",
         "date": "Oct 2024",
-        "icon": "leadership"
-      },
-      {
-        "title": "Product Management",
-        "issuer": "Alura",
-        "date": "Jun 2024",
-        "icon": "product"
+        "hours": "8h",
+        "icon": "data",
+        "description": "I created data narratives using advanced Excel techniques. I mastered creating and analyzing charts, interactive dashboards, and using dynamic formulas to transform data into impactful visual stories. I explored Power Query to organize data and applied Gestalt principles to improve visualization clarity, making data presentation more efficient and understandable.",
+        "certificateImage": "/certificates/storytelling-8h.jfif"
       },
       {
         "title": "Database and SQL",
         "issuer": "Udemy",
         "date": "Oct 2023",
         "hours": "58h",
-        "icon": "database"
+        "icon": "database",
+        "description": "Market-focused course lasting 58 hours, covering 3 different databases: MySQL, SQL Server, and Oracle and introducing T-SQL and PLSQL languages. Working with business rules, the difference between OLTP and OLAP environments, and what a Datawarehouse is; understanding the entire transactional and analytical environment of Business Intelligence.",
+        "certificateImage": "/certificates/sql-sgbd-58h.jfif"
       },
       {
-        "title": "Data Storytelling with Excel",
-        "issuer": "Alura",
-        "date": "Oct 2024",
-        "icon": "data"
-      },
-      {
-        "title": "Agile Management",
+        "title": "Data Modeling Training",
         "issuer": "Alura",
         "date": "Jun 2024",
-        "icon": "agile"
+        "hours": "34h",
+        "icon": "database",
+        "description": "Completion of a comprehensive data modeling training, including both theoretical and practical aspects, divided into 4 courses with an estimated duration of 34 hours. This training significantly improved my skills in data analysis and modeling, providing a solid foundation for developing effective database solutions.",
+        "certificateImage": "/certificates/modelagem-34h.jfif"
       },
       {
-        "title": "Scrum: Agility in Projects",
+        "title": "SQL with PostgreSQL Training",
         "issuer": "Alura",
-        "date": "May 2024",
-        "icon": "scrum"
+        "date": "Jun 2024",
+        "hours": "46h",
+        "icon": "database",
+        "description": "During the 46h of training, I exercised skills such as generating optimized reports with SQL functions and real-time analysis. The training covered transactions, commits, and rollbacks, and creating functions using PL/pgSQL. It also included implementing Triggers, cursors, and error handling to ensure efficiency. This training prepared me to transform data into insights and manage databases effectively.",
+        "certificateImage": "/certificates/postgres-46h.jfif"
       },
       {
-        "title": "Task Delegation",
+        "title": "MongoDB Training",
+        "issuer": "Alura",
+        "date": "Jun 2024",
+        "hours": "57h",
+        "icon": "database",
+        "description": "Completion of a complete MongoDB training, covering from basic concepts to advanced administration and security, with an estimated duration of 57 hours. This training provided me with a deep and practical understanding of MongoDB, enabling me to design, implement, and manage NoSQL databases efficiently and securely.",
+        "certificateImage": "/certificates/mongodb-57h.jfif"
+      },
+      {
+        "title": "Management 3.0: Manage the environment, not the people",
         "issuer": "Alura",
         "date": "Oct 2024",
-        "icon": "leadership"
+        "hours": "10h",
+        "icon": "leadership",
+        "description": "The course covered how to develop competencies, improve teamwork, and generate a trust environment, open to feedback and learning. I also explored ways to promote recognition and create an environment that drives happiness and high performance in teams.",
+        "certificateImage": "/certificates/management3-10h.jfif"
       },
       {
-        "title": "Participative Communication",
+        "title": "Product Management: Accelerate product development",
+        "issuer": "Alura",
+        "date": "Jun 2024",
+        "hours": "8h",
+        "icon": "product",
+        "description": "I explored the importance of research and Product Discovery, using methods like ethnographic research and the Empathy Map. I understood ideation decisions and how to choose promising ideas through brainstorming and brand expansion matrix. Finally, I learned to implement products effectively, using checklists, metrics, and continuous improvement techniques to ensure product success and evolution.",
+        "certificateImage": "/certificates/product-management-8h.jfif"
+      },
+      {
+        "title": "Agile Management: Exploring agility concepts",
+        "issuer": "Alura",
+        "date": "Jun 2024",
+        "hours": "8h",
+        "icon": "agile",
+        "description": "I developed a deep understanding of agility concepts and principles, exploring their practical application in the work environment. I learned to differentiate agile methods like Scrum and Kanban, identifying their positive impacts on teams. I also addressed agile management in the context of Management 3.0 and its implications in projects and products, expanding my vision of agility beyond the IT area.",
+        "certificateImage": "/certificates/agile-8h.jfif"
+      },
+      {
+        "title": "Scrum: Agility in your project",
         "issuer": "Alura",
         "date": "May 2024",
-        "icon": "communication"
+        "hours": "8h",
+        "icon": "scrum",
+        "description": "This course provided me with the necessary competencies to implement and manage agile methodologies, like Scrum, in data analysis projects. I learned to promote effective collaboration, ensure work transparency, and deliver high-quality results within established deadlines, optimizing processes and improving team performance in agile project execution.",
+        "certificateImage": "/certificates/scrum-8h.jfif"
+      },
+      {
+        "title": "Participative Communication: Effective and motivating leadership",
+        "issuer": "Alura",
+        "date": "May 2024",
+        "hours": "10h",
+        "icon": "communication",
+        "description": "I learned about different leadership and decision-making styles, and how to promote meaningful dialogues for participative decisions. I understood the role of facilitative leadership, ways to reduce the distance between leader and team, and how to avoid communication pitfalls. I also learned to conduct productive meetings and ensure transparency with effective retrospectives.",
+        "certificateImage": "/certificates/comunicacao-10h.jfif"
       },
       {
         "title": "People Management",
         "issuer": "Sebrae",
         "date": "Jul 2025",
-        "icon": "leadership"
+        "hours": "8h",
+        "icon": "leadership",
+        "description": "In the course, I learned fundamental concepts that expanded my vision, developing practical and theoretical skills. I improved my reasoning, discovered new tools and techniques, and gained more confidence to apply knowledge in daily life, both personally and professionally.",
+        "certificateImage": "/certificates/gestao-pessoas-8h.jfif"
+      },
+      {
+        "title": "Task Delegation: Get the best from your team",
+        "issuer": "Alura",
+        "date": "Oct 2024",
+        "hours": "6h",
+        "icon": "leadership",
+        "description": "I learned to organize and delegate tasks effectively, knowing different approaches and their particularities. I explored how to handle unexpected results, create a trust environment, monitor delegation progress, and adjust the approach. The course also covered using emotional intelligence, feedback, and rewards to improve team performance.",
+        "certificateImage": "/certificates/delegacao-6h.jfif"
       },
       {
         "title": "Effective Communication",
         "issuer": "Santander",
         "date": "Jul 2025",
-        "icon": "communication"
-      },
-      {
-        "title": "Web Developer",
-        "issuer": "Senac Santa Catarina",
-        "date": "Aug 2024",
-        "icon": "code"
-      },
-      {
-        "title": "Advanced Excel",
-        "issuer": "Expert Cursos",
-        "date": "Apr 2023",
-        "icon": "data"
+        "hours": "8h",
+        "icon": "communication",
+        "description": "During the course, I learned that effective communication goes beyond words. I understood the importance of SPICE messages, verbal and non-verbal language, and how to use empathy, assertiveness, and feedback to better connect with people. I also developed skills to communicate more naturally and with emotional intelligence, respecting different behavioral profiles.",
+        "certificateImage": "/certificates/comunicacao-8h.jfif"
       }
     ],
     "courseGroups": [
@@ -544,6 +586,10 @@
       {
         "title": "Reuni Game 2023 Winner",
         "description": "Member of team Blumer, winner of Brazil's largest university entrepreneurship event. Honorable mention for the Pitch."
+      },
+      {
+        "title": "State Champion of Kung Fu 2023",
+        "description": "State champion individual and team in the regional kung fu competition."
       }
     ]
   },
