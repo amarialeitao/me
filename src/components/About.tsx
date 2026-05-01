@@ -11,7 +11,7 @@ export default function About() {
     <section id="about" className="relative py-16 sm:py-24 md:py-32 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-white via-midnight-50/50 to-white dark:from-midnight-900 dark:via-midnight-950 dark:to-midnight-900" />
-      
+
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-10 sm:mb-16">
@@ -29,15 +29,15 @@ export default function About() {
               {/* Decorative Elements */}
               <div className="absolute -inset-3 sm:-inset-4 bg-gradient-to-br from-amber-500/20 to-indigo-500/20 rounded-2xl sm:rounded-3xl blur-2xl" />
               <div className="absolute -inset-1 bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl sm:rounded-2xl opacity-20" />
-              
+
               {/* Profile Photo */}
               <div className="relative w-56 h-56 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-xl sm:rounded-2xl overflow-hidden">
-                <img 
+                <img
                   src={getAssetUrl('/profile.png')}
                   alt="Maria Leitão - Tech Lead & Business Analyst"
                   className="w-full h-full object-cover"
                 />
-                
+
                 {/* Floating Elements - Hidden on very small screens */}
                 <div className="hidden sm:flex absolute top-3 sm:top-4 right-3 sm:right-4 p-1.5 sm:p-2 bg-white/90 dark:bg-midnight-900/90 rounded-lg shadow-lg animate-float">
                   <Code2 className="w-4 h-4 sm:w-5 sm:h-5 text-amber-500" />
@@ -52,14 +52,14 @@ export default function About() {
           {/* Right Column - Text Content */}
           <div className="lg:col-span-3 space-y-4 sm:space-y-6">
             {/* Intro */}
-            <p 
+            <p
               className="text-lg sm:text-xl md:text-2xl text-midnight-700 dark:text-midnight-200 leading-relaxed"
               dangerouslySetInnerHTML={{ __html: t.about.intro }}
             />
 
             {/* Description */}
             {t.about.description.map((paragraph, index) => (
-              <p 
+              <p
                 key={index}
                 className="text-sm sm:text-base md:text-lg text-midnight-600 dark:text-midnight-400 leading-relaxed"
                 dangerouslySetInnerHTML={{ __html: paragraph }}
