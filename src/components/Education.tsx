@@ -392,7 +392,7 @@ export default function Education() {
             ))}
 
             {/* Awards */}
-            <div className="mt-6 sm:mt-8">
+            <div className="mt-6 sm:mt-8 space-y-4">
               <h3 className="flex items-center gap-2 text-lg sm:text-xl font-semibold text-midnight-900 dark:text-white mb-4 sm:mb-6">
                 <Trophy className="w-4 h-4 sm:w-5 sm:h-5 text-amber-500 flex-shrink-0" />
                 <span>{t.education.subtitles?.awards || 'Prêmios'}</span>
