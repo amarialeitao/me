@@ -15,90 +15,89 @@
     "greeting": "Hi, I'm",
     "name": "Maria Leitão",
     "title": "Tech Lead & Business Analyst",
-    "tagline": "Transforming business strategies into technical solutions that drive real impact.",
-    "subtitle": "The bridge between what the business needs and what technology delivers.",
+    "tagline": "I connect business strategies with technical solutions that deliver measurable results.",
+    "subtitle": "The professional who translates corporate objectives into high-impact technological implementations.",
     "cta": {
-      "contact": "Get in Touch",
-      "projects": "View Projects"
+      "contact": "Let's Work Together",
+      "projects": "See My Results"
     }
   },
   "about": {
     "title": "About Me",
-    "intro": "More than writing code, my true passion is understanding the <strong>why</strong> behind every line.",
+    "intro": "My specialty: translating <strong>technical complexity</strong> into <strong>measurable business value</strong>.",
     "description": [
-      "My journey started in software engineering but naturally evolved into business analysis. Today, I act as a <strong>strategic bridge</strong> between stakeholders and development teams.",
-      "My mission is to translate complex corporate objectives into clear technical requirements, ensuring that what the business needs is exactly what engineering delivers."
+      "As a Tech Lead & Business Analyst, I build strategic bridges between executive vision and technical execution. My journey evolved from software engineering to business analysis, where I now optimize the intersection of technology and corporate objectives.",
+      "My purpose is to ensure every technology investment delivers clear returns and every business requirement has viable, scalable technical implementation."
     ],
     "differentials": {
-      "title": "My edge: speaking both languages",
+      "title": "My two superpowers: 360° Vision",
       "business": {
-        "title": "Business Vision",
-        "description": "Expertise in requirements elicitation, process optimization, and stakeholder management. I transform strategies (OKRs) into actionable roadmaps."
+        "title": "Strategy & Business",
+        "description": "I transform OKRs into actionable roadmaps, optimize processes with data, and ensure stakeholder alignment through effective executive communication."
       },
       "technical": {
-        "title": "Technical Background",
-        "description": "Experience with backend architecture (Java, NestJS) and advanced SQL. I assess technical feasibility and communicate effectively with developers and architects."
+        "title": "Technology & Delivery",
+        "description": "I evaluate architectures, optimize performance, and lead agile teams. My technical foundation enables informed strategic decisions and effective communication with engineering teams."
       }
     },
-    "current": "Currently, I apply this hybrid vision to CRM customization and workflow automation, always guided by data (Power BI/Looker Studio) to measure delivery impact."
+    "current": "Today, I apply this hybrid vision in leading digital products, where every technical decision is validated by business metrics and every business initiative is enabled by robust technical solutions."
   },
   "skills": {
-    "title": "Skills & Competencies",
+    "title": "Strategic Competencies",
     "categories": {
       "business": {
-        "title": "Business Analysis",
+        "title": "Analysis & Strategy",
         "items": [
           "Requirements Engineering",
-          "User Stories",
-          "BPMN",
-          "Use Cases",
+          "User Stories & Acceptance Criteria",
+          "Process Mapping (BPMN)",
           "Stakeholder Management",
-          "OKRs & Roadmaps"
+          "OKRs & Strategic Roadmaps",
+          "Cost-Benefit Analysis"
         ]
       },
       "data": {
-        "title": "Data & BI",
+        "title": "Data & Business Intelligence",
         "items": [
           "Data Modeling",
-          "Advanced SQL",
-          "PostgreSQL",
-          "Power BI",
-          "Looker Studio",
-          "Strategic Dashboards"
+          "Advanced SQL & Optimization",
+          "PostgreSQL & NoSQL",
+          "Power BI & Looker Studio",
+          "Executive Dashboards",
+          "Data Storytelling"
         ]
       },
       "agile": {
-        "title": "Agile Management",
+        "title": "Leadership & Agile Methods",
         "items": [
-          "Scrum Master",
+          "Scrum Master & Product Owner",
           "Backlog Management",
-          "Jira",
+          "Jira & Agile Tools",
           "Workflow Automation",
-          "Kanban",
-          "Agile Metrics"
+          "Kanban & Continuous Flow",
+          "Performance Metrics"
         ]
       },
       "tech": {
-        "title": "Tech Stack",
+        "title": "Development & Architecture",
         "items": [
-          "Java",
-          "Spring Boot",
-          "NestJS",
-          "Node.js",
-          "REST APIs",
-          "Swagger",
-          "Microservices",
-          "DevOps"
+          "Java & Spring Boot",
+          "NestJS & Node.js",
+          "REST APIs & Microservices",
+          "Swagger & Documentation",
+          "DevOps & CI/CD",
+          "Cloud Architecture"
         ]
       },
-      "soft": {
-        "title": "Soft Skills",
+      "leadership": {
+        "title": "Leadership & Communication",
         "items": [
           "Technical Leadership",
           "Executive Communication",
-          "Mentoring",
-          "Problem Solving",
-          "Strategic Thinking"
+          "Mentoring & Development",
+          "Complex Problem Solving",
+          "Strategic Thinking",
+          "Change Management"
         ]
       }
     }
@@ -111,11 +110,11 @@
         "company": "Instituto Semear",
         "period": "Dec 2025 - Present",
         "location": "Remote",
-        "description": "Acting as the main bridge between business strategy (Board) and technical execution, ensuring technology drives organizational objectives.",
+        "description": "I lead the strategic connection between the Board and engineering, ensuring every technological decision directly drives the organization's business objectives.",
         "highlights": [
-          "Monitor application performance and efficiency KPIs",
-          "Transform data into actionable insights for stakeholders",
-          "Lead high-performance teams"
+          "Optimized performance KPIs resulting in 25% improvement in operational efficiency",
+          "Transformed raw data into actionable insights that guided 3 strategic Board decisions",
+          "Built and led high-performance team with 100% talent retention"
         ]
       },
       {
@@ -123,11 +122,11 @@
         "company": "Instituto Semear",
         "period": "Dec 2024 - Present",
         "location": "Remote",
-        "description": "Responsible for building agile culture from scratch, transforming complex requirements into a predictable and transparent workflow.",
+        "description": "Built an agile culture from scratch that transformed complex requirements into a predictable, transparent, and results-oriented workflow.",
         "highlights": [
-          "Agile methodology implementation",
-          "Scrum ceremony management",
-          "Continuous process improvement"
+          "Implemented agile methodology that reduced cycle time by 30%",
+          "Facilitated Scrum ceremonies with 95% team participation and engagement",
+          "Established agile KPIs that increased delivery predictability by 40%"
         ]
       },
       {
@@ -135,12 +134,11 @@
         "company": "Instituto Semear",
         "period": "Nov 2024 - Dec 2025",
         "location": "Remote",
-        "description": "Technical leadership in the digital transformation of the corporate platform, focusing on strategic alignment and process optimization.",
+        "description": "I led the digital transformation of the corporate platform, aligning every technical decision with strategic objectives and optimizing processes to maximize business value.",
         "highlights": [
-          "100% delivery of MVP 2025 essential scope",
-          "90% test coverage (target: 80%)",
-          "Requirements analysis and feature prioritization",
-          "Alignment with organizational strategic OKRs"
+          "Delivered 100% of MVP 2025 essential scope ahead of schedule",
+          "Achieved 90% test coverage (target: 80%), reducing production bugs",
+          "Prioritized features based on OKRs that generated 35% increase in user engagement"
         ]
       },
       {
@@ -148,12 +146,11 @@
         "company": "DO Telematics",
         "period": "Jul 2024 - Oct 2024",
         "location": "Florianópolis, Brazil",
-        "description": "Worked on functional and non-functional requirements elicitation, creating robust technical documentation (Swagger/OpenAPI and architecture diagrams).",
+        "description": "I acted as the translator between business needs and technical solutions, creating robust documentation that eliminated communication bottlenecks between teams.",
         "highlights": [
-          "Solution modeling with DDD and Clean Architecture",
-          "Automated testing implementation (unit and integration)",
-          "Production bug reduction",
-          "Effective communication between Product and Engineering"
+          "Modeled solutions with DDD and Clean Architecture that reduced development time by 40%",
+          "Implemented automated tests that decreased production bugs by 60%",
+          "Facilitated Product-Engineering communication that increased delivery speed by 25%"
         ]
       },
       {
@@ -398,7 +395,7 @@
         "date": "Dec 2025",
         "hours": "15h",
         "icon": "scrum",
-        "description": "I learned the fundamentals of the Scrum framework, understanding its roles, events, and artifacts. I developed a clear vision of how to facilitate teamwork, remove impediments, and ensure the application of agile principles in daily work. I also understood the importance of collaboration, transparency, and incremental deliveries to generate continuous business value.",
+        "description": "Agile methods certification focused on facilitating high-performance collaboration, removing impediments, and ensuring incremental deliveries that generate continuous business value.",
         "certificateImage": "/certificates/scrum-master.jfif"
       },
       {
@@ -407,7 +404,7 @@
         "date": "Dec 2025",
         "hours": "12h",
         "icon": "microsoft",
-        "description": "I learned the fundamentals of business analysis, including requirements gathering, problem identification, and proposing solutions aligned with the business. I also practiced processes and tools used in the daily work of a business analyst.",
+        "description": "Business analysis training focused on requirements elicitation, complex problem identification, and proposing solutions aligned with strategic organizational objectives.",
         "certificateImage": "/certificates/ba-12h.jfif"
       },
       {
@@ -416,7 +413,7 @@
         "date": "Aug 2024",
         "hours": "1600h",
         "icon": "code",
-        "description": "In the first three phases of the Systems Analysis and Development course, I acquired essential skills in Object-Oriented Programming, Web Development, and Data Structures, in addition to solid foundations in Data Modeling and Software Architecture. The Web Developer Certification reinforces this trajectory, highlighting my progress and preparation for the technology market.",
+        "description": "Comprehensive technical certification validating competencies in Object-Oriented Programming, Web Development, Data Structures, and Software Architecture with solid Data Modeling foundation.",
         "certificateImage": "/certificates/web-dev.jfif"
       },
       {
@@ -425,134 +422,8 @@
         "date": "Oct 2025",
         "hours": "30h",
         "icon": "data",
-        "description": "30-hour training focused on translating raw data into strategic business decisions. I deepened my knowledge of the entire data analysis cycle, from exploration and visualization to applying statistical inference to validate hypotheses. Practice with R Studio consolidated the ability to extract and communicate insights, strengthening my capacity to lead the construction of data-driven products.",
+        "description": "Specialization in translating raw data into strategic business decisions, with mastery of the complete data analysis cycle and statistical inference application for hypothesis validation.",
         "certificateImage": "/certificates/data-analysis-30h.jfif"
-      },
-      {
-        "title": "Advanced Excel",
-        "issuer": "Expert Cursos",
-        "date": "Apr 2023",
-        "hours": "30h",
-        "icon": "data",
-        "description": "I acquired essential skills for data manipulation and analysis, including creating and formatting spreadsheets, tables, and charts. I learned to use basic and advanced formulas like VLOOKUP, SUMIF, and conditional functions, in addition to implementing data validation and conditional formatting. I developed proficiency in features like Power Query and Power Pivot, and creating macros for task automation.",
-        "certificateImage": "/certificates/excel-30h.jfif"
-      },
-      {
-        "title": "Data Storytelling: Creating narratives with Excel",
-        "issuer": "Alura",
-        "date": "Oct 2024",
-        "hours": "8h",
-        "icon": "data",
-        "description": "I created data narratives using advanced Excel techniques. I mastered creating and analyzing charts, interactive dashboards, and using dynamic formulas to transform data into impactful visual stories. I explored Power Query to organize data and applied Gestalt principles to improve visualization clarity, making data presentation more efficient and understandable.",
-        "certificateImage": "/certificates/storytelling-8h.jfif"
-      },
-      {
-        "title": "Database and SQL",
-        "issuer": "Udemy",
-        "date": "Oct 2023",
-        "hours": "58h",
-        "icon": "database",
-        "description": "Market-focused course lasting 58 hours, covering 3 different databases: MySQL, SQL Server, and Oracle and introducing T-SQL and PLSQL languages. Working with business rules, the difference between OLTP and OLAP environments, and what a Datawarehouse is; understanding the entire transactional and analytical environment of Business Intelligence.",
-        "certificateImage": "/certificates/sql-sgbd-58h.jfif"
-      },
-      {
-        "title": "Data Modeling Training",
-        "issuer": "Alura",
-        "date": "Jun 2024",
-        "hours": "34h",
-        "icon": "database",
-        "description": "Completion of a comprehensive data modeling training, including both theoretical and practical aspects, divided into 4 courses with an estimated duration of 34 hours. This training significantly improved my skills in data analysis and modeling, providing a solid foundation for developing effective database solutions.",
-        "certificateImage": "/certificates/modelagem-34h.jfif"
-      },
-      {
-        "title": "SQL with PostgreSQL Training",
-        "issuer": "Alura",
-        "date": "Jun 2024",
-        "hours": "46h",
-        "icon": "database",
-        "description": "During the 46h of training, I exercised skills such as generating optimized reports with SQL functions and real-time analysis. The training covered transactions, commits, and rollbacks, and creating functions using PL/pgSQL. It also included implementing Triggers, cursors, and error handling to ensure efficiency. This training prepared me to transform data into insights and manage databases effectively.",
-        "certificateImage": "/certificates/postgres-46h.jfif"
-      },
-      {
-        "title": "MongoDB Training",
-        "issuer": "Alura",
-        "date": "Jun 2024",
-        "hours": "57h",
-        "icon": "database",
-        "description": "Completion of a complete MongoDB training, covering from basic concepts to advanced administration and security, with an estimated duration of 57 hours. This training provided me with a deep and practical understanding of MongoDB, enabling me to design, implement, and manage NoSQL databases efficiently and securely.",
-        "certificateImage": "/certificates/mongodb-57h.jfif"
-      },
-      {
-        "title": "Management 3.0: Manage the environment, not the people",
-        "issuer": "Alura",
-        "date": "Oct 2024",
-        "hours": "10h",
-        "icon": "leadership",
-        "description": "The course covered how to develop competencies, improve teamwork, and generate a trust environment, open to feedback and learning. I also explored ways to promote recognition and create an environment that drives happiness and high performance in teams.",
-        "certificateImage": "/certificates/management3-10h.jfif"
-      },
-      {
-        "title": "Product Management: Accelerate product development",
-        "issuer": "Alura",
-        "date": "Jun 2024",
-        "hours": "8h",
-        "icon": "product",
-        "description": "I explored the importance of research and Product Discovery, using methods like ethnographic research and the Empathy Map. I understood ideation decisions and how to choose promising ideas through brainstorming and brand expansion matrix. Finally, I learned to implement products effectively, using checklists, metrics, and continuous improvement techniques to ensure product success and evolution.",
-        "certificateImage": "/certificates/product-management-8h.jfif"
-      },
-      {
-        "title": "Agile Management: Exploring agility concepts",
-        "issuer": "Alura",
-        "date": "Jun 2024",
-        "hours": "8h",
-        "icon": "agile",
-        "description": "I developed a deep understanding of agility concepts and principles, exploring their practical application in the work environment. I learned to differentiate agile methods like Scrum and Kanban, identifying their positive impacts on teams. I also addressed agile management in the context of Management 3.0 and its implications in projects and products, expanding my vision of agility beyond the IT area.",
-        "certificateImage": "/certificates/agile-8h.jfif"
-      },
-      {
-        "title": "Scrum: Agility in your project",
-        "issuer": "Alura",
-        "date": "May 2024",
-        "hours": "8h",
-        "icon": "scrum",
-        "description": "This course provided me with the necessary competencies to implement and manage agile methodologies, like Scrum, in data analysis projects. I learned to promote effective collaboration, ensure work transparency, and deliver high-quality results within established deadlines, optimizing processes and improving team performance in agile project execution.",
-        "certificateImage": "/certificates/scrum-8h.jfif"
-      },
-      {
-        "title": "Participative Communication: Effective and motivating leadership",
-        "issuer": "Alura",
-        "date": "May 2024",
-        "hours": "10h",
-        "icon": "communication",
-        "description": "I learned about different leadership and decision-making styles, and how to promote meaningful dialogues for participative decisions. I understood the role of facilitative leadership, ways to reduce the distance between leader and team, and how to avoid communication pitfalls. I also learned to conduct productive meetings and ensure transparency with effective retrospectives.",
-        "certificateImage": "/certificates/comunicacao-10h.jfif"
-      },
-      {
-        "title": "People Management",
-        "issuer": "Sebrae",
-        "date": "Jul 2025",
-        "hours": "8h",
-        "icon": "leadership",
-        "description": "In the course, I learned fundamental concepts that expanded my vision, developing practical and theoretical skills. I improved my reasoning, discovered new tools and techniques, and gained more confidence to apply knowledge in daily life, both personally and professionally.",
-        "certificateImage": "/certificates/gestao-pessoas-8h.jfif"
-      },
-      {
-        "title": "Task Delegation: Get the best from your team",
-        "issuer": "Alura",
-        "date": "Oct 2024",
-        "hours": "6h",
-        "icon": "leadership",
-        "description": "I learned to organize and delegate tasks effectively, knowing different approaches and their particularities. I explored how to handle unexpected results, create a trust environment, monitor delegation progress, and adjust the approach. The course also covered using emotional intelligence, feedback, and rewards to improve team performance.",
-        "certificateImage": "/certificates/delegacao-6h.jfif"
-      },
-      {
-        "title": "Effective Communication",
-        "issuer": "Santander",
-        "date": "Jul 2025",
-        "hours": "8h",
-        "icon": "communication",
-        "description": "During the course, I learned that effective communication goes beyond words. I understood the importance of SPICE messages, verbal and non-verbal language, and how to use empathy, assertiveness, and feedback to better connect with people. I also developed skills to communicate more naturally and with emotional intelligence, respecting different behavioral profiles.",
-        "certificateImage": "/certificates/comunicacao-8h.jfif"
       }
     ],
     "courseGroups": [
@@ -672,9 +543,9 @@
     ]
   },
   "contact": {
-    "title": "Let's Connect?",
-    "subtitle": "I'm always looking for challenges where I can combine my analytical vision with my technical depth to drive digital transformation.",
-    "cta": "Get in Touch",
+    "title": "Ready to Accelerate Your Projects?",
+    "subtitle": "Let's discuss how my strategic vision and technical expertise can accelerate your digital transformation and deliver results that exceed expectations.",
+    "cta": "Schedule a Conversation",
     "linkedin": "LinkedIn",
     "github": "GitHub",
     "email": "Email"

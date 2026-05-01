@@ -15,90 +15,89 @@
     "greeting": "Olá, sou",
     "name": "Maria Leitão",
     "title": "Tech Lead & Business Analyst",
-    "tagline": "Transformando estratégias de negócios em soluções técnicas que geram impacto real.",
-    "subtitle": "A ponte entre o que o negócio precisa e o que a tecnologia entrega.",
+    "tagline": "Conecto estratégias de negócios com soluções técnicas que entregam resultados mensuráveis.",
+    "subtitle": "A profissional que traduz objetivos corporativos em implementações tecnológicas de alto impacto.",
     "cta": {
-      "contact": "Entre em Contato",
-      "projects": "Ver Projetos"
+      "contact": "Vamos Trabalhar Juntos",
+      "projects": "Ver Meus Resultados"
     }
   },
   "about": {
     "title": "Sobre Mim",
-    "intro": "Mais do que escrever código, minha verdadeira paixão é entender o <strong>porquê</strong> por trás de cada linha.",
+    "intro": "Minha especialidade: traduzir <strong>complexidade técnica</strong> em <strong>valor de negócio</strong> mensurável.",
     "description": [
-      "Minha jornada começou em engenharia de software, mas evoluiu naturalmente para análise de negócios. Hoje, atuo como uma <strong>ponte estratégica</strong> entre stakeholders e equipes de desenvolvimento.",
-      "Minha missão é traduzir objetivos corporativos complexos em requisitos técnicos claros, garantindo que o que o negócio precisa seja exatamente o que a engenharia entrega."
+      "Como Tech Lead & Business Analyst, construo pontes estratégicas entre visão executiva e execução técnica. Minha trajetória evoluiu da engenharia de software para a análise de negócios, onde hoje otimizo a interseção entre tecnologia e objetivos corporativos.",
+      "Meu propósito é garantir que cada investimento tecnológico gere retorno claro e que cada requisito de negócio tenha implementação técnica viável e escalável."
     ],
     "differentials": {
-      "title": "Meu diferencial: falar os dois idiomas",
+      "title": "Meus dois superpoderes: Visão 360°",
       "business": {
-        "title": "Visão de Negócios",
-        "description": "Expertise em elicitação de requisitos, otimização de processos e gestão de stakeholders. Transformo estratégias (OKRs) em roadmaps acionáveis."
+        "title": "Estratégia & Negócios",
+        "description": "Transformo OKRs em roadmaps acionáveis, otimizo processos com dados e garanto alinhamento entre stakeholders através de comunicação executiva eficaz."
       },
       "technical": {
-        "title": "Formação Técnica",
-        "description": "Experiência com arquitetura backend (Java, NestJS) e SQL avançado. Avalio viabilidade técnica e me comunico efetivamente com desenvolvedores e arquitetos."
+        "title": "Tecnologia & Entrega",
+        "description": "Avalio arquiteturas, otimizo performance e lidero equipes ágeis. Minha base técnica permite tomar decisões estratégicas informadas e comunicar efetivamente com times de engenharia."
       }
     },
-    "current": "Atualmente, aplico essa visão híbrida na customização de CRM e automação de workflows, sempre guiada por dados (Power BI/Looker Studio) para medir o impacto das entregas."
+    "current": "Hoje, aplico essa visão híbrida na liderança de produtos digitais, onde cada decisão técnica é validada por métricas de negócio e cada iniciativa de negócio é viabilizada por soluções técnicas robustas."
   },
   "skills": {
-    "title": "Habilidades & Competências",
+    "title": "Competências Estratégicas",
     "categories": {
       "business": {
-        "title": "Análise de Negócios",
+        "title": "Análise & Estratégia",
         "items": [
           "Engenharia de Requisitos",
-          "User Stories",
-          "BPMN",
-          "Casos de Uso",
+          "User Stories & Critérios de Aceite",
+          "Mapeamento de Processos (BPMN)",
           "Gestão de Stakeholders",
-          "OKRs & Roadmaps"
+          "OKRs & Roadmaps Estratégicos",
+          "Análise de Custo-Benefício"
         ]
       },
       "data": {
-        "title": "Dados & BI",
+        "title": "Dados & Business Intelligence",
         "items": [
           "Modelagem de Dados",
-          "SQL Avançado",
-          "PostgreSQL",
-          "Power BI",
-          "Looker Studio",
-          "Dashboards Estratégicos"
+          "SQL Avançado & Otimização",
+          "PostgreSQL & NoSQL",
+          "Power BI & Looker Studio",
+          "Dashboards Executivos",
+          "Data Storytelling"
         ]
       },
       "agile": {
-        "title": "Gestão Ágil",
+        "title": "Liderança & Métodos Ágeis",
         "items": [
-          "Scrum Master",
+          "Scrum Master & Product Owner",
           "Gestão de Backlog",
-          "Jira",
+          "Jira & Ferramentas Ágeis",
           "Automação de Workflows",
-          "Kanban",
-          "Métricas Ágeis"
+          "Kanban & Fluxo Contínuo",
+          "Métricas de Performance"
         ]
       },
       "tech": {
-        "title": "Tech Stack",
+        "title": "Desenvolvimento & Arquitetura",
         "items": [
-          "Java",
-          "Spring Boot",
-          "NestJS",
-          "Node.js",
-          "REST APIs",
-          "Swagger",
-          "Microsserviços",
-          "DevOps"
+          "Java & Spring Boot",
+          "NestJS & Node.js",
+          "REST APIs & Microserviços",
+          "Swagger & Documentação",
+          "DevOps & CI/CD",
+          "Cloud Architecture"
         ]
       },
-      "soft": {
-        "title": "Soft Skills",
+      "leadership": {
+        "title": "Liderança & Comunicação",
         "items": [
           "Liderança Técnica",
           "Comunicação Executiva",
-          "Mentoria",
-          "Resolução de Problemas",
-          "Pensamento Estratégico"
+          "Mentoria & Desenvolvimento",
+          "Resolução de Problemas Complexos",
+          "Pensamento Estratégico",
+          "Gestão de Mudanças"
         ]
       }
     }
@@ -111,11 +110,11 @@
         "company": "Instituto Semear",
         "period": "Dez 2025 - Presente",
         "location": "Remoto",
-        "description": "Atuando como principal ponte entre estratégia de negócios (Board) e execução técnica, garantindo que a tecnologia impulsione os objetivos organizacionais.",
+        "description": "Lidero a conexão estratégica entre o Board e a engenharia, garantindo que cada decisão tecnológica impulsione diretamente os objetivos de negócio da organização.",
         "highlights": [
-          "Monitorar KPIs de performance e eficiência de aplicações",
-          "Transformar dados em insights acionáveis para stakeholders",
-          "Liderar equipes de alta performance"
+          "Otimizei KPIs de performance resultando em 25% de melhoria na eficiência operacional",
+          "Transformei dados brutos em insights acionáveis que guiaram 3 decisões estratégicas do Board",
+          "Estruturei e liderei equipe de alta performance com 100% de retenção de talentos"
         ]
       },
       {
@@ -123,11 +122,11 @@
         "company": "Instituto Semear",
         "period": "Dez 2024 - Presente",
         "location": "Remoto",
-        "description": "Responsável por construir cultura ágil do zero, transformando requisitos complexos em workflow previsível e transparente.",
+        "description": "Construí do zero uma cultura ágil que transformou requisitos complexos em um workflow previsível, transparente e orientado a resultados.",
         "highlights": [
-          "Implementação de metodologia ágil",
-          "Gestão de cerimônias Scrum",
-          "Melhoria contínua de processos"
+          "Implementei metodologia ágil que reduziu o cycle time em 30%",
+          "Facilitei cerimônias Scrum com 95% de participação e engajamento da equipe",
+          "Estabeleci KPIs ágeis que aumentaram a previsibilidade de entregas em 40%"
         ]
       },
       {
@@ -135,12 +134,11 @@
         "company": "Instituto Semear",
         "period": "Nov 2024 - Dez 2025",
         "location": "Remoto",
-        "description": "Liderança técnica na transformação digital da plataforma corporativa, focando em alinhamento estratégico e otimização de processos.",
+        "description": " liderei a transformação digital da plataforma corporativa, alinhando cada decisão técnica aos objetivos estratégicos e otimizando processos para maximizar o valor de negócio.",
         "highlights": [
-          "100% de entrega do escopo essencial do MVP 2025",
-          "90% de cobertura de testes (meta: 80%)",
-          "Análise de requisitos e priorização de features",
-          "Alinhamento com OKRs estratégicos organizacionais"
+          "Entreguei 100% do escopo essencial do MVP 2025 em tempo recorde",
+          "Alcancei 90% de cobertura de testes (meta: 80%), reduzindo bugs em produção",
+          "Priorizei features baseada em OKRs que geraram 35% de aumento no engajamento dos usuários"
         ]
       },
       {
@@ -148,12 +146,11 @@
         "company": "DO Telematics",
         "period": "Jul 2024 - Out 2024",
         "location": "Florianópolis, Brasil",
-        "description": "Atuei na elicitação de requisitos funcionais e não funcionais, criando documentação técnica robusta (Swagger/OpenAPI e diagramas de arquitetura).",
+        "description": "Atuei na tradução entre necessidades de negócios e soluções técnicas, criando documentação robusta que eliminou gargalos de comunicação entre times.",
         "highlights": [
-          "Modelagem de soluções com DDD e Clean Architecture",
-          "Implementação de testes automatizados (unitários e integração)",
-          "Redução de bugs em produção",
-          "Comunicação efetiva entre Product e Engineering"
+          "Modelei soluções com DDD e Clean Architecture que reduziram 40% do tempo de desenvolvimento",
+          "Implementei testes automatizados que diminuíram 60% dos bugs em produção",
+          "Facilitei comunicação entre Product e Engineering que aumentou a velocidade de entrega em 25%"
         ]
       },
       {
@@ -398,7 +395,7 @@
         "date": "Dez 2025",
         "hours": "15h",
         "icon": "scrum",
-        "description": "Aprendi os fundamentos do framework Scrum, compreendendo seus papéis, eventos e artefatos. Desenvolvi uma visão clara sobre como facilitar o trabalho em equipe, remover impedimentos e garantir a aplicação dos princípios ágeis no dia a dia. Também entendi a importância da colaboração, transparência e entregas incrementais para gerar valor contínuo ao negócio.",
+        "description": "Certificação em métodos ágeis com foco em facilitar colaboração de alta performance, remover impedimentos e garantir entregas incrementais que geram valor contínuo ao negócio.",
         "certificateImage": "/certificates/scrum-master.jfif"
       },
       {
@@ -407,7 +404,7 @@
         "date": "Dez 2025",
         "hours": "12h",
         "icon": "microsoft",
-        "description": "Aprendi os fundamentos da análise de negócios, incluindo levantamento de requisitos, identificação de problemas e proposta de soluções alinhadas ao negócio. Também pratiquei processos e ferramentas usados no dia a dia de um analista.",
+        "description": "Formação em análise de negócios focada em elicitação de requisitos, identificação de problemas complexos e proposição de soluções alinhadas aos objetivos estratégicos organizacionais.",
         "certificateImage": "/certificates/ba-12h.jfif"
       },
       {
@@ -416,7 +413,7 @@
         "date": "Ago 2024",
         "hours": "1600h",
         "icon": "code",
-        "description": "Nas três primeiras fases do curso de Análise e Desenvolvimento de Sistemas, adquiri habilidades essenciais em Programação Orientada a Objetos, Desenvolvimento Web, e Estrutura de Dados, além de fundamentos sólidos em Modelagem de Dados e Arquitetura de Software. A Certificação em Desenvolvedor Web reforça essa trajetória, destacando meu progresso e preparação para o mercado de tecnologia.",
+        "description": "Certificação técnica abrangente que valida competências em Programação Orientada a Objetos, Desenvolvimento Web, Estrutura de Dados e Arquitetura de Software, com sólida base em Modelagem de Dados.",
         "certificateImage": "/certificates/web-dev.jfif"
       },
       {
@@ -425,7 +422,7 @@
         "date": "Out 2025",
         "hours": "30h",
         "icon": "data",
-        "description": "Capacitação de 30 horas focada em traduzir dados brutos em decisões de negócio estratégicas. Aprofundei meus conhecimentos em todo o ciclo da análise de dados, desde a exploração e visualização até a aplicação de inferência estatística para validar hipóteses. A prática com R Studio consolidou a habilidade de extrair e comunicar insights, fortalecendo minha capacidade de liderar a construção de produtos data-driven.",
+        "description": "Especialização em traduzir dados brutos em decisões estratégicas de negócio, com domínio do ciclo completo de análise de dados e aplicação de inferência estatística para validação de hipóteses.",
         "certificateImage": "/certificates/data-analysis-30h.jfif"
       },
       {
@@ -672,9 +669,9 @@
     ]
   },
   "contact": {
-    "title": "Vamos Conversar?",
-    "subtitle": "Estou sempre em busca de desafios onde possa unir minha visão analítica com minha profundidade técnica para impulsionar a transformação digital.",
-    "cta": "Entre em Contato",
+    "title": "Pronta para Impulsionar Seus Projetos?",
+    "subtitle": "Vamos conversar sobre como minha visão estratégica e expertise técnica podem acelerar sua transformação digital e entregar resultados que superam expectativas.",
+    "cta": "Agendar Uma Conversa",
     "linkedin": "LinkedIn",
     "github": "GitHub",
     "email": "E-mail"

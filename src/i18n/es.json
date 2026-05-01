@@ -91,14 +91,15 @@
           "DevOps"
         ]
       },
-      "soft": {
-        "title": "Soft Skills",
+      "leadership": {
+        "title": "Liderazgo y Comunicación",
         "items": [
           "Liderazgo Técnico",
           "Comunicación Ejecutiva",
-          "Mentoría",
-          "Resolución de Problemas",
-          "Pensamiento Estratégico"
+          "Mentoría y Desarrollo",
+          "Resolución de Problemas Complejos",
+          "Pensamiento Estratégico",
+          "Gestión de Cambios"
         ]
       }
     }
