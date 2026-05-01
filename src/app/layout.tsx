@@ -4,6 +4,7 @@ import { ThemeProvider } from '@/contexts/ThemeContext';
 import { LanguageProvider } from '@/contexts/LanguageContext';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://marialeitao.dev/me'),
   title: 'Maria Leitão | Tech Lead & Business Analyst',
   description: 'Tech Lead especializada em transformação digital, unindo visão estratégica de negócios com profundidade técnica. Scrum Certified e Especialista em Segurança da Informação.',
   keywords: [
@@ -75,9 +76,9 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link 
-          href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Source+Sans+3:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" 
-          rel="stylesheet" 
+        <link
+          href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Source+Sans+3:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+          rel="stylesheet"
         />
         <script
           dangerouslySetInnerHTML={{
