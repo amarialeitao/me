@@ -2,12 +2,12 @@
 
 import { useState, useRef, useEffect } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { 
-  GraduationCap, 
-  Award, 
-  Trophy, 
-  BookOpen, 
-  Users, 
+import {
+  GraduationCap,
+  Award,
+  Trophy,
+  BookOpen,
+  Users,
   ShieldCheck,
   Building2,
   ChevronRight,
@@ -19,7 +19,8 @@ import {
   Target,
   MessageSquare,
   Code,
-  Package
+  Package,
+  X
 } from 'lucide-react';
 
 interface Certification {
@@ -28,6 +29,8 @@ interface Certification {
   date?: string;
   hours?: string;
   icon: string;
+  description: string;
+  certificateImage: string;
 }
 
 interface CourseGroup {
@@ -127,6 +130,7 @@ export default function Education() {
   const carouselRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);
+  const [selectedCertification, setSelectedCertification] = useState<Certification | null>(null);
 
   const mainCertifications = (t.education.mainCertifications || []) as Certification[];
   const courseGroups = (t.education.courseGroups || []) as CourseGroup[];
@@ -162,12 +166,37 @@ export default function Education() {
     }
   };
 
+  // Modal controls
+  const openModal = (cert: Certification) => {
+    setSelectedCertification(cert);
+    document.body.style.overflow = 'hidden';
+  };
+
+  const closeModal = () => {
+    setSelectedCertification(null);
+    document.body.style.overflow = 'unset';
+  };
+
+  // Handle ESC key to close modal
+  useEffect(() => {
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && selectedCertification) {
+        closeModal();
+      }
+    };
+
+    if (selectedCertification) {
+      document.addEventListener('keydown', handleEscape);
+      return () => document.removeEventListener('keydown', handleEscape);
+    }
+  }, [selectedCertification]);
+
   return (
     <section id="education" className="relative py-16 sm:py-24 md:py-32 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-white to-midnight-50 dark:from-midnight-900 dark:to-midnight-950" />
       <div className="absolute inset-0 bg-grid-pattern opacity-20 dark:opacity-10" />
-      
+
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-10 sm:mb-16">
@@ -184,14 +213,14 @@ export default function Education() {
               <GraduationCap className="w-4 h-4 sm:w-5 sm:h-5 text-amber-500 flex-shrink-0" />
               <span>{t.education.subtitles?.graduation || 'Graduação'}</span>
             </h3>
-            
+
             <div className="group relative p-4 sm:p-6 md:p-8 bg-gradient-to-br from-amber-50 to-amber-100/50 dark:from-amber-500/10 dark:to-amber-500/5 rounded-xl sm:rounded-2xl border border-amber-200 dark:border-amber-500/20 hover:shadow-xl hover:shadow-amber-500/10 transition-all duration-300">
               <div className="flex flex-col md:flex-row md:items-start gap-4 md:gap-6">
                 {/* Icon */}
                 <div className="flex-shrink-0 w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-amber-400 to-amber-600 rounded-xl sm:rounded-2xl flex items-center justify-center shadow-lg shadow-amber-500/25">
                   <GraduationCap className="w-7 h-7 sm:w-8 sm:h-8 text-white" />
                 </div>
-                
+
                 {/* Content */}
                 <div className="flex-1 min-w-0">
                   <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-2 sm:gap-4 mb-2">
@@ -213,11 +242,11 @@ export default function Education() {
                       </span>
                     </div>
                   </div>
-                  
+
                   <p className="text-sm sm:text-base text-midnight-600 dark:text-midnight-400 mb-3 sm:mb-4">
                     {graduation.description}
                   </p>
-                  
+
                   <ul className="space-y-1.5 sm:space-y-2">
                     {graduation.highlights.map((highlight, index) => (
                       <li key={index} className="flex items-start gap-2 text-xs sm:text-sm text-midnight-700 dark:text-midnight-300">
@@ -242,17 +271,16 @@ export default function Education() {
                 {mainCertifications.length}
               </span>
             </h3>
-            
+
             {/* Navigation Arrows */}
             <div className="flex items-center gap-2">
               <button
                 onClick={() => scroll('left')}
                 disabled={!canScrollLeft}
-                className={`p-2 rounded-lg border transition-all duration-200 ${
-                  canScrollLeft
-                    ? 'bg-white dark:bg-midnight-800 border-midnight-200 dark:border-midnight-700 text-midnight-700 dark:text-midnight-300 hover:bg-amber-50 dark:hover:bg-amber-500/10 hover:border-amber-300 dark:hover:border-amber-500/30 hover:text-amber-600 dark:hover:text-amber-400'
-                    : 'bg-midnight-100 dark:bg-midnight-800/50 border-midnight-200 dark:border-midnight-700 text-midnight-400 dark:text-midnight-600 cursor-not-allowed'
-                }`}
+                className={`p-2 rounded-lg border transition-all duration-200 ${canScrollLeft
+                  ? 'bg-white dark:bg-midnight-800 border-midnight-200 dark:border-midnight-700 text-midnight-700 dark:text-midnight-300 hover:bg-amber-50 dark:hover:bg-amber-500/10 hover:border-amber-300 dark:hover:border-amber-500/30 hover:text-amber-600 dark:hover:text-amber-400'
+                  : 'bg-midnight-100 dark:bg-midnight-800/50 border-midnight-200 dark:border-midnight-700 text-midnight-400 dark:text-midnight-600 cursor-not-allowed'
+                  }`}
                 aria-label="Previous"
               >
                 <ChevronLeft className="w-5 h-5" />
@@ -260,24 +288,23 @@ export default function Education() {
               <button
                 onClick={() => scroll('right')}
                 disabled={!canScrollRight}
-                className={`p-2 rounded-lg border transition-all duration-200 ${
-                  canScrollRight
-                    ? 'bg-white dark:bg-midnight-800 border-midnight-200 dark:border-midnight-700 text-midnight-700 dark:text-midnight-300 hover:bg-amber-50 dark:hover:bg-amber-500/10 hover:border-amber-300 dark:hover:border-amber-500/30 hover:text-amber-600 dark:hover:text-amber-400'
-                    : 'bg-midnight-100 dark:bg-midnight-800/50 border-midnight-200 dark:border-midnight-700 text-midnight-400 dark:text-midnight-600 cursor-not-allowed'
-                }`}
+                className={`p-2 rounded-lg border transition-all duration-200 ${canScrollRight
+                  ? 'bg-white dark:bg-midnight-800 border-midnight-200 dark:border-midnight-700 text-midnight-700 dark:text-midnight-300 hover:bg-amber-50 dark:hover:bg-amber-500/10 hover:border-amber-300 dark:hover:border-amber-500/30 hover:text-amber-600 dark:hover:text-amber-400'
+                  : 'bg-midnight-100 dark:bg-midnight-800/50 border-midnight-200 dark:border-midnight-700 text-midnight-400 dark:text-midnight-600 cursor-not-allowed'
+                  }`}
                 aria-label="Next"
               >
                 <ChevronRight className="w-5 h-5" />
               </button>
             </div>
           </div>
-          
+
           {/* Carousel Container */}
           <div className="relative">
             {/* Gradient Fades */}
             <div className={`absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-white dark:from-midnight-900 to-transparent z-10 pointer-events-none transition-opacity duration-300 ${canScrollLeft ? 'opacity-100' : 'opacity-0'}`} />
             <div className={`absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-white dark:from-midnight-900 to-transparent z-10 pointer-events-none transition-opacity duration-300 ${canScrollRight ? 'opacity-100' : 'opacity-0'}`} />
-            
+
             {/* Scrollable Cards */}
             <div
               ref={carouselRef}
@@ -287,11 +314,12 @@ export default function Education() {
               {mainCertifications.map((cert, index) => {
                 const colors = certificationColors[cert.icon] || certificationColors.data;
                 const icon = certificationIcons[cert.icon] || <Award className="w-5 h-5 sm:w-6 sm:h-6" />;
-                
+
                 return (
                   <div
                     key={index}
-                    className={`group relative flex-shrink-0 w-[280px] sm:w-[300px] p-4 sm:p-5 ${colors.bg} rounded-xl sm:rounded-2xl border ${colors.border} hover:shadow-lg transition-all duration-300`}
+                    onClick={() => openModal(cert)}
+                    className={`group relative flex-shrink-0 w-[280px] sm:w-[300px] p-4 sm:p-5 ${colors.bg} rounded-xl sm:rounded-2xl border ${colors.border} hover:shadow-lg hover:scale-105 cursor-pointer transition-all duration-300`}
                   >
                     <div className="flex items-start gap-3 sm:gap-4">
                       <div className={`flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 ${colors.iconBg} rounded-lg sm:rounded-xl flex items-center justify-center shadow-lg text-white`}>
@@ -336,15 +364,22 @@ export default function Education() {
                 className="group relative p-4 sm:p-6 bg-white dark:bg-midnight-800/50 rounded-xl sm:rounded-2xl border border-midnight-200 dark:border-midnight-700 hover:border-amber-500 dark:hover:border-amber-500 transition-all duration-300 hover:shadow-xl hover:shadow-amber-500/10"
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-amber-500/5 to-transparent rounded-xl sm:rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity" />
-                
+
                 <div className="relative">
                   <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-2 sm:gap-4 mb-2 sm:mb-3">
                     <h4 className="text-base sm:text-lg font-semibold text-midnight-900 dark:text-white">
                       {degree.title}
                     </h4>
-                    <span className="self-start flex-shrink-0 px-2 sm:px-3 py-0.5 sm:py-1 text-[10px] sm:text-xs font-medium bg-amber-100 dark:bg-amber-500/20 text-amber-700 dark:text-amber-400 rounded-full">
-                      {degree.status}
-                    </span>
+                    {degree.status && degree.status !== 'Concluída' && (
+                      <span className="self-start flex-shrink-0 px-2 sm:px-3 py-0.5 sm:py-1 text-[10px] sm:text-xs font-medium bg-amber-100 dark:bg-amber-500/20 text-amber-700 dark:text-amber-400 rounded-full">
+                        {degree.status}
+                      </span>
+                    )}
+                    {degree.status === 'Concluída' && (
+                      <span className="self-start flex-shrink-0 px-2 sm:px-3 py-0.5 sm:py-1 text-[10px] sm:text-xs font-medium bg-green-100 dark:bg-green-500/20 text-green-700 dark:text-green-400 rounded-full">
+                        {degree.status}
+                      </span>
+                    )}
                   </div>
                   <p className="text-sm sm:text-base text-amber-600 dark:text-amber-400 font-medium mb-2">
                     {degree.institution}
@@ -418,6 +453,94 @@ export default function Education() {
           </div>
         </div>
       </div>
+
+      {/* Certification Modal */}
+      {selectedCertification && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center p-4"
+          onClick={closeModal}
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="modal-title"
+        >
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" />
+
+          {/* Modal Content */}
+          <div
+            className="relative bg-white dark:bg-midnight-900 rounded-2xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto transform transition-all duration-300 scale-100 opacity-100"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Close Button */}
+            <button
+              onClick={closeModal}
+              className="absolute top-4 right-4 z-10 p-2 rounded-lg bg-midnight-100 dark:bg-midnight-800 hover:bg-midnight-200 dark:hover:bg-midnight-700 text-midnight-600 dark:text-midnight-400 transition-colors"
+              aria-label="Fechar modal"
+            >
+              <X className="w-5 h-5" />
+            </button>
+
+            {/* Modal Header */}
+            <div className="p-6 sm:p-8 border-b border-midnight-200 dark:border-midnight-800">
+              <div className="flex items-start gap-4">
+                <div className={`flex-shrink-0 w-14 h-14 ${certificationColors[selectedCertification.icon]?.iconBg || certificationColors.data.iconBg} rounded-xl flex items-center justify-center shadow-lg text-white`}>
+                  {certificationIcons[selectedCertification.icon] || <Award className="w-7 h-7" />}
+                </div>
+                <div className="min-w-0 flex-1">
+                  <h3 id="modal-title" className="text-xl sm:text-2xl font-bold text-midnight-900 dark:text-white mb-2">
+                    {selectedCertification.title}
+                  </h3>
+                  <p className={`text-sm sm:text-base font-medium ${certificationColors[selectedCertification.icon]?.text || certificationColors.data.text}`}>
+                    {selectedCertification.issuer}
+                  </p>
+                  <div className="flex items-center gap-3 mt-2 text-xs sm:text-sm text-midnight-500 dark:text-midnight-400">
+                    {selectedCertification.date && (
+                      <span className="flex items-center gap-1">
+                        <Calendar className="w-3.5 h-3.5" />
+                        {selectedCertification.date}
+                      </span>
+                    )}
+                    {selectedCertification.hours && (
+                      <span className="flex items-center gap-1">
+                        <Award className="w-3.5 h-3.5" />
+                        {selectedCertification.hours}
+                      </span>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Modal Body */}
+            <div className="p-6 sm:p-8">
+              {/* Description */}
+              <div className="mb-6">
+                <h4 className="text-lg font-semibold text-midnight-900 dark:text-white mb-3">
+                  Descrição
+                </h4>
+                <p className="text-midnight-700 dark:text-midnight-300 leading-relaxed">
+                  {selectedCertification.description}
+                </p>
+              </div>
+
+              {/* Certificate Image */}
+              <div>
+                <h4 className="text-lg font-semibold text-midnight-900 dark:text-white mb-3">
+                  Certificado
+                </h4>
+                <div className="relative rounded-lg overflow-hidden shadow-lg">
+                  <img
+                    src={selectedCertification.certificateImage}
+                    alt={`Certificado: ${selectedCertification.title}`}
+                    className="w-full h-auto object-cover"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* CSS for hiding scrollbar */}
       <style jsx>{`

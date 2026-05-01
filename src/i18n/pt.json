@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Maria Leitão | Tech Lead & Business Analyst",
-    "description": "Tech Lead especializada em transformação digital, unindo visão estratégica de negócios com profundidade técnica. Scrum Certified e Especialista em Segurança da Informação."
+    "description": "Tech Lead especializada em transformação digital, conectando visão estratégica de negócios com profundidade técnica. Scrum Certified e Especialista em Segurança da Informação."
   },
   "nav": {
     "about": "Sobre",
@@ -12,10 +12,10 @@
     "contact": "Contato"
   },
   "hero": {
-    "greeting": "Olá, eu sou",
+    "greeting": "Olá, sou",
     "name": "Maria Leitão",
     "title": "Tech Lead & Business Analyst",
-    "tagline": "Transformando estratégias de negócio em soluções técnicas que geram impacto real.",
+    "tagline": "Transformando estratégias de negócios em soluções técnicas que geram impacto real.",
     "subtitle": "A ponte entre o que o negócio precisa e o que a tecnologia entrega.",
     "cta": {
       "contact": "Entre em Contato",
@@ -26,27 +26,27 @@
     "title": "Sobre Mim",
     "intro": "Mais do que escrever código, minha verdadeira paixão é entender o <strong>porquê</strong> por trás de cada linha.",
     "description": [
-      "Minha trajetória começou na engenharia de software, mas evoluiu naturalmente para a análise de negócios. Hoje, atuo como uma <strong>ponte estratégica</strong> entre stakeholders e times de desenvolvimento.",
+      "Minha jornada começou em engenharia de software, mas evoluiu naturalmente para análise de negócios. Hoje, atuo como uma <strong>ponte estratégica</strong> entre stakeholders e equipes de desenvolvimento.",
       "Minha missão é traduzir objetivos corporativos complexos em requisitos técnicos claros, garantindo que o que o negócio precisa seja exatamente o que a engenharia entrega."
     ],
     "differentials": {
-      "title": "Meu diferencial: falar as duas línguas",
+      "title": "Meu diferencial: falar os dois idiomas",
       "business": {
-        "title": "Visão de Negócio",
+        "title": "Visão de Negócios",
         "description": "Expertise em elicitação de requisitos, otimização de processos e gestão de stakeholders. Transformo estratégias (OKRs) em roadmaps acionáveis."
       },
       "technical": {
-        "title": "Background Técnico",
-        "description": "Experiência com arquitetura backend (Java, NestJS) e SQL avançado. Avalio a viabilidade técnica e dialogo de igual para igual com desenvolvedores e arquitetos."
+        "title": "Formação Técnica",
+        "description": "Experiência com arquitetura backend (Java, NestJS) e SQL avançado. Avalio viabilidade técnica e me comunico efetivamente com desenvolvedores e arquitetos."
       }
     },
-    "current": "Atualmente, aplico essa visão híbrida na customização de CRMs e automação de fluxos, sempre guiada por dados (Power BI/Looker Studio) para medir o impacto das entregas."
+    "current": "Atualmente, aplico essa visão híbrida na customização de CRM e automação de workflows, sempre guiada por dados (Power BI/Looker Studio) para medir o impacto das entregas."
   },
   "skills": {
     "title": "Habilidades & Competências",
     "categories": {
       "business": {
-        "title": "Business Analysis",
+        "title": "Análise de Negócios",
         "items": [
           "Engenharia de Requisitos",
           "User Stories",
@@ -85,7 +85,7 @@
           "Spring Boot",
           "NestJS",
           "Node.js",
-          "APIs REST",
+          "REST APIs",
           "Swagger",
           "Microsserviços",
           "DevOps"
@@ -111,11 +111,11 @@
         "company": "Instituto Semear",
         "period": "Dez 2025 - Presente",
         "location": "Remoto",
-        "description": "Atuo como a principal ponte entre a estratégia de negócios (Diretoria) e a execução técnica, garantindo que a tecnologia impulsione os objetivos organizacionais.",
+        "description": "Atuando como principal ponte entre estratégia de negócios (Board) e execução técnica, garantindo que a tecnologia impulsione os objetivos organizacionais.",
         "highlights": [
-          "Monitoro KPIs de performance e eficiência da aplicação",
-          "Transformo dados em insights acionáveis para stakeholders",
-          "Lidero equipes de alta performance"
+          "Monitorar KPIs de performance e eficiência de aplicações",
+          "Transformar dados em insights acionáveis para stakeholders",
+          "Liderar equipes de alta performance"
         ]
       },
       {
@@ -123,72 +123,72 @@
         "company": "Instituto Semear",
         "period": "Dez 2024 - Presente",
         "location": "Remoto",
-        "description": "Responsável por estruturar a cultura ágil do zero, transformando requisitos complexos em um fluxo de trabalho previsível e transparente.",
+        "description": "Responsável por construir cultura ágil do zero, transformando requisitos complexos em workflow previsível e transparente.",
         "highlights": [
-          "Implementação de metodologias ágeis",
+          "Implementação de metodologia ágil",
           "Gestão de cerimônias Scrum",
           "Melhoria contínua de processos"
         ]
       },
       {
-        "title": "Líder de Desenvolvimento Fullstack",
+        "title": "Fullstack Development Lead",
         "company": "Instituto Semear",
         "period": "Nov 2024 - Dez 2025",
         "location": "Remoto",
-        "description": "Liderança técnica na transformação digital da plataforma corporativa, com foco em alinhamento estratégico e otimização de processos.",
+        "description": "Liderança técnica na transformação digital da plataforma corporativa, focando em alinhamento estratégico e otimização de processos.",
         "highlights": [
           "100% de entrega do escopo essencial do MVP 2025",
-          "Cobertura de testes de 90% (meta: 80%)",
-          "Análise de requisitos e priorização de funcionalidades",
-          "Alinhamento com OKRs estratégicos da organização"
+          "90% de cobertura de testes (meta: 80%)",
+          "Análise de requisitos e priorização de features",
+          "Alinhamento com OKRs estratégicos organizacionais"
         ]
       },
       {
-        "title": "Desenvolvedora Fullstack",
+        "title": "Fullstack Developer",
         "company": "DO Telematics",
         "period": "Jul 2024 - Out 2024",
-        "location": "Florianópolis, SC",
-        "description": "Atuei na elicitação de requisitos funcionais e não-funcionais, criando documentação técnica robusta (Swagger/OpenAPI e diagramas de arquitetura).",
+        "location": "Florianópolis, Brasil",
+        "description": "Atuei na elicitação de requisitos funcionais e não funcionais, criando documentação técnica robusta (Swagger/OpenAPI e diagramas de arquitetura).",
         "highlights": [
           "Modelagem de soluções com DDD e Clean Architecture",
           "Implementação de testes automatizados (unitários e integração)",
           "Redução de bugs em produção",
-          "Comunicação eficaz entre Produto e Engenharia"
+          "Comunicação efetiva entre Product e Engineering"
         ]
       },
       {
-        "title": "Estagiária de Desenvolvimento",
+        "title": "Software Development Intern",
         "company": "DO Telematics",
         "period": "Mai 2024 - Jun 2024",
-        "location": "Florianópolis, SC",
-        "description": "Contribuí ativamente para a criação de automações de fluxo no Jira, eliminando tarefas manuais repetitivas e melhorando o cycle time da equipe.",
+        "location": "Florianópolis, Brasil",
+        "description": "Contribuí ativamente na criação de automações de workflow Jira, eliminando tarefas manuais repetitivas e melhorando o cycle time do time.",
         "highlights": [
-          "Automações de fluxo no Jira",
-          "Participação em refinamentos de backlog",
-          "Apoio na implementação de testes automatizados"
+          "Automações de workflow Jira",
+          "Participação em sessões de refinamento de backlog",
+          "Suporte na implementação de testes automatizados"
         ]
       },
       {
-        "title": "Estágio Virtual em Business Intelligence",
+        "title": "Virtual Business Intelligence Internship",
         "company": "PwC Switzerland",
         "period": "Abr 2024",
         "location": "Remoto",
-        "description": "Desenvolvi dashboards interativos no Power BI para monitorar KPIs críticos de Call Center (retenção) e Diversidade & Inclusão.",
+        "description": "Desenvolvi dashboards interativos Power BI para monitorar KPIs críticos de Call Center (retenção) e métricas de Diversidade & Inclusão.",
         "highlights": [
-          "Dashboards interativos no Power BI",
+          "Dashboards interativos Power BI",
           "Extração e modelagem de dados com SQL e Power Query",
-          "Data Storytelling para influenciar decisões gerenciais"
+          "Data Storytelling para influenciar decisões da gestão"
         ]
       },
       {
-        "title": "Estágio Virtual em Engenharia de Software",
+        "title": "Virtual Software Engineering Internship",
         "company": "JPMorgan Chase",
         "period": "Mar 2024 - Abr 2024",
         "location": "Remoto",
-        "description": "Desenvolvimento de ferramentas de visualização de dados para auxiliar traders na monitoração de preços de ações em tempo real.",
+        "description": "Desenvolvimento de ferramentas de visualização de dados para ajudar traders a monitorar preços de ações em tempo real.",
         "highlights": [
           "Ferramentas de visualização de dados financeiros",
-          "Scripts em Python para processar feeds de dados",
+          "Scripts Python para processar feeds de dados",
           "Foco em performance e precisão da informação"
         ]
       },
@@ -196,35 +196,35 @@
         "title": "Estagiária de TI",
         "company": "Clínica Gástrica Usuy",
         "period": "Mai 2023 - Set 2023",
-        "location": "São José, SC",
+        "location": "São José, Brasil",
         "description": "Responsável pela transformação digital de processos administrativos e análise de indicadores da clínica.",
         "highlights": [
           "Identificação de gargalos operacionais",
-          "Scripts em Google Apps Script/JavaScript",
-          "Redução de 60% no tempo de trabalho manual"
+          "Scripts Google Apps Script/JavaScript",
+          "60% de redução no tempo de trabalho manual"
         ]
       }
     ]
   },
   "projects": {
     "title": "Projetos",
-    "subtitle": "Cases de sucesso com impacto mensurável em negócios",
+    "subtitle": "Casos de sucesso com impacto de negócios mensurável",
     "viewCode": "Ver Código",
     "items": [
       {
-        "title": "Avaliação e Seleção de Estrutura de Nuvem",
-        "subtitle": "Redução de Custos e Aumento de Eficiência",
+        "title": "Avaliação e Seleção de Infraestrutura Cloud",
+        "subtitle": "Redução de Custos e Melhoria de Eficiência",
         "company": "Instituto Semear",
         "period": "Abr 2025",
-        "description": "Conduzi análise comparativa entre soluções de nuvem com base em requisitos técnicos, custos e integração para recomendar a estrutura mais viável.",
-        "problem": "Custos elevados em provedores enterprise (AWS/Azure), necessidade de equilibrar performance e custo-benefício, falta de padronização nas decisões.",
+        "description": "Liderei análise comparativa entre soluções cloud baseada em requisitos técnicos, custos e integração para recomendar a estrutura mais viável.",
+        "problem": "Altos custos com providers enterprise (AWS/Azure), necessidade de balancear performance e custo-benefício, falta de padronização.",
         "approach": [
           "Elicitação de requisitos técnicos e financeiros",
           "Matriz de decisão ponderada (MoSCoW)",
           "Benchmarking técnico e financeiro",
           "Relatório executivo com recomendações"
         ],
-        "impact": "Redução de 25% nos custos operacionais",
+        "impact": "25% de redução em custos operacionais",
         "skills": [
           "Cloud",
           "Análise de Requisitos",
@@ -379,16 +379,16 @@
     },
     "degrees": [
       {
-        "title": "Pós-Graduação em Segurança da Informação",
-        "institution": "GRAN",
-        "status": "Em andamento",
-        "description": "Foco em Gestão de Segurança, Normas ISO 27001/27002/27005, Forense Computacional e Legislação Digital."
-      },
-      {
         "title": "Pós-Graduação em Linguagens de Programação",
         "institution": "GRAN",
         "status": "Concluída",
         "description": "Aprofundamento em Padrões de Projeto, Modelagem e Desenvolvimento, Estrutura de Dados."
+      },
+      {
+        "title": "Pós-Graduação em Segurança da Informação",
+        "institution": "GRAN",
+        "status": "Em andamento",
+        "description": "Foco em Gestão de Segurança, Normas ISO 27001/27002/27005, Forense Computacional e Legislação Digital."
       }
     ],
     "mainCertifications": [
@@ -396,121 +396,163 @@
         "title": "Scrum Fundamentals Certified",
         "issuer": "SCRUMstudy / VMEdu Inc.",
         "date": "Dez 2025",
-        "icon": "scrum"
+        "hours": "15h",
+        "icon": "scrum",
+        "description": "Aprendi os fundamentos do framework Scrum, compreendendo seus papéis, eventos e artefatos. Desenvolvi uma visão clara sobre como facilitar o trabalho em equipe, remover impedimentos e garantir a aplicação dos princípios ágeis no dia a dia. Também entendi a importância da colaboração, transparência e entregas incrementais para gerar valor contínuo ao negócio.",
+        "certificateImage": "/certificates/scrum-master.jfif"
       },
       {
-        "title": "Career Essentials in Business Analysis",
+        "title": "Career Essentials in Business Analysis by Microsoft and LinkedIn",
         "issuer": "Microsoft",
         "date": "Dez 2025",
-        "icon": "microsoft"
+        "hours": "12h",
+        "icon": "microsoft",
+        "description": "Aprendi os fundamentos da análise de negócios, incluindo levantamento de requisitos, identificação de problemas e proposta de soluções alinhadas ao negócio. Também pratiquei processos e ferramentas usados no dia a dia de um analista.",
+        "certificateImage": "/certificates/ba-12h.jfif"
+      },
+      {
+        "title": "Certificação de Qualificação Profissional em Desenvolvedor Web",
+        "issuer": "Senac Santa Catarina",
+        "date": "Ago 2024",
+        "hours": "1600h",
+        "icon": "code",
+        "description": "Nas três primeiras fases do curso de Análise e Desenvolvimento de Sistemas, adquiri habilidades essenciais em Programação Orientada a Objetos, Desenvolvimento Web, e Estrutura de Dados, além de fundamentos sólidos em Modelagem de Dados e Arquitetura de Software. A Certificação em Desenvolvedor Web reforça essa trajetória, destacando meu progresso e preparação para o mercado de tecnologia.",
+        "certificateImage": "/certificates/web-dev.jfif"
       },
       {
         "title": "Análise de Dados e Inteligência de Negócios",
         "issuer": "GRAN",
         "date": "Out 2025",
         "hours": "30h",
-        "icon": "data"
+        "icon": "data",
+        "description": "Capacitação de 30 horas focada em traduzir dados brutos em decisões de negócio estratégicas. Aprofundei meus conhecimentos em todo o ciclo da análise de dados, desde a exploração e visualização até a aplicação de inferência estatística para validar hipóteses. A prática com R Studio consolidou a habilidade de extrair e comunicar insights, fortalecendo minha capacidade de liderar a construção de produtos data-driven.",
+        "certificateImage": "/certificates/data-analysis-30h.jfif"
       },
       {
-        "title": "Formação SQL com PostgreSQL",
-        "issuer": "Alura",
-        "date": "Jun 2024",
-        "hours": "46h",
-        "icon": "database"
+        "title": "Excel Avançado",
+        "issuer": "Expert Cursos",
+        "date": "Abr 2023",
+        "hours": "30h",
+        "icon": "data",
+        "description": "Adquiri habilidades essenciais para a manipulação e análise de dados, incluindo a criação e formatação de planilhas, tabelas e gráficos. Aprendi a utilizar fórmulas básicas e avançadas, como PROCV, SOMASE e funções condicionais, além de implementar validação de dados e formatação condicional. Desenvolvi proficiência em recursos como Power Query e Power Pivot, e em criar macros para automatização de tarefas.",
+        "certificateImage": "/certificates/excel-30h.jfif"
       },
       {
-        "title": "Formação Kanban",
-        "issuer": "Alura",
-        "date": "Out 2024",
-        "hours": "46h",
-        "icon": "agile"
-      },
-      {
-        "title": "Formação em Modelagem de Dados",
-        "issuer": "Alura",
-        "date": "Jun 2024",
-        "hours": "34h",
-        "icon": "database"
-      },
-      {
-        "title": "Formação em MongoDB",
-        "issuer": "Alura",
-        "date": "Jun 2024",
-        "hours": "57h",
-        "icon": "database"
-      },
-      {
-        "title": "Management 3.0",
+        "title": "Data Storytelling: criando narrativas com Excel",
         "issuer": "Alura",
         "date": "Out 2024",
-        "icon": "leadership"
-      },
-      {
-        "title": "Product Management",
-        "issuer": "Alura",
-        "date": "Jun 2024",
-        "icon": "product"
+        "hours": "8h",
+        "icon": "data",
+        "description": "Criei narrativas com dados usando técnicas avançadas do Excel. Dominei a criação e análise de gráficos, dashboards interativos e o uso de fórmulas dinâmicas para transformar dados em histórias visuais impactantes. Explorei o Power Query para organizar dados e apliquei os princípios da Gestalt para melhorar a clareza das visualizações, tornando a apresentação dos dados mais eficiente e compreensível.",
+        "certificateImage": "/certificates/storytelling-8h.jfif"
       },
       {
         "title": "Banco de Dados e SQL",
         "issuer": "Udemy",
         "date": "Out 2023",
         "hours": "58h",
-        "icon": "database"
+        "icon": "database",
+        "description": "Curso focado no mercado de trabalho com duração de 58 horas, abrangendo 3 bancos de dados diferentes: MySQL, SQL Server e Oracle e introduzindo às linguagens T-SQL e PLSQL. Trabalhando com regras de negócios, a diferença entre ambientes OLTP, OLAP e também o que é um Datawarehouse; entendendo todo o ambiente transacional e analítico de Business Intelligence.",
+        "certificateImage": "/certificates/sql-sgbd-58h.jfif"
       },
       {
-        "title": "Data Storytelling com Excel",
-        "issuer": "Alura",
-        "date": "Out 2024",
-        "icon": "data"
-      },
-      {
-        "title": "Gestão Ágil",
+        "title": "Formação em Modelagem de Dados",
         "issuer": "Alura",
         "date": "Jun 2024",
-        "icon": "agile"
+        "hours": "34h",
+        "icon": "database",
+        "description": "Conclusão de uma formação abrangente em modelagem de dados, incluindo tanto aspectos teóricos quanto práticos, dividida em 4 cursos com carga horária estimada em 34 horas. Essa formação aprimorou significativamente minhas habilidades em análise e modelagem de dados, proporcionando uma base sólida para o desenvolvimento de soluções eficazes em bancos de dados.",
+        "certificateImage": "/certificates/modelagem-34h.jfif"
       },
       {
-        "title": "Scrum: Agilidade em Projetos",
+        "title": "Formação SQL com PostgreSQL",
         "issuer": "Alura",
-        "date": "Mai 2024",
-        "icon": "scrum"
+        "date": "Jun 2024",
+        "hours": "46h",
+        "icon": "database",
+        "description": "Durante as 46h da formação, exercitei habilidades como geração de relatórios otimizados com funções SQL e análises em tempo real. A formação abrangeu transações, commits e rollbacks, e a criação de funções usando PL/pgSQL. Também contou com a implementação de Triggers, cursores e tratamento de erros para garantir a eficiência. Esta formação me preparou para transformar dados em insights e administrar bancos de dados de forma eficaz.",
+        "certificateImage": "/certificates/postgres-46h.jfif"
       },
       {
-        "title": "Delegação de Tarefas",
+        "title": "Formação em MongoDB",
+        "issuer": "Alura",
+        "date": "Jun 2024",
+        "hours": "57h",
+        "icon": "database",
+        "description": "Conclusão de uma formação completa sobre MongoDB, abrangendo desde os conceitos básicos até a administração avançada e segurança, com carga horária estimada em 57 horas. Esta formação me proporcionou um entendimento profundo e prático do MongoDB, capacitando-me a projetar, implementar e gerenciar bancos de dados NoSQL de maneira eficiente e segura.",
+        "certificateImage": "/certificates/mongodb-57h.jfif"
+      },
+      {
+        "title": "Management 3.0: gerencie o ambiente, não as pessoas",
         "issuer": "Alura",
         "date": "Out 2024",
-        "icon": "leadership"
+        "hours": "10h",
+        "icon": "leadership",
+        "description": "O curso abordou como desenvolver competências, melhorar o trabalho em equipe e gerar um ambiente de confiança, aberto a feedbacks e aprendizados. Também explorei formas de promover reconhecimento e criar um ambiente que impulsione felicidade e alta performance nas equipes.",
+        "certificateImage": "/certificates/management3-10h.jfif"
       },
       {
-        "title": "Comunicação Participativa",
+        "title": "Product Management: Agilize o desenvolvimento de produtos",
+        "issuer": "Alura",
+        "date": "Jun 2024",
+        "hours": "8h",
+        "icon": "product",
+        "description": "Explorei a importância da pesquisa e do Product Discovery, utilizando métodos como pesquisa etnográfica e o Mapa de Empatia. Entendi as decisões de ideação e como escolher ideias promissoras através de brainstorms e a matriz de expansão de marca. Finalmente, aprendi a implementar produtos com eficácia, utilizando checklists, métricas e técnicas de melhoria contínua para garantir o sucesso e a evolução dos produtos.",
+        "certificateImage": "/certificates/product-management-8h.jfif"
+      },
+      {
+        "title": "Gestão Ágil: explorando conceitos da agilidade",
+        "issuer": "Alura",
+        "date": "Jun 2024",
+        "hours": "8h",
+        "icon": "agile",
+        "description": "Desenvolvi uma compreensão profunda dos conceitos e princípios da agilidade, explorando sua aplicação prática no ambiente de trabalho. Aprendi a diferenciar métodos ágeis como Scrum e Kanban, identificando seus impactos positivos nas equipes. Também abordei a gestão ágil no contexto de Management 3.0 e suas implicações em projetos e produtos, ampliando minha visão sobre a agilidade além da área de TI.",
+        "certificateImage": "/certificates/agile-8h.jfif"
+      },
+      {
+        "title": "Scrum: Agilidade em seu projeto",
         "issuer": "Alura",
         "date": "Mai 2024",
-        "icon": "communication"
+        "hours": "8h",
+        "icon": "scrum",
+        "description": "Este curso me forneceu as competências necessárias para implementar e gerenciar metodologias ágeis, como Scrum, em projetos de análise de dados. Aprendi a promover a colaboração eficaz, garantir a transparência no trabalho e entregar resultados de alta qualidade dentro de prazos estabelecidos, otimizando processos e aprimorando o desempenho da equipe na execução de projetos ágeis.",
+        "certificateImage": "/certificates/scrum-8h.jfif"
+      },
+      {
+        "title": "Comunicação participativa: liderança eficaz e motivadora",
+        "issuer": "Alura",
+        "date": "Mai 2024",
+        "hours": "10h",
+        "icon": "communication",
+        "description": "Aprendi sobre diferentes estilos de liderança e tomada de decisão, e como promover diálogos significativos para decisões participativas. Entendi o papel da liderança facilitadora, formas de reduzir a distância entre líder e equipe, e como evitar armadilhas na comunicação. Aprendi também a conduzir reuniões produtivas e garantir transparência com retrospectivas eficazes.",
+        "certificateImage": "/certificates/comunicacao-10h.jfif"
       },
       {
         "title": "Gestão de Pessoas",
         "issuer": "Sebrae",
         "date": "Jul 2025",
-        "icon": "leadership"
+        "hours": "8h",
+        "icon": "leadership",
+        "description": "No curso, aprendi conceitos fundamentais que ampliaram minha visão, desenvolvendo habilidades práticas e teóricas. Aprimorei meu raciocínio, descobri novas ferramentas e técnicas, além de ganhar mais confiança para aplicar o conhecimento no dia a dia, tanto pessoal quanto profissionalmente.",
+        "certificateImage": "/certificates/gestao-pessoas-8h.jfif"
       },
       {
-        "title": "Comunicação Efetiva",
+        "title": "Delegação de tarefas: obtenha o melhor do seu time",
+        "issuer": "Alura",
+        "date": "Out 2024",
+        "hours": "6h",
+        "icon": "leadership",
+        "description": "Aprendi a organizar e delegar tarefas de forma eficaz, conhecendo diferentes abordagens e suas particularidades. Explorei como lidar com resultados inesperados, criar um ambiente de confiança, acompanhar o progresso da delegação e ajustar a abordagem. O curso também abordou o uso de inteligência emocional, feedback e recompensas para melhorar o desempenho da equipe.",
+        "certificateImage": "/certificates/delegacao-6h.jfif"
+      },
+      {
+        "title": "Comunicação efetiva",
         "issuer": "Santander",
         "date": "Jul 2025",
-        "icon": "communication"
-      },
-      {
-        "title": "Desenvolvedor Web",
-        "issuer": "Senac Santa Catarina",
-        "date": "Ago 2024",
-        "icon": "code"
-      },
-      {
-        "title": "Excel Avançado",
-        "issuer": "Expert Cursos",
-        "date": "Abr 2023",
-        "icon": "data"
+        "hours": "8h",
+        "icon": "communication",
+        "description": "Durante o curso, aprendi como a comunicação eficaz vai além das palavras. Compreendi a importância das mensagens SPICE, da linguagem verbal e não verbal, e como usar empatia, assertividade e feedback para me conectar melhor com as pessoas. Também desenvolvi habilidades para me comunicar com mais naturalidade e inteligência emocional, respeitando diferentes perfis comportamentais.",
+        "certificateImage": "/certificates/comunicacao-8h.jfif"
       }
     ],
     "courseGroups": [
@@ -544,6 +586,10 @@
       {
         "title": "Vencedora do Reuni Game 2023",
         "description": "Membro da equipe Blumer, vencedora do maior evento de empreendedorismo universitário do Brasil. Menção honrosa pelo Pitch."
+      },
+      {
+        "title": "Campeã Catarinense de Kung Fu 2023",
+        "description": "Campeã individual e equipe na competição regional de kung fu."
       }
     ]
   },

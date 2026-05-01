@@ -379,16 +379,16 @@
     },
     "degrees": [
       {
-        "title": "Posgrado en Seguridad de la Información",
-        "institution": "GRAN",
-        "status": "En curso",
-        "description": "Enfoque en Gestión de Seguridad, Normas ISO 27001/27002/27005, Informática Forense y Legislación Digital."
-      },
-      {
         "title": "Posgrado en Lenguajes de Programación",
         "institution": "GRAN",
         "status": "Completado",
         "description": "Profundización en Patrones de Diseño, Modelado y Desarrollo, Estructuras de Datos."
+      },
+      {
+        "title": "Posgrado en Seguridad de la Información",
+        "institution": "GRAN",
+        "status": "En curso",
+        "description": "Enfoque en Gestión de Seguridad, Normas ISO 27001/27002/27005, Informática Forense y Legislación Digital."
       }
     ],
     "mainCertifications": [
@@ -396,121 +396,163 @@
         "title": "Scrum Fundamentals Certified",
         "issuer": "SCRUMstudy / VMEdu Inc.",
         "date": "Dic 2025",
-        "icon": "scrum"
+        "hours": "15h",
+        "icon": "scrum",
+        "description": "Aprendí los fundamentos del framework Scrum, comprendiendo sus roles, eventos y artefactos. Desarrollé una visión clara sobre cómo facilitar el trabajo en equipo, remover impedimentos y garantizar la aplicación de los principios ágiles en el día a día. También entendí la importancia de la colaboración, transparencia y entregas incrementales para generar valor continuo al negocio.",
+        "certificateImage": "/certificates/scrum-master.jfif"
       },
       {
-        "title": "Career Essentials in Business Analysis",
+        "title": "Career Essentials in Business Analysis by Microsoft and LinkedIn",
         "issuer": "Microsoft",
         "date": "Dic 2025",
-        "icon": "microsoft"
+        "hours": "12h",
+        "icon": "microsoft",
+        "description": "Aprendí los fundamentos del análisis de negocios, incluyendo recopilación de requisitos, identificación de problemas y propuesta de soluciones alineadas con el negocio. También practiqué procesos y herramientas usados en el día a día de un analista de negocios.",
+        "certificateImage": "/certificates/ba-12h.jfif"
+      },
+      {
+        "title": "Certificación de Calificación Profesional en Desarrollador Web",
+        "issuer": "Senac Santa Catarina",
+        "date": "Ago 2024",
+        "hours": "1600h",
+        "icon": "code",
+        "description": "En las primeras tres fases del curso de Análisis y Desarrollo de Sistemas, adquirí habilidades esenciales en Programación Orientada a Objetos, Desarrollo Web, y Estructuras de Datos, además de fundamentos sólidos en Modelado de Datos y Arquitectura de Software. La Certificación en Desarrollador Web refuerza esta trayectoria, destacando mi progreso y preparación para el mercado tecnológico.",
+        "certificateImage": "/certificates/web-dev.jfif"
       },
       {
         "title": "Análisis de Datos e Inteligencia de Negocios",
         "issuer": "GRAN",
         "date": "Oct 2025",
         "hours": "30h",
-        "icon": "data"
+        "icon": "data",
+        "description": "Capacitación de 30 horas enfocada en traducir datos brutos en decisiones estratégicas de negocio. Profundicé mis conocimientos en todo el ciclo del análisis de datos, desde la exploración y visualización hasta la aplicación de inferencia estadística para validar hipótesis. La práctica con R Studio consolidó la habilidad de extraer y comunicar insights, fortaleciendo mi capacidad para liderar la construcción de productos data-driven.",
+        "certificateImage": "/certificates/data-analysis-30h.jfif"
       },
       {
-        "title": "Formación SQL con PostgreSQL",
-        "issuer": "Alura",
-        "date": "Jun 2024",
-        "hours": "46h",
-        "icon": "database"
+        "title": "Excel Avanzado",
+        "issuer": "Expert Cursos",
+        "date": "Abr 2023",
+        "hours": "30h",
+        "icon": "data",
+        "description": "Adquirí habilidades esenciales para la manipulación y análisis de datos, incluyendo la creación y formateo de hojas de cálculo, tablas y gráficos. Aprendí a utilizar fórmulas básicas y avanzadas, como BUSCARV, SUMAR.SI y funciones condicionales, además de implementar validación de datos y formateo condicional. Desarrollé proficiencia en recursos como Power Query y Power Pivot, y en crear macros para automatización de tareas.",
+        "certificateImage": "/certificates/excel-30h.jfif"
       },
       {
-        "title": "Formación Kanban",
-        "issuer": "Alura",
-        "date": "Oct 2024",
-        "hours": "46h",
-        "icon": "agile"
-      },
-      {
-        "title": "Formación en Modelado de Datos",
-        "issuer": "Alura",
-        "date": "Jun 2024",
-        "hours": "34h",
-        "icon": "database"
-      },
-      {
-        "title": "Formación en MongoDB",
-        "issuer": "Alura",
-        "date": "Jun 2024",
-        "hours": "57h",
-        "icon": "database"
-      },
-      {
-        "title": "Management 3.0",
+        "title": "Data Storytelling: creando narrativas con Excel",
         "issuer": "Alura",
         "date": "Oct 2024",
-        "icon": "leadership"
-      },
-      {
-        "title": "Product Management",
-        "issuer": "Alura",
-        "date": "Jun 2024",
-        "icon": "product"
+        "hours": "8h",
+        "icon": "data",
+        "description": "Creé narrativas con datos usando técnicas avanzadas de Excel. Dominé la creación y análisis de gráficos, dashboards interactivos y el uso de fórmulas dinámicas para transformar datos en historias visuales impactantes. Exploré Power Query para organizar datos y apliqué los principios de Gestalt para mejorar la claridad de las visualizaciones, haciendo la presentación de los datos más eficiente y comprensible.",
+        "certificateImage": "/certificates/storytelling-8h.jfif"
       },
       {
         "title": "Base de Datos y SQL",
         "issuer": "Udemy",
         "date": "Oct 2023",
         "hours": "58h",
-        "icon": "database"
+        "icon": "database",
+        "description": "Curso enfocado en el mercado laboral con duración de 58 horas, abarcando 3 bases de datos diferentes: MySQL, SQL Server y Oracle e introduciendo los lenguajes T-SQL y PLSQL. Trabajando con reglas de negocio, la diferencia entre ambientes OLTP, OLAP y también qué es un Datawarehouse; entendiendo todo el ambiente transaccional y analítico de Business Intelligence.",
+        "certificateImage": "/certificates/sql-sgbd-58h.jfif"
       },
       {
-        "title": "Data Storytelling con Excel",
-        "issuer": "Alura",
-        "date": "Oct 2024",
-        "icon": "data"
-      },
-      {
-        "title": "Gestión Ágil",
+        "title": "Formación en Modelado de Datos",
         "issuer": "Alura",
         "date": "Jun 2024",
-        "icon": "agile"
+        "hours": "34h",
+        "icon": "database",
+        "description": "Conclusión de una formación comprensiva en modelado de datos, incluyendo tanto aspectos teóricos como prácticos, dividida en 4 cursos con carga horaria estimada en 34 horas. Esta formación mejoró significativamente mis habilidades en análisis y modelado de datos, proporcionando una base sólida para el desarrollo de soluciones efectivas en bases de datos.",
+        "certificateImage": "/certificates/modelagem-34h.jfif"
       },
       {
-        "title": "Scrum: Agilidad en Proyectos",
+        "title": "Formación SQL con PostgreSQL",
         "issuer": "Alura",
-        "date": "May 2024",
-        "icon": "scrum"
+        "date": "Jun 2024",
+        "hours": "46h",
+        "icon": "database",
+        "description": "Durante las 46h de la formación, ejercité habilidades como generación de reportes optimizados con funciones SQL y análisis en tiempo real. La formación abarcó transacciones, commits y rollbacks, y la creación de funciones usando PL/pgSQL. También incluyó implementación de Triggers, cursores y manejo de errores para garantizar la eficiencia. Esta formación me preparó para transformar datos en insights y administrar bases de datos de forma efectiva.",
+        "certificateImage": "/certificates/postgres-46h.jfif"
       },
       {
-        "title": "Delegación de Tareas",
+        "title": "Formación en MongoDB",
+        "issuer": "Alura",
+        "date": "Jun 2024",
+        "hours": "57h",
+        "icon": "database",
+        "description": "Conclusión de una formación completa sobre MongoDB, abarcando desde los conceptos básicos hasta la administración avanzada y seguridad, con carga horaria estimada en 57 horas. Esta formación me proporcionó un entendimiento profundo y práctico de MongoDB, capacitándome para diseñar, implementar y gestionar bases de datos NoSQL de manera eficiente y segura.",
+        "certificateImage": "/certificates/mongodb-57h.jfif"
+      },
+      {
+        "title": "Management 3.0: gestione el ambiente, no las personas",
         "issuer": "Alura",
         "date": "Oct 2024",
-        "icon": "leadership"
+        "hours": "10h",
+        "icon": "leadership",
+        "description": "El curso abordó cómo desarrollar competencias, mejorar el trabajo en equipo y generar un ambiente de confianza, abierto a feedbacks y aprendizajes. También exploré formas de promover reconocimiento y crear un ambiente que impulse felicidad y alto rendimiento en los equipos.",
+        "certificateImage": "/certificates/management3-10h.jfif"
       },
       {
-        "title": "Comunicación Participativa",
+        "title": "Product Management: acelere el desarrollo de productos",
+        "issuer": "Alura",
+        "date": "Jun 2024",
+        "hours": "8h",
+        "icon": "product",
+        "description": "Exploré la importancia de la investigación y Product Discovery, utilizando métodos como investigación etnográfica y el Mapa de Empatía. Entendí las decisiones de ideación y cómo elegir ideas prometedoras a través de brainstorms y matriz de expansión de marca. Finalmente, aprendí a implementar productos con eficacia, utilizando checklists, métricas y técnicas de mejora continua para garantizar el éxito y evolución de los productos.",
+        "certificateImage": "/certificates/product-management-8h.jfif"
+      },
+      {
+        "title": "Gestión Ágil: explorando conceptos de agilidad",
+        "issuer": "Alura",
+        "date": "Jun 2024",
+        "hours": "8h",
+        "icon": "agile",
+        "description": "Desarrollé una comprensión profunda de los conceptos y principios de la agilidad, explorando su aplicación práctica en el ambiente de trabajo. Aprendí a diferenciar métodos ágiles como Scrum y Kanban, identificando sus impactos positivos en los equipos. También abordé la gestión ágil en el contexto de Management 3.0 y sus implicaciones en proyectos y productos, ampliando mi visión sobre la agilidad más allá del área de TI.",
+        "certificateImage": "/certificates/agile-8h.jfif"
+      },
+      {
+        "title": "Scrum: Agilidad en tu proyecto",
         "issuer": "Alura",
         "date": "May 2024",
-        "icon": "communication"
+        "hours": "8h",
+        "icon": "scrum",
+        "description": "Este curso me proporcionó las competencias necesarias para implementar y gestionar metodologías ágiles, como Scrum, en proyectos de análisis de datos. Aprendí a promover la colaboración eficaz, garantizar la transparencia en el trabajo y entregar resultados de alta calidad dentro de plazos establecidos, optimizando procesos y mejorando el desempeño del equipo en la ejecución de proyectos ágiles.",
+        "certificateImage": "/certificates/scrum-8h.jfif"
+      },
+      {
+        "title": "Comunicación Participativa: liderazgo eficaz y motivador",
+        "issuer": "Alura",
+        "date": "May 2024",
+        "hours": "10h",
+        "icon": "communication",
+        "description": "Aprendí sobre diferentes estilos de liderazgo y toma de decisiones, y cómo promover diálogos significativos para decisiones participativas. Entendí el rol del liderazgo facilitador, formas de reducir la distancia entre líder y equipo, y cómo evitar trampas en la comunicación. Aprendí también a conducir reuniones productivas y garantizar transparencia con retrospectivas eficaces.",
+        "certificateImage": "/certificates/comunicacao-10h.jfif"
       },
       {
         "title": "Gestión de Personas",
         "issuer": "Sebrae",
         "date": "Jul 2025",
-        "icon": "leadership"
+        "hours": "8h",
+        "icon": "leadership",
+        "description": "En el curso, aprendí conceptos fundamentales que ampliaron mi visión, desarrollando habilidades prácticas y teóricas. Mejoré mi razonamiento, descubrí nuevas herramientas y técnicas, además de ganar más confianza para aplicar el conocimiento en el día a día, tanto personal como profesionalmente.",
+        "certificateImage": "/certificates/gestao-pessoas-8h.jfif"
+      },
+      {
+        "title": "Delegación de Tareas: obtenga lo mejor de su equipo",
+        "issuer": "Alura",
+        "date": "Oct 2024",
+        "hours": "6h",
+        "icon": "leadership",
+        "description": "Aprendí a organizar y delegar tareas de forma eficaz, conociendo diferentes enfoques y sus particularidades. Exploré cómo manejar resultados inesperados, crear un ambiente de confianza, monitorear el progreso de la delegación y ajustar el enfoque. El curso también abordó el uso de inteligencia emocional, feedback y recompensas para mejorar el desempeño del equipo.",
+        "certificateImage": "/certificates/delegacao-6h.jfif"
       },
       {
         "title": "Comunicación Efectiva",
         "issuer": "Santander",
         "date": "Jul 2025",
-        "icon": "communication"
-      },
-      {
-        "title": "Desarrollador Web",
-        "issuer": "Senac Santa Catarina",
-        "date": "Ago 2024",
-        "icon": "code"
-      },
-      {
-        "title": "Excel Avanzado",
-        "issuer": "Expert Cursos",
-        "date": "Abr 2023",
-        "icon": "data"
+        "hours": "8h",
+        "icon": "communication",
+        "description": "Durante el curso, aprendí que la comunicación efectiva va más allá de las palabras. Comprendí la importancia de los mensajes SPICE, del lenguaje verbal y no verbal, y cómo usar empatía, asertividad y feedback para conectarme mejor con las personas. También desarrollé habilidades para comunicarme más naturalmente y con inteligencia emocional, respetando diferentes perfiles comportamentales.",
+        "certificateImage": "/certificates/comunicacao-8h.jfif"
       }
     ],
     "courseGroups": [
@@ -544,6 +586,10 @@
       {
         "title": "Ganadora del Reuni Game 2023",
         "description": "Miembro del equipo Blumer, ganador del mayor evento de emprendimiento universitario de Brasil. Mención de honor por el Pitch."
+      },
+      {
+        "title": "Campeona Estadual de Kung Fu 2023",
+        "description": "Campeona individual y equipo en la competición regional de kung fu."
       }
     ]
   },
