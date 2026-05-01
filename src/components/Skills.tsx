@@ -8,7 +8,7 @@ const categoryIcons = {
   data: Database,
   agile: Rocket,
   tech: Code2,
-  soft: Heart,
+  leadership: Heart,
 };
 
 const categoryColors = {
@@ -36,7 +36,7 @@ const categoryColors = {
     border: 'border-blue-200 dark:border-blue-500/30',
     gradient: 'from-blue-500/10 to-transparent',
   },
-  soft: {
+  leadership: {
     bg: 'bg-rose-100 dark:bg-rose-500/20',
     text: 'text-rose-600 dark:text-rose-400',
     border: 'border-rose-200 dark:border-rose-500/30',
@@ -56,7 +56,7 @@ export default function Skills() {
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-white to-midnight-50 dark:from-midnight-900 dark:to-midnight-950" />
       <div className="absolute inset-0 bg-grid-pattern opacity-30 dark:opacity-10" />
-      
+
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-10 sm:mb-16">
@@ -71,7 +71,7 @@ export default function Skills() {
           {categories.map(([key, category], index) => {
             const Icon = categoryIcons[key];
             const colors = categoryColors[key];
-            
+
             return (
               <div
                 key={key}
@@ -80,7 +80,7 @@ export default function Skills() {
               >
                 {/* Gradient Overlay */}
                 <div className={`absolute inset-0 bg-gradient-to-br ${colors.gradient} rounded-xl sm:rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity`} />
-                
+
                 <div className="relative">
                   {/* Icon & Title */}
                   <div className="flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
