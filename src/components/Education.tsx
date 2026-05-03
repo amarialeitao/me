@@ -138,6 +138,7 @@ export default function Education() {
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);
   const [selectedCertification, setSelectedCertification] = useState<Certification | null>(null);
+  const [showAllCertifications, setShowAllCertifications] = useState(false);
 
   const mainCertifications = (t.education.mainCertifications || []) as Certification[];
   const courseGroups = (t.education.courseGroups || []) as CourseGroup[];
@@ -184,19 +185,33 @@ export default function Education() {
     document.body.style.overflow = 'unset';
   };
 
+  // All certifications modal controls
+  const openAllCertificationsModal = () => {
+    setShowAllCertifications(true);
+    document.body.style.overflow = 'hidden';
+  };
+
+  const closeAllCertificationsModal = () => {
+    setShowAllCertifications(false);
+    document.body.style.overflow = 'unset';
+  };
+
   // Handle ESC key to close modal
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
       if (e.key === 'Escape' && selectedCertification) {
         closeModal();
       }
+      if (e.key === 'Escape' && showAllCertifications) {
+        closeAllCertificationsModal();
+      }
     };
 
-    if (selectedCertification) {
+    if (selectedCertification || showAllCertifications) {
       document.addEventListener('keydown', handleEscape);
       return () => document.removeEventListener('keydown', handleEscape);
     }
-  }, [selectedCertification]);
+  }, [selectedCertification, showAllCertifications]);
 
   return (
     <section id="education" className="relative py-16 sm:py-24 md:py-32 overflow-hidden">
@@ -302,6 +317,12 @@ export default function Education() {
                 aria-label="Next"
               >
                 <ChevronRight className="w-5 h-5" />
+              </button>
+              <button
+                onClick={openAllCertificationsModal}
+                className="px-3 py-2 rounded-lg border border-amber-300 dark:border-amber-500/30 bg-amber-50 dark:bg-amber-500/10 text-amber-600 dark:text-amber-400 hover:bg-amber-100 dark:hover:bg-amber-500/20 transition-all duration-200 text-sm font-medium"
+              >
+                Ver todos
               </button>
             </div>
           </div>
@@ -543,6 +564,89 @@ export default function Education() {
                     loading="lazy"
                   />
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* All Certifications Modal */}
+      {showAllCertifications && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center p-4"
+          onClick={closeAllCertificationsModal}
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="all-certifications-title"
+        >
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" />
+
+          {/* Modal Content */}
+          <div
+            className="relative bg-white dark:bg-midnight-900 rounded-2xl shadow-2xl max-w-6xl w-full max-h-[90vh] overflow-y-auto transform transition-all duration-300 scale-100 opacity-100"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Close Button */}
+            <button
+              onClick={closeAllCertificationsModal}
+              className="absolute top-4 right-4 z-10 p-2 rounded-lg bg-midnight-100 dark:bg-midnight-800 hover:bg-midnight-200 dark:hover:bg-midnight-700 text-midnight-600 dark:text-midnight-400 transition-colors"
+              aria-label="Fechar modal"
+            >
+              <X className="w-5 h-5" />
+            </button>
+
+            {/* Modal Header */}
+            <div className="p-6 sm:p-8 border-b border-midnight-200 dark:border-midnight-800">
+              <h2 id="all-certifications-title" className="text-2xl sm:text-3xl font-bold text-midnight-900 dark:text-white mb-2">
+                Todas as Certificações
+              </h2>
+              <p className="text-midnight-600 dark:text-midnight-400">
+                Clique em qualquer certificado para ver os detalhes e imagem
+              </p>
+            </div>
+
+            {/* Modal Body */}
+            <div className="p-6 sm:p-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {mainCertifications.map((cert, index) => {
+                  const colors = certificationColors[cert.icon] || certificationColors.data;
+                  const icon = certificationIcons[cert.icon] || <Award className="w-5 h-5 sm:w-6 sm:h-6" />;
+
+                  return (
+                    <div
+                      key={index}
+                      onClick={() => {
+                        closeAllCertificationsModal();
+                        openModal(cert);
+                      }}
+                      className={`group relative p-4 ${colors.bg} rounded-xl border ${colors.border} hover:shadow-lg hover:scale-105 cursor-pointer transition-all duration-300`}
+                    >
+                      <div className="flex items-start gap-3">
+                        <div className={`flex-shrink-0 w-10 h-10 ${colors.iconBg} rounded-lg flex items-center justify-center shadow-lg text-white`}>
+                          {icon}
+                        </div>
+                        <div className="min-w-0 flex-1">
+                          <h4 className="font-semibold text-sm text-midnight-900 dark:text-white mb-1 leading-tight line-clamp-2">
+                            {cert.title}
+                          </h4>
+                          <p className={`text-xs ${colors.text} mb-1`}>
+                            {cert.issuer}
+                          </p>
+                          <div className="flex items-center gap-2 text-[10px] text-midnight-500 dark:text-midnight-400">
+                            {cert.date && <span>{cert.date}</span>}
+                            {cert.hours && (
+                              <>
+                                <span>•</span>
+                                <span className="font-medium">{cert.hours}</span>
+                              </>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>

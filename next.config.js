@@ -6,7 +6,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Required for GitHub Pages - always use /me since this deploys to username.github.io/me
+  // Base path for GitHub Pages
   basePath: '/me',
   assetPrefix: '/me/',
 }
