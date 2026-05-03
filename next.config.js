@@ -7,8 +7,8 @@ const nextConfig = {
     unoptimized: true,
   },
   // Base path for GitHub Pages
-  // basePath: '/me',
-  // assetPrefix: '/me/',
+  basePath: '/me',
+  assetPrefix: '/me/',
 }
 
 module.exports = nextConfig
