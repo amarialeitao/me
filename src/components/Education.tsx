@@ -182,7 +182,10 @@ export default function Education() {
 
   const closeModal = () => {
     setSelectedCertification(null);
-    document.body.style.overflow = 'unset';
+    // Only restore page scroll if no other modal is open
+    if (!showAllCertifications) {
+      document.body.style.overflow = 'unset';
+    }
   };
 
   // All certifications modal controls
@@ -193,16 +196,24 @@ export default function Education() {
 
   const closeAllCertificationsModal = () => {
     setShowAllCertifications(false);
-    document.body.style.overflow = 'unset';
+    // Only restore page scroll if no other modal is open
+    if (!selectedCertification) {
+      document.body.style.overflow = 'unset';
+    }
   };
 
   // Handle ESC key to close modal
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
-      if (e.key === 'Escape' && selectedCertification) {
+      if (e.key !== 'Escape') return;
+
+      // If the detail modal is open, ESC should close only it and return to the previous view
+      if (selectedCertification) {
         closeModal();
+        return;
       }
-      if (e.key === 'Escape' && showAllCertifications) {
+
+      if (showAllCertifications) {
         closeAllCertificationsModal();
       }
     };
@@ -214,7 +225,7 @@ export default function Education() {
   }, [selectedCertification, showAllCertifications]);
 
   return (
-    <section id="education" className="relative py-16 sm:py-24 md:py-32 overflow-hidden">
+    <section id="education" className="relative py-16 sm:py-24 md:py-32 overflow-x-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-white to-midnight-50 dark:from-midnight-900 dark:to-midnight-950" />
       <div className="absolute inset-0 bg-grid-pattern opacity-20 dark:opacity-10" />
@@ -485,7 +496,7 @@ export default function Education() {
       {/* Certification Modal */}
       {selectedCertification && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4"
+          className="fixed inset-0 z-[60] flex items-center justify-center p-4"
           onClick={closeModal}
           role="dialog"
           aria-modal="true"
@@ -617,7 +628,6 @@ export default function Education() {
                     <div
                       key={index}
                       onClick={() => {
-                        closeAllCertificationsModal();
                         openModal(cert);
                       }}
                       className={`group relative p-4 ${colors.bg} rounded-xl border ${colors.border} hover:shadow-lg hover:scale-105 cursor-pointer transition-all duration-300`}
