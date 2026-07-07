@@ -213,6 +213,27 @@
     "viewCode": "Ver Código",
     "items": [
       {
+        "title": "Sistema de People Analytics para Proceso Selectivo",
+        "subtitle": "Automatización de Análisis e Indicadores de Diversidad",
+        "company": "Instituto Semear",
+        "period": "Jun 2026 - Jul 2026",
+        "description": "Desarrollo de una plataforma de análisis de datos para el Proceso Selectivo de jóvenes del Instituto Semear, transformando datos de candidatos en un dashboard interactivo de People Analytics. Automatiza análisis estadísticos, indicadores de diversidad, cobertura geográfica y generación de insights para decisiones estratégicas del equipo de selección.",
+        "problem": "Alto volumen de datos históricos sin una herramienta centralizada de exploración, dificultad para comprender la evolución del perfil de los candidatos y para identificar sesgos y tendencias del proceso selectivo de forma rápida y confiable.",
+        "approach": [
+          "Pipeline automatizado de limpieza, consolidación y agregación de datos",
+          "Dashboard interactivo en Streamlit con filtros dinámicos",
+          "Generación automática de indicadores, gráficos e informes ejecutivos",
+          "Integración con YData Profiling para análisis exploratorio de la base"
+        ],
+        "impact": "Centralización y mayor transparencia en el análisis histórico del proceso selectivo",
+        "skills": [
+          "Python",
+          "Streamlit",
+          "Data Profiling",
+          "People Analytics"
+        ]
+      },
+      {
         "title": "Evaluación y Selección de Estructura Cloud",
         "subtitle": "Reducción de Costos y Aumento de Eficiencia",
         "company": "Instituto Semear",

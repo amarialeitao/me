@@ -40,11 +40,38 @@ const config: Config = {
           primary: '#f59e0b',
           secondary: '#10b981',
           tertiary: '#6366f1',
-        }
+        },
+        // UI Refresh — novo sistema neutro (docs/ui-redesign-plan.md, seção 3)
+        graphite: {
+          50: '#FAFAFA',
+          100: '#F2F2F3',
+          200: '#E4E4E7',
+          300: '#D4D4D8',
+          400: '#A1A1AA',
+          500: '#71717A',
+          600: '#52525B',
+          700: '#3F3F46',
+          800: '#27272A',
+          900: '#18181B',
+          950: '#0A0A0B',
+        },
+        // UI Refresh — acento de assinatura único (substitui amber como cor primária)
+        signal: {
+          50: '#EEF1FF',
+          100: '#E0E4FF',
+          200: '#C6CCFF',
+          300: '#A3ABFF',
+          400: '#7C82FF',
+          500: '#5B5FEF',
+          600: '#4547D1',
+          700: '#3736AA',
+          800: '#2D2C86',
+          900: '#26266B',
+        },
       },
       fontFamily: {
         display: ['var(--font-outfit)', 'system-ui', 'sans-serif'],
-        body: ['var(--font-source-sans)', 'system-ui', 'sans-serif'],
+        body: ['var(--font-inter)', 'system-ui', 'sans-serif'],
         mono: ['var(--font-jetbrains)', 'monospace'],
       },
       animation: {
@@ -54,11 +81,16 @@ const config: Config = {
         'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
         'float': 'float 6s ease-in-out infinite',
         'glow': 'glow 2s ease-in-out infinite alternate',
+        'cursor-blink': 'cursorBlink 1.1s step-end infinite',
       },
       keyframes: {
         fadeIn: {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' },
+        },
+        cursorBlink: {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '0' },
         },
         slideUp: {
           '0%': { opacity: '0', transform: 'translateY(20px)' },
@@ -87,4 +119,3 @@ const config: Config = {
 }
 
 export default config
-

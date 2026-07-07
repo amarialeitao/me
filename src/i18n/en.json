@@ -209,6 +209,27 @@
     "viewCode": "View Code",
     "items": [
       {
+        "title": "People Analytics System for Selection Process",
+        "subtitle": "Automated Analysis and Diversity Indicators",
+        "company": "Instituto Semear",
+        "period": "Jun 2026 - Jul 2026",
+        "description": "Development of a data analysis platform for Instituto Semear's youth Selection Process, turning candidate data into an interactive People Analytics dashboard. Automates statistical analysis, diversity indicators, geographic coverage, and insight generation for the selection team's strategic decisions.",
+        "problem": "High volume of historical data without a centralized exploration tool, difficulty understanding the evolution of candidate profiles, and difficulty quickly and reliably identifying biases and trends in the selection process.",
+        "approach": [
+          "Automated pipeline for data cleaning, consolidation, and aggregation",
+          "Interactive Streamlit dashboard with dynamic filters",
+          "Automatic generation of indicators, charts, and executive reports",
+          "Integration with YData Profiling for exploratory data analysis"
+        ],
+        "impact": "Centralized and more transparent historical analysis of the selection process",
+        "skills": [
+          "Python",
+          "Streamlit",
+          "Data Profiling",
+          "People Analytics"
+        ]
+      },
+      {
         "title": "Cloud Infrastructure Evaluation & Selection",
         "subtitle": "Cost Reduction and Efficiency Improvement",
         "company": "Instituto Semear",
