@@ -2,24 +2,40 @@
 
 import { useLanguage } from '@/contexts/LanguageContext';
 import { ArrowDown, Linkedin, Github } from 'lucide-react';
+import {
+  SiPython,
+  SiReact,
+  SiTypescript,
+  SiNodedotjs,
+  SiDocker,
+  SiPostgresql,
+  SiN8n,
+  SiGit,
+} from '@icons-pack/react-simple-icons';
 import DotGrid from '@/components/react-bits/DotGrid';
 import SplitText from '@/components/react-bits/SplitText';
 import Magnet from '@/components/react-bits/Magnet';
+import RotatingText from '@/components/react-bits/RotatingText';
 import LogoLoop, { LogoItem } from '@/components/react-bits/LogoLoop';
 
-const stackItems: LogoItem[] = [
-  'Python',
-  'IA & Agentes',
-  'n8n',
-  'React',
-  'Docker',
-  'APIs REST',
-  'PostgreSQL',
-  'TypeScript',
-].map((label) => ({
+// Stack — ícones de marca reais (não texto), em tom neutro/discreto para
+// não competir com a paleta graphite/signal (docs/ui-redesign-plan.md, seção 5).
+const stackData = [
+  { label: 'Python', Icon: SiPython },
+  { label: 'React', Icon: SiReact },
+  { label: 'TypeScript', Icon: SiTypescript },
+  { label: 'Node.js', Icon: SiNodedotjs },
+  { label: 'Docker', Icon: SiDocker },
+  { label: 'PostgreSQL', Icon: SiPostgresql },
+  { label: 'n8n', Icon: SiN8n },
+  { label: 'Git', Icon: SiGit },
+];
+
+const stackItems: LogoItem[] = stackData.map(({ label, Icon }) => ({
   node: (
-    <span className="font-mono text-xs sm:text-sm text-graphite-500 dark:text-graphite-400 whitespace-nowrap">
-      {label}
+    <span className="inline-flex items-center gap-2 text-graphite-400 dark:text-graphite-500">
+      <Icon size={16} color="currentColor" />
+      <span className="font-mono text-xs sm:text-sm whitespace-nowrap">{label}</span>
     </span>
   ),
   ariaLabel: label,
@@ -27,6 +43,10 @@ const stackItems: LogoItem[] = [
 
 export default function Hero() {
   const { t } = useLanguage();
+
+  // Especialidades — reaproveita os títulos já existentes de skills.categories
+  // (nenhum texto novo), exibidas em rotação via RotatingText (React Bits).
+  const specialties = Object.values(t.skills.categories).map((c) => c.title);
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 pb-12">
@@ -63,6 +83,22 @@ export default function Hero() {
             {t.hero.title}
           </h2>
 
+          {/* Especialidades em rotação — reforça o posicionamento técnico, estilo "terminal" */}
+          <div className="flex items-center justify-center gap-2 mb-4 sm:mb-6 font-mono text-xs sm:text-sm text-graphite-400 dark:text-graphite-500">
+            <span className="text-signal-500 dark:text-signal-400" aria-hidden="true">
+              {'>'}
+            </span>
+            <RotatingText
+              texts={specialties}
+              mainClassName="text-graphite-600 dark:text-graphite-300 font-medium overflow-hidden"
+              staggerFrom="last"
+              staggerDuration={0.015}
+              splitBy="characters"
+              rotationInterval={2800}
+              transition={{ type: 'spring', damping: 28, stiffness: 320 }}
+            />
+          </div>
+
           {/* Tagline */}
           <p className="max-w-2xl mx-auto text-base sm:text-lg md:text-xl text-graphite-600 dark:text-graphite-400 mb-3 sm:mb-4 px-2">
             {t.hero.tagline}
@@ -91,7 +127,7 @@ export default function Hero() {
             </a>
           </div>
 
-          {/* Stack — comunica o posicionamento técnico (Python, IA, n8n, React, Docker...) */}
+          {/* Stack — comunica o posicionamento técnico via ícones de marca reais (Python, React, n8n, Docker...) */}
           <div className="max-w-2xl mx-auto mb-10 sm:mb-12 h-6">
             <LogoLoop logos={stackItems} speed={40} gap={40} fadeOut pauseOnHover />
           </div>

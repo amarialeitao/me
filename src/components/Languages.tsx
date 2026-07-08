@@ -3,6 +3,10 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import SectionHeading from '@/components/SectionHeading';
 
+// Código curto por idioma — mesma lógica do seletor no Header (mono, sem bandeira).
+// A ordem de t.languages.list é fixa (Português/Inglês/Espanhol) em todos os locales.
+const LANGUAGE_CODES = ['PT', 'EN', 'ES'];
+
 export default function Languages() {
   const { t } = useLanguage();
 
@@ -14,18 +18,27 @@ export default function Languages() {
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading index="07" label="Idiomas" title={t.languages.title} />
 
-        {/* Languages Grid — nível como texto, sem barra de progresso
-            (docs/ui-audit.md: barra de % para idioma é um cliché de currículo genérico) */}
+        {/* Cards elegantes e estáticos — o único movimento é um micro-hover discreto
+            no peso da fonte (variável), sem seguir o cursor (docs/ui-audit.md: evitar
+            barra de progresso por nível, o cliché de currículo genérico) */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
           {t.languages.list.map((lang, index) => (
             <div
               key={index}
-              className="p-4 sm:p-6 bg-white dark:bg-graphite-800/50 rounded-2xl border border-graphite-200 dark:border-graphite-700 text-center"
+              className="group p-6 sm:p-8 bg-white dark:bg-graphite-800/50 rounded-2xl border border-graphite-200 dark:border-graphite-700 hover:border-signal-300 dark:hover:border-signal-500/40 transition-colors duration-300 text-center"
             >
-              <h3 className="text-base sm:text-lg font-semibold text-graphite-900 dark:text-white mb-1">
+              <span className="block font-mono text-[10px] sm:text-xs tracking-[0.25em] uppercase text-graphite-400 dark:text-graphite-500 mb-3">
+                {LANGUAGE_CODES[index]}
+              </span>
+              <h3
+                className="font-display text-2xl sm:text-3xl text-graphite-900 dark:text-white mb-2 transition-[font-variation-settings,color] duration-500 ease-out group-hover:text-signal-600 dark:group-hover:text-signal-400"
+                style={{ fontVariationSettings: "'wght' 400" }}
+                onMouseEnter={(e) => (e.currentTarget.style.fontVariationSettings = "'wght' 800")}
+                onMouseLeave={(e) => (e.currentTarget.style.fontVariationSettings = "'wght' 400")}
+              >
                 {lang.name}
               </h3>
-              <span className="text-xs sm:text-sm font-mono text-signal-600 dark:text-signal-400">
+              <span className="font-mono text-xs sm:text-sm text-graphite-500 dark:text-graphite-400">
                 {lang.level}
               </span>
             </div>
