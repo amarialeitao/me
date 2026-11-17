@@ -80,6 +80,12 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@100..900&family=Inter:wght@100..900&family=JetBrains+Mono:wght@400;500;600&display=swap"
           rel="stylesheet"
         />
+        {/* Contador de visitas GoatCounter: sem cookies e sem dados pessoais, dispensa banner de consentimento */}
+        <script
+          data-goatcounter="https://amarialeitao.goatcounter.com/count"
+          async
+          src="https://gc.zgo.at/count.js"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `
