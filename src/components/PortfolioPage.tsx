@@ -12,7 +12,7 @@ import Articles from '@/components/Articles';
 import Testimonials from '@/components/Testimonials';
 import ContactFooter from '@/components/ContactFooter';
 
-export default function Home() {
+export default function PortfolioPage() {
   return (
     <>
       <Header />
