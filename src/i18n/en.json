@@ -223,7 +223,14 @@
           "JavaScript"
         ]
       }
-    ]
+    ],
+    "volunteering": {
+      "label": "Volunteering",
+      "title": "Consultant",
+      "organization": "Statistics Without Borders",
+      "period": "Oct 2026 - Present",
+      "description": "Pro bono statistical consulting and data analysis for nonprofits and NGOs."
+    }
   },
   "projects": {
     "title": "Projects",

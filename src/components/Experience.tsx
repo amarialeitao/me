@@ -1,7 +1,7 @@
 'use client';
 
 import { useLanguage } from '@/contexts/LanguageContext';
-import { MapPin, Calendar, CheckCircle2 } from 'lucide-react';
+import { MapPin, Calendar, CheckCircle2, HeartHandshake } from 'lucide-react';
 import SectionHeading from '@/components/SectionHeading';
 
 export default function Experience() {
@@ -85,6 +85,23 @@ export default function Experience() {
             ))}
           </div>
         </div>
+
+        {/* Voluntariado */}
+        {t.experience.volunteering && (
+          <div className="mt-8 sm:mt-10 pl-8 sm:pl-10 flex items-start gap-2 text-xs sm:text-sm text-graphite-500 dark:text-graphite-400">
+            <HeartHandshake className="w-3.5 h-3.5 sm:w-4 sm:h-4 mt-0.5 flex-shrink-0" />
+            <p>
+              <span className="font-mono uppercase tracking-wider text-[10px] sm:text-xs mr-2">
+                {t.experience.volunteering.label}
+              </span>
+              <span className="font-medium text-graphite-700 dark:text-graphite-300">
+                {t.experience.volunteering.title} · {t.experience.volunteering.organization}
+              </span>
+              <span className="font-mono"> · {t.experience.volunteering.period}</span>
+              <span className="block mt-0.5">{t.experience.volunteering.description}</span>
+            </p>
+          </div>
+        )}
       </div>
     </section>
   );
