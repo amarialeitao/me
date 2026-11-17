@@ -5,7 +5,7 @@ import SectionHeading from '@/components/SectionHeading';
 
 // Código curto por idioma — mesma lógica do seletor no Header (mono, sem bandeira).
 // A ordem de t.languages.list é fixa (Português/Inglês/Espanhol) em todos os locales.
-const LANGUAGE_CODES = ['PT', 'EN', 'ES'];
+const LANGUAGE_CODES = ['PT', 'EN', 'ES', 'FR', 'DE'];
 
 export default function Languages() {
   const { t } = useLanguage();
@@ -19,7 +19,7 @@ export default function Languages() {
         <SectionHeading index="07" label="Idiomas" title={t.languages.title} />
 
         {/* Cards de idiomas */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6">
           {t.languages.list.map((lang, index) => (
             <div
               key={index}
