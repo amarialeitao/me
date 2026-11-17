@@ -45,13 +45,23 @@ interface CourseGroup {
   courses: string[];
 }
 
-interface Graduation {
+interface FeaturedDegree {
   title: string;
   institution: string;
   period: string;
   status: string;
+  completed?: boolean;
   description: string;
   highlights: string[];
+}
+
+interface Degree {
+  title: string;
+  institution: string;
+  period?: string;
+  status?: string;
+  completed?: boolean;
+  description: string;
 }
 
 // Ícones por tipo de certificação.
@@ -78,7 +88,8 @@ export default function Education() {
 
   const mainCertifications = (t.education.mainCertifications || []) as Certification[];
   const courseGroups = (t.education.courseGroups || []) as CourseGroup[];
-  const graduation = t.education.graduation as Graduation | undefined;
+  const featured = t.education.featured as FeaturedDegree | undefined;
+  const degrees = (t.education.degrees || []) as Degree[];
 
   // Check scroll position
   const checkScrollPosition = () => {
@@ -168,12 +179,12 @@ export default function Education() {
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading index="06" label="Educação" title={t.education.title} />
 
-        {/* Graduation - Featured */}
-        {graduation && (
+        {/* Mestrado - destaque */}
+        {featured && (
           <div className="mb-8 sm:mb-12">
             <h3 className="flex items-center gap-2 text-lg sm:text-xl font-semibold text-graphite-900 dark:text-white mb-4 sm:mb-6">
               <GraduationCap className="w-4 h-4 sm:w-5 sm:h-5 text-signal-500 flex-shrink-0" />
-              <span>{t.education.subtitles?.graduation || 'Graduação'}</span>
+              <span>{t.education.subtitles?.featured || 'Mestrado'}</span>
             </h3>
 
             <div className="group relative p-4 sm:p-6 md:p-8 bg-white dark:bg-graphite-800/50 rounded-2xl border border-graphite-200 dark:border-graphite-700 hover:border-signal-500 dark:hover:border-signal-500 transition-colors duration-300">
@@ -188,29 +199,34 @@ export default function Education() {
                   <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-2 sm:gap-4 mb-2">
                     <div>
                       <h4 className="text-lg sm:text-xl font-bold text-graphite-900 dark:text-white">
-                        {graduation.title}
+                        {featured.title}
                       </h4>
                       <p className="text-base sm:text-lg font-medium text-signal-600 dark:text-signal-400">
-                        {graduation.institution}
+                        {featured.institution}
                       </p>
                     </div>
                     <div className="flex items-center gap-2 flex-shrink-0">
                       <span className="inline-flex items-center gap-1.5 px-2 sm:px-3 py-1 text-xs sm:text-sm font-mono text-graphite-500 dark:text-graphite-400">
                         <Calendar className="w-3.5 h-3.5" />
-                        {graduation.period}
+                        {featured.period}
                       </span>
-                      <span className="px-2 sm:px-3 py-0.5 sm:py-1 text-[10px] sm:text-xs font-medium bg-emerald-100 dark:bg-emerald-500/20 text-emerald-700 dark:text-emerald-400 rounded-full">
-                        {graduation.status}
+                      <span
+                        className={`px-2 sm:px-3 py-0.5 sm:py-1 text-[10px] sm:text-xs font-medium rounded-full ${featured.completed
+                          ? 'bg-emerald-100 dark:bg-emerald-500/20 text-emerald-700 dark:text-emerald-400'
+                          : 'bg-signal-50 dark:bg-signal-500/10 text-signal-600 dark:text-signal-400'
+                          }`}
+                      >
+                        {featured.status}
                       </span>
                     </div>
                   </div>
 
                   <p className="text-sm sm:text-base text-graphite-600 dark:text-graphite-400 mb-3 sm:mb-4">
-                    {graduation.description}
+                    {featured.description}
                   </p>
 
                   <ul className="space-y-1.5 sm:space-y-2">
-                    {graduation.highlights.map((highlight, index) => (
+                    {featured.highlights.map((highlight, index) => (
                       <li key={index} className="flex items-start gap-2 text-xs sm:text-sm text-graphite-700 dark:text-graphite-300">
                         <CheckCircle2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-graphite-400 dark:text-graphite-500 mt-0.5 flex-shrink-0" />
                         <span>{highlight}</span>
@@ -325,7 +341,7 @@ export default function Education() {
               <span>{t.education.subtitles?.postgraduate || 'Pós-Graduação'}</span>
             </h3>
 
-            {t.education.degrees.map((degree, index) => (
+            {degrees.map((degree, index) => (
               <div
                 key={index}
                 className="group relative p-4 sm:p-6 bg-white dark:bg-graphite-800/50 rounded-2xl border border-graphite-200 dark:border-graphite-700 hover:border-signal-500 dark:hover:border-signal-500 transition-colors duration-300"
@@ -334,20 +350,26 @@ export default function Education() {
                   <h4 className="text-base sm:text-lg font-semibold text-graphite-900 dark:text-white">
                     {degree.title}
                   </h4>
-                  {degree.status && degree.status !== 'Concluída' && (
-                    <span className="self-start flex-shrink-0 px-2 sm:px-3 py-0.5 sm:py-1 text-[10px] sm:text-xs font-medium bg-signal-50 dark:bg-signal-500/10 text-signal-600 dark:text-signal-400 rounded-full">
-                      {degree.status}
-                    </span>
-                  )}
-                  {degree.status === 'Concluída' && (
-                    <span className="self-start flex-shrink-0 px-2 sm:px-3 py-0.5 sm:py-1 text-[10px] sm:text-xs font-medium bg-emerald-100 dark:bg-emerald-500/20 text-emerald-700 dark:text-emerald-400 rounded-full">
+                  {degree.status && (
+                    <span
+                      className={`self-start flex-shrink-0 px-2 sm:px-3 py-0.5 sm:py-1 text-[10px] sm:text-xs font-medium rounded-full ${degree.completed
+                        ? 'bg-emerald-100 dark:bg-emerald-500/20 text-emerald-700 dark:text-emerald-400'
+                        : 'bg-signal-50 dark:bg-signal-500/10 text-signal-600 dark:text-signal-400'
+                        }`}
+                    >
                       {degree.status}
                     </span>
                   )}
                 </div>
-                <p className="text-sm sm:text-base text-signal-600 dark:text-signal-400 font-medium mb-2">
+                <p className="text-sm sm:text-base text-signal-600 dark:text-signal-400 font-medium mb-1">
                   {degree.institution}
                 </p>
+                {degree.period && (
+                  <p className="inline-flex items-center gap-1.5 mb-2 text-xs font-mono text-graphite-500 dark:text-graphite-400">
+                    <Calendar className="w-3.5 h-3.5" />
+                    {degree.period}
+                  </p>
+                )}
                 <p className="text-xs sm:text-sm text-graphite-600 dark:text-graphite-400">
                   {degree.description}
                 </p>

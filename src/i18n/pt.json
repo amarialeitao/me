@@ -455,42 +455,48 @@
   "education": {
     "title": "Formação & Certificações",
     "subtitles": {
-      "graduation": "Graduação",
-      "postgraduate": "Mestrado e Pós-Graduação",
+      "featured": "Mestrado",
+      "postgraduate": "Graduação e Pós-Graduação",
       "certifications": "Certificações",
       "courses": "Cursos Complementares"
     },
-    "graduation": {
-      "title": "Análise e Desenvolvimento de Sistemas",
-      "institution": "Senac Santa Catarina",
-      "period": "Fev 2023 - Set 2025",
-      "status": "Concluída",
-      "description": "Formação prática que uniu a técnica de desenvolvimento com a visão de gestão de projetos.",
+    "featured": {
+      "title": "Mestrado em Ciência de Dados",
+      "institution": "Faculdade de Ciências da Universidade de Lisboa",
+      "period": "Set 2026 - Ago 2028",
+      "status": "Em andamento",
+      "completed": false,
+      "description": "Formação avançada em ciência de dados, com foco em modelagem preditiva e métodos quantitativos aplicados a problemas reais.",
       "highlights": [
-        "Engenharia de Requisitos: elicitação, análise, documentação e BPMN",
-        "Gestão de Projetos: metodologias ágeis (Scrum/Kanban)",
-        "Base Técnica: Modelagem de Dados, SQL, Java/Spring, Arquitetura de Software",
-        "TCC: Floripa na Praia, plataforma full stack em Java/Spring Boot e React validada em teste de carga com 70.000 usuários simultâneos"
+        "Machine learning, deep learning, estatística e mineração de dados",
+        "Engenharia de dados, bancos de dados, visualização de dados e computação em nuvem",
+        "Disciplinas: Machine Learning, Análise Exploratória de Dados, Métodos Estatísticos"
       ]
     },
     "degrees": [
       {
-        "title": "Mestrado em Ciência de Dados",
-        "institution": "Faculdade de Ciências da Universidade de Lisboa",
-        "status": "Em andamento",
-        "description": "Machine learning, deep learning, estatística, mineração de dados, bancos de dados, engenharia de dados, visualização de dados e computação em nuvem, com foco em modelagem preditiva e métodos quantitativos para problemas reais."
+        "title": "Tecnologia em Análise e Desenvolvimento de Sistemas",
+        "institution": "Senac Santa Catarina",
+        "period": "Fev 2023 - Set 2025",
+        "status": "Concluída",
+        "completed": true,
+        "description": "Engenharia de software, bancos de dados e arquitetura de sistemas. TCC: Floripa na Praia, plataforma full stack em Java/Spring Boot e React validada em teste de carga com 70.000 usuários simultâneos."
       },
       {
         "title": "Pós-Graduação em Linguagens de Programação",
         "institution": "GRAN",
         "status": "Concluída",
-        "description": "Aprofundamento em Padrões de Projeto, Modelagem e Desenvolvimento, Estrutura de Dados."
+        "description": "Aprofundamento em Padrões de Projeto, Modelagem e Desenvolvimento, Estrutura de Dados.",
+        "period": "Set 2025 - Mai 2026",
+        "completed": true
       },
       {
         "title": "Pós-Graduação em Segurança da Informação",
         "institution": "GRAN",
         "status": "Em andamento",
-        "description": "Foco em Gestão de Segurança, Normas ISO 27001/27002/27005, Forense Computacional e Legislação Digital."
+        "description": "Foco em Gestão de Segurança, Normas ISO 27001/27002/27005, Forense Computacional e Legislação Digital.",
+        "period": "Set 2025 - Mar 2027",
+        "completed": false
       }
     ],
     "mainCertifications": [

@@ -455,42 +455,48 @@
   "education": {
     "title": "Education & Certifications",
     "subtitles": {
-      "graduation": "Bachelor's Degree",
-      "postgraduate": "Graduate Studies",
+      "featured": "Master's Degree",
+      "postgraduate": "Undergraduate & Postgraduate",
       "certifications": "Certifications",
       "courses": "Complementary Courses"
     },
-    "graduation": {
-      "title": "Systems Analysis and Development",
-      "institution": "Senac Santa Catarina",
-      "period": "Feb 2023 - Sep 2025",
-      "status": "Completed",
-      "description": "Practical training combining development techniques with project management vision.",
+    "featured": {
+      "title": "MSc in Data Science",
+      "institution": "Faculdade de Ciências da Universidade de Lisboa",
+      "period": "Sep 2026 - Aug 2028",
+      "status": "In progress",
+      "completed": false,
+      "description": "Advanced training in data science, focused on predictive modeling and quantitative methods for real-world, data-driven problems.",
       "highlights": [
-        "Requirements Engineering: elicitation, analysis, documentation and BPMN",
-        "Project Management: agile methodologies (Scrum/Kanban)",
-        "Technical Foundation: Data Modeling, SQL, Java/Spring, Software Architecture",
-        "Capstone: Floripa na Praia, a full-stack Java/Spring Boot and React platform load-tested for 70,000 concurrent users"
+        "Machine learning, deep learning, statistics and data mining",
+        "Data engineering, databases, data visualization and cloud computing",
+        "Courses: Machine Learning, Exploratory Data Analysis, Statistical Methods"
       ]
     },
     "degrees": [
       {
-        "title": "MSc in Data Science",
-        "institution": "Faculdade de Ciências da Universidade de Lisboa",
-        "status": "In progress",
-        "description": "Machine learning, deep learning, statistics, data mining, databases, data engineering, data visualization and cloud computing, with a focus on predictive modeling and quantitative methods for real-world problems."
+        "title": "Technology in Systems Analysis and Development",
+        "institution": "Senac Santa Catarina",
+        "period": "Feb 2023 - Sep 2025",
+        "status": "Completed",
+        "completed": true,
+        "description": "Software engineering, databases and systems architecture. Capstone: Floripa na Praia, a full-stack Java/Spring Boot and React platform load-tested for 70,000 concurrent users."
       },
       {
         "title": "Postgraduate in Programming Languages",
         "institution": "GRAN",
         "status": "Completed",
-        "description": "Deep dive into Design Patterns, Modeling and Development, Data Structures."
+        "description": "Deep dive into Design Patterns, Modeling and Development, Data Structures.",
+        "period": "Sep 2025 - May 2026",
+        "completed": true
       },
       {
         "title": "Postgraduate in Information Security",
         "institution": "GRAN",
         "status": "In progress",
-        "description": "Focus on Security Management, ISO 27001/27002/27005 Standards, Computer Forensics and Digital Legislation."
+        "description": "Focus on Security Management, ISO 27001/27002/27005 Standards, Computer Forensics and Digital Legislation.",
+        "period": "Sep 2025 - Mar 2027",
+        "completed": false
       }
     ],
     "mainCertifications": [

@@ -455,42 +455,48 @@
   "education": {
     "title": "Formación y Certificaciones",
     "subtitles": {
-      "graduation": "Grado",
-      "postgraduate": "Máster y Posgrado",
+      "featured": "Máster",
+      "postgraduate": "Grado y Posgrado",
       "certifications": "Certificaciones",
       "courses": "Cursos Complementarios"
     },
-    "graduation": {
-      "title": "Análisis y Desarrollo de Sistemas",
-      "institution": "Senac Santa Catarina",
-      "period": "Feb 2023 - Sep 2025",
-      "status": "Completado",
-      "description": "Formación práctica que unió la técnica de desarrollo con la visión de gestión de proyectos.",
+    "featured": {
+      "title": "Máster en Ciencia de Datos",
+      "institution": "Faculdade de Ciências da Universidade de Lisboa",
+      "period": "Sep 2026 - Ago 2028",
+      "status": "En curso",
+      "completed": false,
+      "description": "Formación avanzada en ciencia de datos, con foco en modelado predictivo y métodos cuantitativos aplicados a problemas reales.",
       "highlights": [
-        "Ingeniería de Requisitos: elicitación, análisis, documentación y BPMN",
-        "Gestión de Proyectos: metodologías ágiles (Scrum/Kanban)",
-        "Base Técnica: Modelado de Datos, SQL, Java/Spring, Arquitectura de Software",
-        "Proyecto final: Floripa na Praia, plataforma full stack en Java/Spring Boot y React validada en pruebas de carga con 70.000 usuarios simultáneos"
+        "Machine learning, deep learning, estadística y minería de datos",
+        "Ingeniería de datos, bases de datos, visualización de datos y computación en la nube",
+        "Asignaturas: Machine Learning, Análisis Exploratorio de Datos, Métodos Estadísticos"
       ]
     },
     "degrees": [
       {
-        "title": "Máster en Ciencia de Datos",
-        "institution": "Faculdade de Ciências da Universidade de Lisboa",
-        "status": "En curso",
-        "description": "Machine learning, deep learning, estadística, minería de datos, bases de datos, ingeniería de datos, visualización de datos y computación en la nube, con foco en modelado predictivo y métodos cuantitativos para problemas reales."
+        "title": "Tecnología en Análisis y Desarrollo de Sistemas",
+        "institution": "Senac Santa Catarina",
+        "period": "Feb 2023 - Sep 2025",
+        "status": "Completado",
+        "completed": true,
+        "description": "Ingeniería de software, bases de datos y arquitectura de sistemas. Proyecto final: Floripa na Praia, plataforma full stack en Java/Spring Boot y React validada en pruebas de carga con 70.000 usuarios simultáneos."
       },
       {
         "title": "Posgrado en Lenguajes de Programación",
         "institution": "GRAN",
         "status": "Completado",
-        "description": "Profundización en Patrones de Diseño, Modelado y Desarrollo, Estructuras de Datos."
+        "description": "Profundización en Patrones de Diseño, Modelado y Desarrollo, Estructuras de Datos.",
+        "period": "Sep 2025 - May 2026",
+        "completed": true
       },
       {
         "title": "Posgrado en Seguridad de la Información",
         "institution": "GRAN",
         "status": "En curso",
-        "description": "Enfoque en Gestión de Seguridad, Normas ISO 27001/27002/27005, Informática Forense y Legislación Digital."
+        "description": "Enfoque en Gestión de Seguridad, Normas ISO 27001/27002/27005, Informática Forense y Legislación Digital.",
+        "period": "Sep 2025 - Mar 2027",
+        "completed": false
       }
     ],
     "mainCertifications": [
