@@ -2,6 +2,7 @@
 
 import { useLanguage } from '@/contexts/LanguageContext';
 import SectionHeading from '@/components/SectionHeading';
+import { BASE_PATH } from '@/lib/constants';
 
 export default function Now() {
   const { t } = useLanguage();
@@ -31,6 +32,15 @@ export default function Now() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-10 lg:gap-16">
         <div className="lg:col-span-5">
           <SectionHeading index="05" label={t.now.label} title={t.now.title} className="!mb-6" />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={`${BASE_PATH}/profile.webp`}
+            alt="Maria Leitão"
+            width={112}
+            height={112}
+            loading="lazy"
+            className="mb-6 w-24 h-24 sm:w-28 sm:h-28 rounded-full object-cover border border-graphite-200 dark:border-graphite-800"
+          />
           <div className="space-y-4 text-graphite-600 dark:text-graphite-400">
             {t.about.description.map((paragraph) => (
               <p key={paragraph}>{paragraph}</p>
