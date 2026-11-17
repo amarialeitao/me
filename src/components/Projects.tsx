@@ -206,7 +206,7 @@ export default function Projects() {
         {/* GitHub CTA */}
         <div className="mt-8 sm:mt-12 text-center">
           <a
-            href="https://github.com/marialuizaleitao"
+            href="https://github.com/amarialeitao"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 bg-graphite-900 dark:bg-white text-white dark:text-graphite-900 text-sm sm:text-base font-semibold rounded-lg hover:bg-graphite-800 dark:hover:bg-graphite-100 transition-colors"

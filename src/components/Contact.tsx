@@ -45,7 +45,7 @@ export default function Contact() {
 
             {/* GitHub */}
             <a
-              href="https://github.com/marialuizaleitao"
+              href="https://github.com/amarialeitao"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative p-4 sm:p-6 bg-white dark:bg-graphite-800/50 rounded-2xl border border-graphite-200 dark:border-graphite-700 hover:border-signal-500 dark:hover:border-signal-500 transition-colors duration-300"
@@ -59,7 +59,7 @@ export default function Contact() {
                     {t.contact.github}
                   </h3>
                   <p className="text-xs sm:text-sm text-graphite-500 dark:text-graphite-400 flex items-center justify-center gap-1 font-mono">
-                    <span className="truncate">/marialuizaleitao</span>
+                    <span className="truncate">/amarialeitao</span>
                     <ArrowUpRight className="w-3 h-3 sm:w-4 sm:h-4 opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0" />
                   </p>
                 </div>

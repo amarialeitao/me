@@ -43,7 +43,7 @@ export default function Footer() {
               <Linkedin className="w-4 h-4 sm:w-5 sm:h-5" />
             </a>
             <a
-              href="https://github.com/marialuizaleitao"
+              href="https://github.com/amarialeitao"
               target="_blank"
               rel="noopener noreferrer"
               className="p-1.5 sm:p-2 text-graphite-500 dark:text-graphite-400 hover:text-signal-600 dark:hover:text-signal-400 transition-colors"

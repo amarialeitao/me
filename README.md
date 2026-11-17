@@ -154,7 +154,7 @@ npm run build
 - [ ] Calendly embed para agendamentos
 - [ ] LinkedIn API para atualização automática
 - [ ] GitHub API para mostrar projetos
-
+   
 ### Performance
 - [ ] Image optimization com next/image
 - [ ] Font subsetting
