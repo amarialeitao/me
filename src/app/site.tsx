@@ -122,8 +122,9 @@ export function SiteShell({ locale, children }: { locale: Locale; children: Reac
       <head>
         <script
           dangerouslySetInnerHTML={{
-            // Conta só o caminho da página, sem parâmetros de URL
-            __html: 'window.goatcounter = { path: function () { return location.pathname; } };',
+            // Conta só o caminho da página, sem parâmetros de URL. Mescla com o objeto já criado
+            // pelo count.js, caso ele carregue antes deste trecho.
+            __html: 'window.goatcounter = Object.assign(window.goatcounter || {}, { path: function () { return location.pathname; } });',
           }}
         />
         {/* Contador de visitas GoatCounter: sem cookies e sem dados pessoais, dispensa banner de consentimento */}
