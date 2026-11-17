@@ -222,24 +222,73 @@
     "viewCode": "Ver Código",
     "items": [
       {
+        "title": "Football Recruitment Analytics",
+        "subtitle": "App de scouting con datos abiertos y modelo de valor de jugadores",
+        "company": "Proyecto Personal",
+        "period": "Oct 2026",
+        "description": "App de scouting bilingüe (EN/PT) en Streamlit con datos abiertos de 8 ligas y 3 temporadas (6.782 jugadores, 6.260 partidos), pensada para clubes que fichan con presupuesto ajustado y deben justificar cada decisión ante el director deportivo. Cada número muestra cuánta evidencia lo respalda.",
+        "problem": "Los clubes con poco presupuesto necesitan detectar valor temprano, a menudo en ligas menos observadas, y justificar cada fichaje con datos.",
+        "approach": [
+          "Pipeline de datos: descarga con checksum, extracción con DuckDB a Parquet y 14 controles automáticos; los goles coinciden con el marcador final en 6.255 de 6.260 partidos",
+          "Métricas de jugadores: números por 90 minutos y en cancha convertidos en percentiles frente a jugadores de la misma posición, con etiquetas de confianza según los minutos jugados",
+          "Modelo de valor: regresión del valor de mercado sobre producción, edad y nivel de la liga (R² 0,65–0,75), validada en temporadas anteriores",
+          "Flujo de scouting: búsqueda de jugadores similares, shortlist comparativa e informe de una página por jugador"
+        ],
+        "impact": "6.782 jugadores de 8 ligas y 3 temporadas",
+        "skills": [
+          "Python",
+          "Pandas",
+          "DuckDB",
+          "Streamlit",
+          "Plotly",
+          "Pytest"
+        ],
+        "github": "https://github.com/amarialeitao/football-recruitment-analytics"
+      },
+      {
+        "title": "Floripa na Praia",
+        "subtitle": "Plataforma full stack de civic tech (proyecto final de carrera)",
+        "company": "Senac Santa Catarina",
+        "period": "Ago 2024 - Jul 2025",
+        "description": "Plataforma full stack de civic tech en Java con Spring Boot (MVC) y frontend en React, construida por un equipo de 3 personas durante 1 año. Permite a los usuarios reportar las condiciones de más de 42 playas de Florianópolis, dimensionada para la demanda de verano de hasta 800.000 bañistas.",
+        "problem": "Los bañistas no tenían una fuente única y actualizada sobre las condiciones de las playas durante la temporada alta de la ciudad.",
+        "approach": [
+          "6 meses de investigación de requisitos, validando el concepto con más de 150 usuarios antes del desarrollo",
+          "Google Maps API para geolocalización y OpenAI API para una función de IA generativa que clasifica incidencias",
+          "Modelo relacional en PostgreSQL y suite de pruebas automatizadas (más del 80% de cobertura) con pruebas end-to-end en Selenium, en un pipeline de CI/CD para despliegue en la nube"
+        ],
+        "impact": "70.000 usuarios simultáneos validados en pruebas de carga",
+        "skills": [
+          "Java",
+          "Spring Boot",
+          "React",
+          "PostgreSQL",
+          "Selenium",
+          "OpenAI API"
+        ],
+        "github": "https://github.com/floripanapraia"
+      },
+      {
         "title": "Sistema de People Analytics para Proceso Selectivo",
         "subtitle": "Automatización de Análisis e Indicadores de Diversidad",
         "company": "Instituto Semear",
         "period": "Jun 2026 - Jul 2026",
-        "description": "Desarrollo de una plataforma de análisis de datos para el Proceso Selectivo de jóvenes del Instituto Semear, transformando datos de candidatos en un dashboard interactivo de People Analytics. Automatiza análisis estadísticos, indicadores de diversidad, cobertura geográfica y generación de insights para decisiones estratégicas del equipo de selección.",
-        "problem": "Alto volumen de datos históricos sin una herramienta centralizada de exploración, dificultad para comprender la evolución del perfil de los candidatos y para identificar sesgos y tendencias del proceso selectivo de forma rápida y confiable.",
+        "description": "Cinco años de postulaciones a becas (más de 12.000 candidatos, de 2022 a 2026) estaban dispersos en hojas de cálculo y formularios. Construí una plataforma de análisis en Streamlit que responde a las preguntas clave del equipo sobre equidad, alcance, conversión y calidad de la evaluación.",
+        "problem": "No había forma de evaluar el proceso de selección en su conjunto: datos de 5 ediciones dispersos en hojas de cálculo y formularios, sin visión de conversión, sesgos ni consistencia de las evaluaciones.",
         "approach": [
-          "Pipeline automatizado de limpieza, consolidación y agregación de datos",
-          "Dashboard interactivo en Streamlit con filtros dinámicos",
-          "Generación automática de indicadores, gráficos e informes ejecutivos",
-          "Integración con YData Profiling para análisis exploratorio de la base"
+          "Pipeline de datos con limpieza, deduplicación y consolidación automatizadas de 5 ediciones, con controles de calidad que detectaron 928 postulaciones duplicadas",
+          "Análisis de embudo en todas las etapas (postulación → dinámica grupal → entrevista → aprobación), encontrando el principal cuello de botella: solo el 22,9% de los postulantes llegaba a la dinámica grupal",
+          "Métricas de equidad: índice de representatividad comparando el perfil de aprobados y postulantes entre grupos demográficos",
+          "Consistencia de las evaluaciones: distribución de puntajes por criterio, correlación entre etapas y detección de outliers entre 75 evaluadores",
+          "Resumen ejecutivo generado automáticamente, con etiquetas de confianza en cada insight"
         ],
-        "impact": "Centralización y mayor transparencia en el análisis histórico del proceso selectivo",
+        "impact": "12.000+ postulaciones de 5 ediciones analizadas en un solo lugar",
         "skills": [
           "Python",
+          "Pandas",
           "Streamlit",
-          "Data Profiling",
-          "People Analytics"
+          "YData Profiling",
+          "SQL"
         ]
       },
       {

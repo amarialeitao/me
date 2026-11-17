@@ -220,24 +220,73 @@
     "viewCode": "View Code",
     "items": [
       {
+        "title": "Football Recruitment Analytics",
+        "subtitle": "Scouting app on open data with a player value model",
+        "company": "Personal Project",
+        "period": "Oct 2026",
+        "description": "A bilingual (EN/PT) Streamlit scouting app on open data covering 8 leagues and 3 seasons (6,782 players, 6,260 league games), built for clubs that recruit on a tight budget and need to explain every decision to the sporting director. Every number shows how much evidence is behind it.",
+        "problem": "Clubs with small budgets have to spot value early, often in leagues others watch less, and justify each signing with data.",
+        "approach": [
+          "Data pipeline: checksum-pinned download, DuckDB extraction to Parquet and 14 automated data checks; goal events match the final score in 6,255 of 6,260 games",
+          "Player metrics: per-90 and on-pitch numbers as percentiles against same-position peers, with confidence labels based on minutes played",
+          "Value model: regression of market value on output, age and league strength (R² 0.65–0.75), backtested on past seasons",
+          "Scouting workflow: similar-player search, side-by-side shortlist and a one-page report per player"
+        ],
+        "impact": "6,782 players across 8 leagues and 3 seasons",
+        "skills": [
+          "Python",
+          "Pandas",
+          "DuckDB",
+          "Streamlit",
+          "Plotly",
+          "Pytest"
+        ],
+        "github": "https://github.com/amarialeitao/football-recruitment-analytics"
+      },
+      {
+        "title": "Floripa na Praia",
+        "subtitle": "Full-stack civic-tech platform (capstone project)",
+        "company": "Senac Santa Catarina",
+        "period": "Aug 2024 - Jul 2025",
+        "description": "Full-stack civic-tech platform built in Java with Spring Boot (MVC) and a React frontend by a 3-person team over 1 year. It lets users report conditions across 42+ beaches in Florianópolis, sized for summer demand of up to 800,000 beachgoers.",
+        "problem": "Beachgoers had no single, up-to-date source on beach conditions during the city's peak tourism season.",
+        "approach": [
+          "6 months of requirements research, validating the concept with 150+ users before development",
+          "Google Maps API for geolocation and the OpenAI API for a generative AI feature that triages incident reports",
+          "Relational PostgreSQL model and an automated test suite (80%+ coverage) with Selenium end-to-end tests, in a CI/CD pipeline for cloud deployment"
+        ],
+        "impact": "70,000 concurrent users validated in load tests",
+        "skills": [
+          "Java",
+          "Spring Boot",
+          "React",
+          "PostgreSQL",
+          "Selenium",
+          "OpenAI API"
+        ],
+        "github": "https://github.com/floripanapraia"
+      },
+      {
         "title": "People Analytics System for Selection Process",
         "subtitle": "Automated Analysis and Diversity Indicators",
         "company": "Instituto Semear",
         "period": "Jun 2026 - Jul 2026",
-        "description": "Development of a data analysis platform for Instituto Semear's youth Selection Process, turning candidate data into an interactive People Analytics dashboard. Automates statistical analysis, diversity indicators, geographic coverage, and insight generation for the selection team's strategic decisions.",
-        "problem": "High volume of historical data without a centralized exploration tool, difficulty understanding the evolution of candidate profiles, and difficulty quickly and reliably identifying biases and trends in the selection process.",
+        "description": "Five years of scholarship applications (12,000+ candidates, 2022 to 2026) were spread across spreadsheets and forms. I built a Streamlit analytics platform that answers the team's key questions on fairness, reach, conversion and evaluation quality.",
+        "problem": "No way to evaluate the selection process as a whole: data from 5 editions scattered across spreadsheets and forms, with no view of conversion, bias or evaluation consistency.",
         "approach": [
-          "Automated pipeline for data cleaning, consolidation, and aggregation",
-          "Interactive Streamlit dashboard with dynamic filters",
-          "Automatic generation of indicators, charts, and executive reports",
-          "Integration with YData Profiling for exploratory data analysis"
+          "Data pipeline with automated cleaning, deduplication and consolidation of 5 editions, with built-in quality checks that flagged 928 duplicate submissions",
+          "Funnel analysis across every stage (application → group dynamic → interview → approval), finding the main bottleneck: only 22.9% of applicants reached the group dynamic",
+          "Fairness metrics: a representativeness index comparing approved vs. applicant profiles across demographic groups",
+          "Evaluation consistency: score distributions per criterion, correlation between stages and outlier detection across 75 evaluators",
+          "Auto-generated executive summary with confidence labels on each insight"
         ],
-        "impact": "Centralized and more transparent historical analysis of the selection process",
+        "impact": "12,000+ applications from 5 editions analyzed in one place",
         "skills": [
           "Python",
+          "Pandas",
           "Streamlit",
-          "Data Profiling",
-          "People Analytics"
+          "YData Profiling",
+          "SQL"
         ]
       },
       {
