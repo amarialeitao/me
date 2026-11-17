@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Maria Leitão | Tech Lead & Business Analyst",
-    "description": "Tech Lead especializada en transformación digital, uniendo visión estratégica de negocios con profundidad técnica. Certificada en Scrum y Especialista en Seguridad de la Información."
+    "title": "Maria Leitão | AI Data Engineer",
+    "description": "AI Data Engineer en Lisboa, construyendo pipelines de datos, analítica y automatizaciones con IA. Estudiante del Máster en Ciencia de Datos de la Universidad de Lisboa."
   },
   "nav": {
     "about": "Sobre Mí",
@@ -14,9 +14,9 @@
   "hero": {
     "greeting": "Hola, soy",
     "name": "Maria Leitão",
-    "title": "Tech Lead & Business Analyst",
-    "tagline": "Transformando estrategias de negocio en soluciones técnicas que generan impacto real.",
-    "subtitle": "El puente entre lo que el negocio necesita y lo que la tecnología entrega.",
+    "title": "AI Data Engineer",
+    "tagline": "Transformo datos operativos dispersos en información confiable y lista para la toma de decisiones.",
+    "subtitle": "Pipelines de datos, analítica y automatización con IA, desde la ingesta hasta producción.",
     "cta": {
       "contact": "Contactar",
       "projects": "Ver Proyectos"
@@ -24,23 +24,23 @@
   },
   "about": {
     "title": "Sobre Mí",
-    "intro": "Más que escribir código, mi verdadera pasión es entender el <strong>porqué</strong> detrás de cada línea.",
+    "intro": "Mi especialidad: transformar <strong>datos operativos dispersos</strong> en <strong>información confiable y lista para decidir</strong>.",
     "description": [
-      "Mi trayectoria comenzó en ingeniería de software, pero evolucionó naturalmente hacia el análisis de negocios. Hoy, actúo como un <strong>puente estratégico</strong> entre stakeholders y equipos de desarrollo.",
-      "Mi misión es traducir objetivos corporativos complejos en requisitos técnicos claros, garantizando que lo que el negocio necesita sea exactamente lo que la ingeniería entrega."
+      "Soy AI Data Engineer, con más de 3 años de experiencia entre ingeniería de datos, analítica e ingeniería de software. En el Instituto Semear construí una plataforma de People Analytics en Python y Streamlit que reunió más de 10.000 postulaciones a becas de 5 años en un solo lugar, automatizando limpieza, transformación e informes ejecutivos.",
+      "Mi base en ingeniería de software (Go, Java/Spring Boot, TypeScript, Docker, CI/CD, AWS) me permite llevar una solución de datos desde la ingesta hasta producción, y mi experiencia con requisitos y equipos ágiles ayuda a que responda a la pregunta de negocio correcta."
     ],
     "differentials": {
-      "title": "Mi diferencial: hablar ambos idiomas",
+      "title": "Los dos lados de mi trabajo",
       "business": {
-        "title": "Visión de Negocio",
-        "description": "Expertise en elicitación de requisitos, optimización de procesos y gestión de stakeholders. Transformo estrategias (OKRs) en roadmaps accionables."
+        "title": "Negocio & Estrategia",
+        "description": "Traduzco preguntas de negocio en requisitos, KPIs y modelos de datos, y comunico los resultados con claridad al liderazgo y a los stakeholders."
       },
       "technical": {
-        "title": "Background Técnico",
-        "description": "Experiencia con arquitectura backend (Java, NestJS) y SQL avanzado. Evalúo la viabilidad técnica y dialogo de igual a igual con desarrolladores y arquitectos."
+        "title": "Ingeniería de Datos & IA",
+        "description": "Construyo pipelines, modelos de datos, dashboards y automatizaciones con IA usando Python, SQL, n8n y servicios en la nube, con pruebas y CI/CD para mantenerlos confiables."
       }
     },
-    "current": "Actualmente, aplico esta visión híbrida en la personalización de CRMs y automatización de flujos, siempre guiada por datos (Power BI/Looker Studio) para medir el impacto de las entregas."
+    "current": "Actualmente curso el Máster en Ciencia de Datos en la Universidad de Lisboa, con foco en machine learning y estadística, y me motivan los proyectos en los que los datos guían decisiones reales."
   },
   "skills": {
     "title": "Habilidades y Competencias",

@@ -4,13 +4,13 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { ArrowDown, Linkedin, Github } from 'lucide-react';
 import {
   SiPython,
-  SiReact,
-  SiTypescript,
-  SiNodedotjs,
-  SiDocker,
+  SiPandas,
   SiPostgresql,
+  SiDuckdb,
+  SiStreamlit,
   SiN8n,
-  SiGit,
+  SiDocker,
+  SiTypescript,
 } from '@icons-pack/react-simple-icons';
 import DotGrid from '@/components/react-bits/DotGrid';
 import SplitText from '@/components/react-bits/SplitText';
@@ -21,13 +21,13 @@ import LogoLoop, { LogoItem } from '@/components/react-bits/LogoLoop';
 // Stack — ícones das tecnologias.
 const stackData = [
   { label: 'Python', Icon: SiPython },
-  { label: 'React', Icon: SiReact },
-  { label: 'TypeScript', Icon: SiTypescript },
-  { label: 'Node.js', Icon: SiNodedotjs },
-  { label: 'Docker', Icon: SiDocker },
+  { label: 'Pandas', Icon: SiPandas },
   { label: 'PostgreSQL', Icon: SiPostgresql },
+  { label: 'DuckDB', Icon: SiDuckdb },
+  { label: 'Streamlit', Icon: SiStreamlit },
   { label: 'n8n', Icon: SiN8n },
-  { label: 'Git', Icon: SiGit },
+  { label: 'Docker', Icon: SiDocker },
+  { label: 'TypeScript', Icon: SiTypescript },
 ];
 
 const stackItems: LogoItem[] = stackData.map(({ label, Icon }) => ({
@@ -59,7 +59,7 @@ export default function Hero() {
       <div className="relative z-10 w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Eyebrow — cargo atual, sem pill/ícone decorativo */}
         <p className="font-mono text-xs sm:text-sm tracking-[0.2em] uppercase text-signal-600 dark:text-signal-400 mb-6 sm:mb-8">
-          Tech Lead @ Instituto Semear
+          AI Data Engineer @ Instituto Semear
         </p>
 
         {/* Greeting */}

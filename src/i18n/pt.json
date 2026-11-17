@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Maria Leitão | Tech Lead & Business Analyst",
-    "description": "Tech Lead especializada em transformação digital, conectando visão estratégica de negócios com profundidade técnica. Scrum Certified e Especialista em Segurança da Informação."
+    "title": "Maria Leitão | AI Data Engineer",
+    "description": "AI Data Engineer em Lisboa, construindo pipelines de dados, analytics e automações com IA. Mestranda em Ciência de Dados na Universidade de Lisboa."
   },
   "nav": {
     "about": "Sobre",
@@ -14,9 +14,9 @@
   "hero": {
     "greeting": "Olá, sou",
     "name": "Maria Leitão",
-    "title": "Tech Lead & Business Analyst",
-    "tagline": "Conecto estratégias de negócios com soluções técnicas que entregam resultados mensuráveis.",
-    "subtitle": "A profissional que traduz objetivos corporativos em implementações tecnológicas de alto impacto.",
+    "title": "AI Data Engineer",
+    "tagline": "Transformo dados operacionais dispersos em informação confiável e pronta para a tomada de decisão.",
+    "subtitle": "Pipelines de dados, analytics e automação com IA, da ingestão à produção.",
     "cta": {
       "contact": "Vamos Trabalhar Juntos",
       "projects": "Ver Meus Resultados"
@@ -24,23 +24,23 @@
   },
   "about": {
     "title": "Sobre Mim",
-    "intro": "Minha especialidade: traduzir <strong>complexidade técnica</strong> em <strong>valor de negócio</strong> mensurável.",
+    "intro": "Minha especialidade: transformar <strong>dados operacionais dispersos</strong> em <strong>informação confiável e pronta para decisão</strong>.",
     "description": [
-      "Como Tech Lead & Business Analyst, construo pontes estratégicas entre visão executiva e execução técnica. Minha trajetória evoluiu da engenharia de software para a análise de negócios, onde hoje otimizo a interseção entre tecnologia e objetivos corporativos.",
-      "Meu propósito é garantir que cada investimento tecnológico gere retorno claro e que cada requisito de negócio tenha implementação técnica viável e escalável."
+      "Sou AI Data Engineer, com mais de 3 anos de experiência entre engenharia de dados, analytics e engenharia de software. No Instituto Semear, construí uma plataforma de People Analytics em Python e Streamlit que reuniu mais de 10.000 inscrições de bolsistas de 5 anos em um só lugar, automatizando limpeza, transformação e relatórios executivos.",
+      "Minha base em engenharia de software (Go, Java/Spring Boot, TypeScript, Docker, CI/CD, AWS) me permite levar uma solução de dados da ingestão até a produção, e minha experiência com requisitos e times ágeis ajuda a garantir que ela responda à pergunta de negócio certa."
     ],
     "differentials": {
-      "title": "Meus dois superpoderes: Visão 360°",
+      "title": "Os dois lados do meu trabalho",
       "business": {
-        "title": "Estratégia & Negócios",
-        "description": "Transformo OKRs em roadmaps acionáveis, otimizo processos com dados e garanto alinhamento entre stakeholders através de comunicação executiva eficaz."
+        "title": "Negócios & Estratégia",
+        "description": "Traduzo perguntas de negócio em requisitos, KPIs e modelos de dados, e comunico resultados com clareza para a liderança e os stakeholders."
       },
       "technical": {
-        "title": "Tecnologia & Entrega",
-        "description": "Avalio arquiteturas, otimizo performance e lidero equipes ágeis. Minha base técnica permite tomar decisões estratégicas informadas e comunicar efetivamente com times de engenharia."
+        "title": "Engenharia de Dados & IA",
+        "description": "Construo pipelines, modelos de dados, dashboards e automações com IA usando Python, SQL, n8n e serviços em nuvem, com testes e CI/CD para mantê-los confiáveis."
       }
     },
-    "current": "Hoje, aplico essa visão híbrida na liderança de produtos digitais, onde cada decisão técnica é validada por métricas de negócio e cada iniciativa de negócio é viabilizada por soluções técnicas robustas."
+    "current": "Atualmente faço o Mestrado em Ciência de Dados na Universidade de Lisboa, com foco em machine learning e estatística, e me motivam projetos em que os dados orientam decisões reais."
   },
   "skills": {
     "title": "Competências Estratégicas",

@@ -28,7 +28,7 @@ export default function About() {
               <div className="relative w-56 h-56 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-xl sm:rounded-2xl overflow-hidden">
                 <img
                   src={getAssetUrl('/profile.png')}
-                  alt="Maria Leitão - Tech Lead & Business Analyst"
+                  alt="Maria Leitão - AI Data Engineer"
                   className="w-full h-full object-cover"
                 />
               </div>

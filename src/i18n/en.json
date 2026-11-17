@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Maria Leitão | Tech Lead & Business Analyst",
-    "description": "Tech Lead specialized in digital transformation, bridging strategic business vision with technical depth. Scrum Certified and Information Security Specialist."
+    "title": "Maria Leitão | AI Data Engineer",
+    "description": "AI Data Engineer based in Lisbon, building data pipelines, analytics and AI-powered automations. MSc in Data Science student at the University of Lisbon."
   },
   "nav": {
     "about": "About",
@@ -14,9 +14,9 @@
   "hero": {
     "greeting": "Hi, I'm",
     "name": "Maria Leitão",
-    "title": "Tech Lead & Business Analyst",
-    "tagline": "I connect business strategies with technical solutions that deliver measurable results.",
-    "subtitle": "The professional who translates corporate objectives into high-impact technological implementations.",
+    "title": "AI Data Engineer",
+    "tagline": "I turn scattered operational data into reliable, decision-ready information.",
+    "subtitle": "Data pipelines, analytics and AI automation, from ingestion to production.",
     "cta": {
       "contact": "Let's Work Together",
       "projects": "See My Results"
@@ -24,23 +24,23 @@
   },
   "about": {
     "title": "About Me",
-    "intro": "My specialty: translating <strong>technical complexity</strong> into <strong>measurable business value</strong>.",
+    "intro": "My specialty: turning <strong>scattered operational data</strong> into <strong>reliable, decision-ready information</strong>.",
     "description": [
-      "As a Tech Lead & Business Analyst, I build strategic bridges between executive vision and technical execution. My journey evolved from software engineering to business analysis, where I now optimize the intersection of technology and corporate objectives.",
-      "My purpose is to ensure every technology investment delivers clear returns and every business requirement has viable, scalable technical implementation."
+      "I'm an AI Data Engineer with 3+ years across data engineering, analytics and software engineering. At Instituto Semear, I built a People Analytics platform in Python and Streamlit that brought 10,000+ scholarship applications from 5 years into one place, automating cleaning, transformation and executive reporting.",
+      "My software engineering background (Go, Java/Spring Boot, TypeScript, Docker, CI/CD, AWS) means I can take a data solution from ingestion all the way to production, and my experience with requirements and agile teams helps make sure it answers the right business question."
     ],
     "differentials": {
-      "title": "My two superpowers: 360° Vision",
+      "title": "Two sides of how I work",
       "business": {
-        "title": "Strategy & Business",
-        "description": "I transform OKRs into actionable roadmaps, optimize processes with data, and ensure stakeholder alignment through effective executive communication."
+        "title": "Business & Strategy",
+        "description": "I translate business questions into requirements, KPIs and data models, and communicate results clearly to leadership and stakeholders."
       },
       "technical": {
-        "title": "Technology & Delivery",
-        "description": "I evaluate architectures, optimize performance, and lead agile teams. My technical foundation enables informed strategic decisions and effective communication with engineering teams."
+        "title": "Data & AI Engineering",
+        "description": "I build pipelines, data models, dashboards and AI-powered automations with Python, SQL, n8n and cloud services, with tests and CI/CD to keep them reliable."
       }
     },
-    "current": "Today, I apply this hybrid vision in leading digital products, where every technical decision is validated by business metrics and every business initiative is enabled by robust technical solutions."
+    "current": "I'm currently pursuing an MSc in Data Science at the University of Lisbon, focusing on machine learning and statistics, and I'm motivated by projects where data drives real decisions."
   },
   "skills": {
     "title": "Strategic Competencies",
