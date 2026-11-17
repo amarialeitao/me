@@ -582,7 +582,17 @@
           "Bases de Datos Avanzadas"
         ]
       }
-    ]
+    ],
+    "ui": {
+      "viewAll": "Ver todos",
+      "description": "Descripción",
+      "certificate": "Certificado",
+      "allTitle": "Todas las Certificaciones",
+      "allHint": "Haz clic en cualquier certificado para ver sus detalles y la imagen",
+      "close": "Cerrar",
+      "previous": "Anterior",
+      "next": "Siguiente"
+    }
   },
   "articles": {
     "title": "Artículos y Publicaciones",

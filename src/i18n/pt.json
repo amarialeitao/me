@@ -582,7 +582,17 @@
           "Banco de Dados Avançado"
         ]
       }
-    ]
+    ],
+    "ui": {
+      "viewAll": "Ver todos",
+      "description": "Descrição",
+      "certificate": "Certificado",
+      "allTitle": "Todas as Certificações",
+      "allHint": "Clique em qualquer certificado para ver os detalhes e a imagem",
+      "close": "Fechar",
+      "previous": "Anterior",
+      "next": "Próximo"
+    }
   },
   "articles": {
     "title": "Artigos & Publicações",

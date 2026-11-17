@@ -37,6 +37,11 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
 
   const t = getTranslations(locale);
 
+  // Mantém o atributo lang da página igual ao idioma escolhido (leitores de tela e buscadores)
+  useEffect(() => {
+    document.documentElement.lang = locale === 'pt' ? 'pt-BR' : locale;
+  }, [locale]);
+
   return (
     <LanguageContext.Provider value={{ locale, setLocale, t, mounted }}>
       {children}

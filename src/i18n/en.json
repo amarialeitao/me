@@ -456,7 +456,17 @@
           "Advanced Databases"
         ]
       }
-    ]
+    ],
+    "ui": {
+      "viewAll": "View all",
+      "description": "Description",
+      "certificate": "Certificate",
+      "allTitle": "All Certifications",
+      "allHint": "Click any certificate to see its details and image",
+      "close": "Close",
+      "previous": "Previous",
+      "next": "Next"
+    }
   },
   "articles": {
     "title": "Articles & Publications",

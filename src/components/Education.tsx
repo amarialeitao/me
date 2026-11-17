@@ -257,7 +257,7 @@ export default function Education() {
                   ? 'bg-white dark:bg-graphite-800 border-graphite-200 dark:border-graphite-700 text-graphite-700 dark:text-graphite-300 hover:border-signal-500 hover:text-signal-600 dark:hover:text-signal-400'
                   : 'bg-graphite-100 dark:bg-graphite-800/50 border-graphite-200 dark:border-graphite-700 text-graphite-400 dark:text-graphite-600 cursor-not-allowed'
                   }`}
-                aria-label="Previous"
+                aria-label={t.education.ui.previous}
               >
                 <ChevronLeft className="w-5 h-5" />
               </button>
@@ -268,7 +268,7 @@ export default function Education() {
                   ? 'bg-white dark:bg-graphite-800 border-graphite-200 dark:border-graphite-700 text-graphite-700 dark:text-graphite-300 hover:border-signal-500 hover:text-signal-600 dark:hover:text-signal-400'
                   : 'bg-graphite-100 dark:bg-graphite-800/50 border-graphite-200 dark:border-graphite-700 text-graphite-400 dark:text-graphite-600 cursor-not-allowed'
                   }`}
-                aria-label="Next"
+                aria-label={t.education.ui.next}
               >
                 <ChevronRight className="w-5 h-5" />
               </button>
@@ -276,7 +276,7 @@ export default function Education() {
                 onClick={openAllCertificationsModal}
                 className="px-3 py-2 rounded-lg border border-signal-500/30 bg-signal-50 dark:bg-signal-500/10 text-signal-600 dark:text-signal-400 hover:bg-signal-100 dark:hover:bg-signal-500/20 transition-colors duration-200 text-sm font-medium"
               >
-                Ver todos
+                {t.education.ui.viewAll}
               </button>
             </div>
           </div>
@@ -429,7 +429,7 @@ export default function Education() {
             <button
               onClick={closeModal}
               className="absolute top-4 right-4 z-10 p-2 rounded-lg bg-graphite-100 dark:bg-graphite-800 hover:bg-graphite-200 dark:hover:bg-graphite-700 text-graphite-600 dark:text-graphite-400 transition-colors"
-              aria-label="Fechar modal"
+              aria-label={t.education.ui.close}
             >
               <X className="w-5 h-5" />
             </button>
@@ -470,7 +470,7 @@ export default function Education() {
               {/* Description */}
               <div className="mb-6">
                 <h4 className="text-lg font-semibold text-graphite-900 dark:text-white mb-3">
-                  Descrição
+                  {t.education.ui.description}
                 </h4>
                 <p className="text-graphite-700 dark:text-graphite-300 leading-relaxed">
                   {selectedCertification.description}
@@ -480,7 +480,7 @@ export default function Education() {
               {/* Certificate Image */}
               <div>
                 <h4 className="text-lg font-semibold text-graphite-900 dark:text-white mb-3">
-                  Certificado
+                  {t.education.ui.certificate}
                 </h4>
                 <div className="relative rounded-lg overflow-hidden shadow-lg">
                   <img
@@ -517,7 +517,7 @@ export default function Education() {
             <button
               onClick={closeAllCertificationsModal}
               className="absolute top-4 right-4 z-10 p-2 rounded-lg bg-graphite-100 dark:bg-graphite-800 hover:bg-graphite-200 dark:hover:bg-graphite-700 text-graphite-600 dark:text-graphite-400 transition-colors"
-              aria-label="Fechar modal"
+              aria-label={t.education.ui.close}
             >
               <X className="w-5 h-5" />
             </button>
@@ -525,10 +525,10 @@ export default function Education() {
             {/* Modal Header */}
             <div className="p-6 sm:p-8 border-b border-graphite-200 dark:border-graphite-800">
               <h2 id="all-certifications-title" className="text-2xl sm:text-3xl font-bold text-graphite-900 dark:text-white mb-2">
-                Todas as Certificações
+                {t.education.ui.allTitle}
               </h2>
               <p className="text-graphite-600 dark:text-graphite-400">
-                Clique em qualquer certificado para ver os detalhes e imagem
+                {t.education.ui.allHint}
               </p>
             </div>
 
