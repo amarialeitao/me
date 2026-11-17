@@ -10,19 +10,19 @@ Personal portfolio of Maria Leitão, AI Data Engineer based in Lisbon and MSc in
 
 - **Hero with a pipeline animation:** a canvas animation of data moving through four stages (ingest, clean, model, decide). It pauses off screen and stays still when the visitor prefers reduced motion.
 - **Case studies:** each project shows the problem, the result, the stack, a framed screenshot and a short pipeline diagram.
-- **Three languages:** Portuguese, English and Spanish, with the page language kept in sync for screen readers and search engines.
+- **Three languages:** Portuguese, English and Spanish, each with its own URL (`/`, `/en/`, `/es/`), hreflang links and structured data for search engines.
 - **Light and dark themes**, a responsive layout from mobile to wide screens, and privacy-friendly visit counting with GoatCounter (no cookies).
 
 ## Stack
 
-- [Next.js 14](https://nextjs.org/) (App Router, static export)
+- [Next.js 16](https://nextjs.org/) (App Router, static export) and React 19
 - TypeScript
 - Tailwind CSS
 - Deployed to GitHub Pages with GitHub Actions
 
 ## Running locally
 
-Requires Node.js 18 or later.
+Requires Node.js 20.9 or later.
 
 ```bash
 npm install
@@ -41,7 +41,7 @@ npm run build
 
 ```
 src/
-├── app/          # Root layout, metadata and page composition
+├── app/          # One route per language, shared HTML shell and metadata (site.tsx)
 ├── components/   # Page sections (Hero, CaseStudies, Experience, Now, ...)
 ├── contexts/     # Language and theme providers
 ├── i18n/         # Content in pt, en and es
