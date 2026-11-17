@@ -463,13 +463,14 @@
     "graduation": {
       "title": "Systems Analysis and Development",
       "institution": "Senac Santa Catarina",
-      "period": "Feb 2023 - Jun 2025",
+      "period": "Feb 2023 - Sep 2025",
       "status": "Completed",
       "description": "Practical training combining development techniques with project management vision.",
       "highlights": [
         "Requirements Engineering: elicitation, analysis, documentation and BPMN",
         "Project Management: agile methodologies (Scrum/Kanban)",
-        "Technical Foundation: Data Modeling, SQL, Java/Spring, Software Architecture"
+        "Technical Foundation: Data Modeling, SQL, Java/Spring, Software Architecture",
+        "Capstone: Floripa na Praia, a full-stack Java/Spring Boot and React platform load-tested for 70,000 concurrent users"
       ]
     },
     "degrees": [

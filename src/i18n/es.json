@@ -463,13 +463,14 @@
     "graduation": {
       "title": "Análisis y Desarrollo de Sistemas",
       "institution": "Senac Santa Catarina",
-      "period": "Feb 2023 - Jun 2025",
+      "period": "Feb 2023 - Sep 2025",
       "status": "Completado",
       "description": "Formación práctica que unió la técnica de desarrollo con la visión de gestión de proyectos.",
       "highlights": [
         "Ingeniería de Requisitos: elicitación, análisis, documentación y BPMN",
         "Gestión de Proyectos: metodologías ágiles (Scrum/Kanban)",
-        "Base Técnica: Modelado de Datos, SQL, Java/Spring, Arquitectura de Software"
+        "Base Técnica: Modelado de Datos, SQL, Java/Spring, Arquitectura de Software",
+        "Proyecto final: Floripa na Praia, plataforma full stack en Java/Spring Boot y React validada en pruebas de carga con 70.000 usuarios simultáneos"
       ]
     },
     "degrees": [
