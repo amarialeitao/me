@@ -704,22 +704,26 @@
       {
         "value": 10000,
         "suffix": "+",
-        "label": "inscrições de bolsistas centralizadas"
+        "label": "candidaturas a processos seletivos",
+        "context": "Unificadas em uma plataforma de People Analytics · Instituto Semear"
       },
       {
         "value": 3000,
         "suffix": "+",
-        "label": "usuários na plataforma de mentoria"
+        "label": "usuários atendidos",
+        "context": "Plataforma de mentoria que desenvolvi · Instituto Semear"
       },
       {
         "value": 6782,
         "suffix": "",
-        "label": "jogadores modelados em 8 ligas"
+        "label": "jogadores avaliados",
+        "context": "8 ligas europeias em um app de scouting · Projeto pessoal"
       },
       {
         "value": 90,
         "suffix": "%",
-        "label": "de cobertura de testes unitários (meta: 80%)"
+        "label": "de cobertura de testes",
+        "context": "Meta de 80% na plataforma de mentoria · Instituto Semear"
       }
     ]
   },

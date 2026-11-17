@@ -578,22 +578,26 @@
       {
         "value": 10000,
         "suffix": "+",
-        "label": "scholarship applications centralized"
+        "label": "selection process applications",
+        "context": "Unified in a People Analytics platform · Instituto Semear"
       },
       {
         "value": 3000,
         "suffix": "+",
-        "label": "users on the mentoring platform"
+        "label": "users served",
+        "context": "Mentoring platform I built · Instituto Semear"
       },
       {
         "value": 6782,
         "suffix": "",
-        "label": "players modeled across 8 leagues"
+        "label": "players evaluated",
+        "context": "8 European leagues in a scouting app · Personal project"
       },
       {
         "value": 90,
         "suffix": "%",
-        "label": "unit test coverage (target: 80%)"
+        "label": "test coverage",
+        "context": "Against an 80% target on the mentoring platform · Instituto Semear"
       }
     ]
   },

@@ -14,12 +14,17 @@ export default function Metrics() {
         {t.metrics.items.map((item, index) => (
           <div
             key={item.label}
-            className={`flex flex-col-reverse px-4 sm:px-6 lg:px-8 py-8 sm:py-10 border-graphite-200 dark:border-graphite-800 ${
+            className={`flex flex-col-reverse justify-end px-4 sm:px-6 lg:px-8 py-8 sm:py-10 border-graphite-200 dark:border-graphite-800 ${
               index % 2 === 1 ? 'border-l' : ''
             } ${index >= 2 ? 'border-t lg:border-t-0' : ''} ${index === 2 ? 'lg:border-l' : ''}`}
           >
-            <dt className="mt-2 font-mono text-[11px] sm:text-xs uppercase tracking-[0.15em] leading-relaxed text-graphite-500 dark:text-graphite-400">
-              {item.label}
+            <dt className="mt-2">
+              <span className="block font-mono text-[11px] sm:text-xs uppercase tracking-[0.15em] leading-relaxed text-ink dark:text-white">
+                {item.label}
+              </span>
+              <span className="block mt-1 text-xs sm:text-sm leading-snug text-graphite-500 dark:text-graphite-400">
+                {item.context}
+              </span>
             </dt>
             <dd className="font-serif text-5xl sm:text-6xl tracking-tight text-ink dark:text-white">
               <CountUp to={item.value} duration={1.4} locale={NUMBER_LOCALES[locale]} />
