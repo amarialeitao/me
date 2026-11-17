@@ -783,12 +783,13 @@
     ]
   },
   "contact": {
-    "title": "¿Conversamos?",
-    "subtitle": "Siempre estoy buscando desafíos donde pueda unir mi visión analítica con mi profundidad técnica para impulsar la transformación digital.",
+    "title": "Hablemos de Datos",
+    "subtitle": "Abierta a conversaciones sobre ingeniería de datos, analítica y proyectos de IA.",
     "cta": "Contactar",
     "linkedin": "LinkedIn",
     "github": "GitHub",
-    "email": "Correo"
+    "email": "Correo",
+    "location": "Lisboa, Portugal"
   },
   "footer": {
     "copyright": "© 2025 Maria Leitão. Todos los derechos reservados.",

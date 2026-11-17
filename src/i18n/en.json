@@ -657,12 +657,13 @@
     ]
   },
   "contact": {
-    "title": "Ready to Accelerate Your Projects?",
-    "subtitle": "Let's discuss how my strategic vision and technical expertise can accelerate your digital transformation and deliver results that exceed expectations.",
+    "title": "Let's Talk About Data",
+    "subtitle": "Open to conversations about data engineering, analytics and AI projects.",
     "cta": "Schedule a Conversation",
     "linkedin": "LinkedIn",
     "github": "GitHub",
-    "email": "Email"
+    "email": "Email",
+    "location": "Lisbon, Portugal"
   },
   "footer": {
     "copyright": "© 2025 Maria Leitão. All rights reserved.",

@@ -783,12 +783,13 @@
     ]
   },
   "contact": {
-    "title": "Pronta para Impulsionar Seus Projetos?",
-    "subtitle": "Vamos conversar sobre como minha visão estratégica e expertise técnica podem acelerar sua transformação digital e entregar resultados que superam expectativas.",
+    "title": "Vamos Conversar sobre Dados",
+    "subtitle": "Aberta a conversas sobre engenharia de dados, analytics e projetos de IA.",
     "cta": "Agendar Uma Conversa",
     "linkedin": "LinkedIn",
     "github": "GitHub",
-    "email": "E-mail"
+    "email": "E-mail",
+    "location": "Lisboa, Portugal"
   },
   "footer": {
     "copyright": "© 2025 Maria Leitão. Todos os direitos reservados.",

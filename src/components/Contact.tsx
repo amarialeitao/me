@@ -1,7 +1,7 @@
 'use client';
 
 import { useLanguage } from '@/contexts/LanguageContext';
-import { Mail, Linkedin, Github, Send, ArrowUpRight } from 'lucide-react';
+import { Mail, Linkedin, Github, Send, ArrowUpRight, MapPin } from 'lucide-react';
 import SectionHeading from '@/components/SectionHeading';
 import Magnet from '@/components/react-bits/Magnet';
 
@@ -17,6 +17,12 @@ export default function Contact() {
         {/* Content */}
         <div className="text-center">
           <SectionHeading index="09" label="Contato" title={t.contact.title} subtitle={t.contact.subtitle} />
+
+          {/* Localização */}
+          <p className="-mt-4 sm:-mt-6 mb-8 sm:mb-10 inline-flex items-center gap-1.5 font-mono text-xs sm:text-sm text-graphite-500 dark:text-graphite-400">
+            <MapPin className="w-3.5 h-3.5 sm:w-4 sm:h-4 flex-shrink-0" />
+            <span>{t.contact.location}</span>
+          </p>
 
           {/* Contact Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 md:gap-6 max-w-4xl mx-auto mb-8 sm:mb-12">
