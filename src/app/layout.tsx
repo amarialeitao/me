@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: 'Maria Leitão',
     images: [
       {
-        url: '/og-image.png',
+        url: 'https://amarialeitao.github.io/me/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Maria Leitão - AI Data Engineer',
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Maria Leitão | AI Data Engineer',
     description: 'Transformo dados operacionais dispersos em informação confiável e pronta para a tomada de decisão.',
-    images: ['/og-image.png'],
+    images: ['https://amarialeitao.github.io/me/og-image.png'],
   },
   robots: {
     index: true,
