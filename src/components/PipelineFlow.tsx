@@ -169,14 +169,14 @@ export default function PipelineFlow({ stages, className = '' }: PipelineFlowPro
       <div
         ref={containerRef}
         aria-hidden="true"
-        className="relative h-40 sm:h-52 text-graphite-500 dark:text-graphite-400 [--pipeline-accent:#5B5FEF] dark:[--pipeline-accent:#7C82FF]"
+        className="relative h-40 sm:h-52 text-graphite-600 dark:text-graphite-400 [--pipeline-accent:#5B5FEF] dark:[--pipeline-accent:#7C82FF]"
       >
         <canvas ref={canvasRef} className="absolute inset-0" />
       </div>
-      <ol className="grid grid-cols-4 mt-3 font-mono text-[10px] sm:text-xs uppercase tracking-[0.2em] text-graphite-500 dark:text-graphite-400">
+      <ol className="grid grid-cols-4 mt-3 font-mono text-[10px] sm:text-xs uppercase tracking-[0.2em] text-graphite-600 dark:text-graphite-400">
         {stages.map((stage, index) => (
           <li key={stage} className={`text-center ${index === 3 ? 'text-signal-600 dark:text-signal-400' : ''}`}>
-            <span className="opacity-60">0{index + 1}</span> {stage}
+            <span>0{index + 1}</span> {stage}
           </li>
         ))}
       </ol>

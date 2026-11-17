@@ -32,7 +32,7 @@ function BrowserFrame({ study }: { study: CaseStudy }) {
           <span className="w-2.5 h-2.5 rounded-full bg-graphite-300 dark:bg-graphite-700" />
           <span className="w-2.5 h-2.5 rounded-full bg-graphite-300 dark:bg-graphite-700" />
         </div>
-        <span className="flex-1 truncate text-center font-mono text-[10px] sm:text-xs text-graphite-500 dark:text-graphite-400">
+        <span className="flex-1 truncate text-center font-mono text-[10px] sm:text-xs text-graphite-600 dark:text-graphite-400">
           {study.url || study.title.toLowerCase().replace(/\s+/g, '-')}
         </span>
       </div>
@@ -76,7 +76,7 @@ export default function CaseStudies() {
               <article key={study.title} className="grid lg:grid-cols-12 gap-8 lg:gap-12 items-start">
                 {/* Texto */}
                 <div className={`lg:col-span-5 ${reversed ? 'lg:order-2' : ''}`}>
-                  <p className="font-mono text-xs uppercase tracking-[0.2em] text-graphite-500 dark:text-graphite-400">
+                  <p className="font-mono text-xs uppercase tracking-[0.2em] text-graphite-600 dark:text-graphite-400">
                     {String(index + 1).padStart(2, '0')} <span className="mx-1 opacity-50">/</span> {study.company} · {study.period}
                   </p>
                   <h3 className="mt-3 font-serif text-3xl sm:text-4xl leading-tight tracking-tight text-ink dark:text-white">
@@ -86,13 +86,13 @@ export default function CaseStudies() {
 
                   <dl className="mt-8 space-y-6">
                     <div>
-                      <dt className="font-mono text-[11px] uppercase tracking-[0.2em] text-graphite-500 dark:text-graphite-400">
+                      <dt className="font-mono text-[11px] uppercase tracking-[0.2em] text-graphite-600 dark:text-graphite-400">
                         {labels.problem}
                       </dt>
                       <dd className="mt-2 text-sm sm:text-base text-graphite-700 dark:text-graphite-300">{study.problem}</dd>
                     </div>
                     <div>
-                      <dt className="font-mono text-[11px] uppercase tracking-[0.2em] text-graphite-500 dark:text-graphite-400">
+                      <dt className="font-mono text-[11px] uppercase tracking-[0.2em] text-graphite-600 dark:text-graphite-400">
                         {labels.result}
                       </dt>
                       <dd className="mt-2 font-serif text-2xl sm:text-3xl leading-snug text-ink dark:text-white">{study.impact}</dd>

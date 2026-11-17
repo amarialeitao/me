@@ -32,7 +32,7 @@ export default function Testimonials() {
               {/* Aspas tipográficas discretas — substitui o ícone decorativo rotacionado */}
               <span
                 aria-hidden="true"
-                className="absolute -top-3 left-3 text-7xl font-display text-graphite-100 dark:text-graphite-700 select-none leading-none pointer-events-none"
+                className="absolute -top-3 left-3 text-7xl font-serif text-graphite-100 dark:text-graphite-700 select-none leading-none pointer-events-none"
               >
                 &rdquo;
               </span>
@@ -41,7 +41,7 @@ export default function Testimonials() {
               <div className="relative pt-3 sm:pt-4">
                 {/* Meta info */}
                 {(testimonial.date || testimonial.relationship) && (
-                  <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mb-3 text-[10px] sm:text-xs font-mono text-graphite-500 dark:text-graphite-400">
+                  <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mb-3 text-[10px] sm:text-xs font-mono text-graphite-600 dark:text-graphite-400">
                     {testimonial.date && (
                       <span className="inline-flex items-center gap-1">
                         <Calendar className="w-3 h-3" />
@@ -72,7 +72,7 @@ export default function Testimonials() {
                     <p className="font-semibold text-sm sm:text-base text-graphite-900 dark:text-white leading-tight">
                       {testimonial.author}
                     </p>
-                    <p className="text-[10px] sm:text-xs text-graphite-500 dark:text-graphite-400 mt-0.5 leading-tight line-clamp-2">
+                    <p className="text-[10px] sm:text-xs text-graphite-600 dark:text-graphite-400 mt-0.5 leading-tight line-clamp-2">
                       {testimonial.role}
                     </p>
                   </div>

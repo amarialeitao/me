@@ -22,7 +22,7 @@ export default function Metrics() {
               <span className="block font-mono text-[11px] sm:text-xs uppercase tracking-[0.15em] leading-relaxed text-ink dark:text-white">
                 {item.label}
               </span>
-              <span className="block mt-1 text-xs sm:text-sm leading-snug text-graphite-500 dark:text-graphite-400">
+              <span className="block mt-1 text-xs sm:text-sm leading-snug text-graphite-600 dark:text-graphite-400">
                 {item.context}
               </span>
             </dt>

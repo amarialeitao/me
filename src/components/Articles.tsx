@@ -85,7 +85,7 @@ export default function Articles() {
               {/* Content */}
               <div className="p-4 sm:p-6">
                 {/* Date */}
-                <div className="flex items-center gap-1.5 text-xs sm:text-sm font-mono text-graphite-500 dark:text-graphite-400 mb-2 sm:mb-3">
+                <div className="flex items-center gap-1.5 text-xs sm:text-sm font-mono text-graphite-600 dark:text-graphite-400 mb-2 sm:mb-3">
                   <Calendar className="w-3.5 h-3.5" />
                   {article.date}
                 </div>

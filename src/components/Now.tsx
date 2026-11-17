@@ -44,7 +44,7 @@ export default function Now() {
               key={`${row.label}-${row.title}`}
               className="grid sm:grid-cols-[9rem_1fr] gap-x-6 gap-y-1 py-5 border-b border-graphite-200 dark:border-graphite-800"
             >
-              <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-graphite-500 dark:text-graphite-400 pt-1">
+              <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-graphite-600 dark:text-graphite-400 pt-1">
                 {row.label}
               </span>
               <span>
@@ -54,14 +54,14 @@ export default function Now() {
             </li>
           ))}
           <li className="grid sm:grid-cols-[9rem_1fr] gap-x-6 gap-y-1 py-5 border-b border-graphite-200 dark:border-graphite-800">
-            <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-graphite-500 dark:text-graphite-400 pt-1">
+            <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-graphite-600 dark:text-graphite-400 pt-1">
               {t.now.languages}
             </span>
             <ul className="flex flex-wrap gap-x-5 gap-y-2">
               {t.languages.list.map((lang) => (
                 <li key={lang.name}>
                   <span className="font-serif text-xl sm:text-2xl text-ink dark:text-white">{lang.name}</span>
-                  <span className="block font-mono text-[11px] text-graphite-500 dark:text-graphite-400">{lang.level}</span>
+                  <span className="block font-mono text-[11px] text-graphite-600 dark:text-graphite-400">{lang.level}</span>
                 </li>
               ))}
             </ul>

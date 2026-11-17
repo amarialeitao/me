@@ -28,7 +28,7 @@ export default function Experience() {
                   aria-controls={panelId}
                   className="group w-full grid grid-cols-[1fr_auto] md:grid-cols-[11rem_1fr_14rem_auto] items-baseline gap-x-6 gap-y-1 py-5 sm:py-6 text-left"
                 >
-                  <span className="order-2 md:order-none col-span-1 font-mono text-xs text-graphite-500 dark:text-graphite-400">
+                  <span className="order-2 md:order-none col-span-1 font-mono text-xs text-graphite-600 dark:text-graphite-400">
                     {position.period}
                   </span>
                   <span className="order-1 md:order-none col-span-1">
@@ -37,7 +37,7 @@ export default function Experience() {
                     </span>
                     <span className="block mt-1 text-sm text-graphite-600 dark:text-graphite-400">{position.company}</span>
                   </span>
-                  <span className="hidden md:block font-mono text-xs text-graphite-500 dark:text-graphite-400">
+                  <span className="hidden md:block font-mono text-xs text-graphite-600 dark:text-graphite-400">
                     {position.location}
                   </span>
                   <Plus
@@ -76,7 +76,7 @@ export default function Experience() {
         </ul>
 
         {volunteering && (
-          <p className="mt-6 flex items-start gap-2 text-sm text-graphite-500 dark:text-graphite-400">
+          <p className="mt-6 flex items-start gap-2 text-sm text-graphite-600 dark:text-graphite-400">
             <HeartHandshake className="w-4 h-4 mt-0.5 flex-shrink-0" aria-hidden="true" />
             <span>
               <span className="font-mono uppercase tracking-wider text-xs mr-2">{volunteering.label}</span>

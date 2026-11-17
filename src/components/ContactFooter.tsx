@@ -80,9 +80,9 @@ export default function ContactFooter() {
           </ul>
           <p className="sm:text-center">
             {t.contact.location}
-            {time && <span className="text-graphite-500"> · {time}</span>}
+            {time && <span className="text-graphite-400"> · {time}</span>}
           </p>
-          <p className="sm:text-right text-graphite-500">© {new Date().getFullYear()} Maria Leitão</p>
+          <p className="sm:text-right text-graphite-400">© {new Date().getFullYear()} Maria Leitão</p>
         </div>
       </div>
     </footer>

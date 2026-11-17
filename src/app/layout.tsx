@@ -1,4 +1,9 @@
 import type { Metadata } from 'next';
+import '@fontsource-variable/inter';
+import '@fontsource/instrument-serif/400.css';
+import '@fontsource/instrument-serif/400-italic.css';
+import '@fontsource/jetbrains-mono/400.css';
+import '@fontsource/jetbrains-mono/500.css';
 import './globals.css';
 import { ThemeProvider } from '@/contexts/ThemeContext';
 import { LanguageProvider } from '@/contexts/LanguageContext';
@@ -74,13 +79,13 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" suppressHydrationWarning>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@100..900&family=Inter:wght@100..900&family=JetBrains+Mono:wght@400;500;600&display=swap"
-          rel="stylesheet"
-        />
         {/* Contador de visitas GoatCounter: sem cookies e sem dados pessoais, dispensa banner de consentimento */}
+        <script
+          dangerouslySetInnerHTML={{
+            // Conta só o caminho da página, sem parâmetros de URL
+            __html: 'window.goatcounter = { path: function () { return location.pathname; } };',
+          }}
+        />
         <script
           data-goatcounter="https://amarialeitao.goatcounter.com/count"
           async

@@ -70,6 +70,8 @@ export default function Header() {
             <div className="relative">
               <button
                 onClick={() => setIsLangOpen(!isLangOpen)}
+                aria-label={t.nav.language}
+                aria-expanded={isLangOpen}
                 className="flex items-center gap-1.5 px-3 py-2 text-sm font-medium text-graphite-700 dark:text-graphite-300 hover:text-signal-600 dark:hover:text-signal-400 transition-colors rounded-lg hover:bg-graphite-100/60 dark:hover:bg-graphite-800/50"
               >
                 <Globe className="w-4 h-4" />

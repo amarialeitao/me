@@ -204,7 +204,7 @@ export default function Education() {
                       </p>
                     </div>
                     <div className="flex items-center gap-2 flex-shrink-0">
-                      <span className="inline-flex items-center gap-1.5 px-2 sm:px-3 py-1 text-xs sm:text-sm font-mono text-graphite-500 dark:text-graphite-400">
+                      <span className="inline-flex items-center gap-1.5 px-2 sm:px-3 py-1 text-xs sm:text-sm font-mono text-graphite-600 dark:text-graphite-400">
                         <Calendar className="w-3.5 h-3.5" />
                         {featured.period}
                       </span>
@@ -243,7 +243,7 @@ export default function Education() {
             <h3 className="flex items-center gap-2 text-lg sm:text-xl font-semibold text-graphite-900 dark:text-white">
               <Award className="w-4 h-4 sm:w-5 sm:h-5 text-signal-500 flex-shrink-0" />
               <span>{t.education.subtitles?.certifications || 'Certificações'}</span>
-              <span className="ml-2 px-2 py-0.5 text-xs font-mono text-graphite-500 dark:text-graphite-400 bg-graphite-100 dark:bg-graphite-800 rounded-full">
+              <span className="ml-2 px-2 py-0.5 text-xs font-mono text-graphite-600 dark:text-graphite-400 bg-graphite-100 dark:bg-graphite-800 rounded-full">
                 {mainCertifications.length}
               </span>
             </h3>
@@ -313,7 +313,7 @@ export default function Education() {
                         <p className="text-xs sm:text-sm text-signal-600 dark:text-signal-400 mb-1">
                           {cert.issuer}
                         </p>
-                        <div className="flex items-center gap-2 text-[10px] sm:text-xs font-mono text-graphite-500 dark:text-graphite-400">
+                        <div className="flex items-center gap-2 text-[10px] sm:text-xs font-mono text-graphite-600 dark:text-graphite-400">
                           {cert.date && <span>{cert.date}</span>}
                           {cert.hours && (
                             <>
@@ -363,7 +363,7 @@ export default function Education() {
                   {degree.institution}
                 </p>
                 {degree.period && (
-                  <p className="inline-flex items-center gap-1.5 mb-2 text-xs font-mono text-graphite-500 dark:text-graphite-400">
+                  <p className="inline-flex items-center gap-1.5 mb-2 text-xs font-mono text-graphite-600 dark:text-graphite-400">
                     <Calendar className="w-3.5 h-3.5" />
                     {degree.period}
                   </p>
@@ -447,7 +447,7 @@ export default function Education() {
                   <p className="text-sm sm:text-base font-medium text-signal-600 dark:text-signal-400">
                     {selectedCertification.issuer}
                   </p>
-                  <div className="flex items-center gap-3 mt-2 text-xs sm:text-sm font-mono text-graphite-500 dark:text-graphite-400">
+                  <div className="flex items-center gap-3 mt-2 text-xs sm:text-sm font-mono text-graphite-600 dark:text-graphite-400">
                     {selectedCertification.date && (
                       <span className="flex items-center gap-1">
                         <Calendar className="w-3.5 h-3.5" />
@@ -557,7 +557,7 @@ export default function Education() {
                           <p className="text-xs text-signal-600 dark:text-signal-400 mb-1">
                             {cert.issuer}
                           </p>
-                          <div className="flex items-center gap-2 text-[10px] font-mono text-graphite-500 dark:text-graphite-400">
+                          <div className="flex items-center gap-2 text-[10px] font-mono text-graphite-600 dark:text-graphite-400">
                             {cert.date && <span>{cert.date}</span>}
                             {cert.hours && (
                               <>

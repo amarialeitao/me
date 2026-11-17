@@ -2,11 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Fonts loaded via link tag in layout.tsx for better performance */
-
+/* Fontes servidas pelo próprio site (pacotes @fontsource importados em layout.tsx) */
 :root {
-  --font-outfit: 'Outfit', system-ui, sans-serif;
-  --font-inter: 'Inter', system-ui, sans-serif;
+  --font-inter: 'Inter Variable', system-ui, sans-serif;
   --font-jetbrains: 'JetBrains Mono', monospace;
   --font-serif: 'Instrument Serif', Georgia, serif;
 }
@@ -60,82 +58,20 @@ html, body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #627d98;
+  background: #A1A1AA;
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #486581;
+  background: #71717A;
 }
 
 .dark ::-webkit-scrollbar-thumb {
-  background: #486581;
+  background: #3F3F46;
 }
 
 .dark ::-webkit-scrollbar-thumb:hover {
-  background: #627d98;
-}
-
-/* Custom Utilities */
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-  
-  .animate-delay-100 {
-    animation-delay: 100ms;
-  }
-  
-  .animate-delay-200 {
-    animation-delay: 200ms;
-  }
-  
-  .animate-delay-300 {
-    animation-delay: 300ms;
-  }
-  
-  .animate-delay-400 {
-    animation-delay: 400ms;
-  }
-  
-  .animate-delay-500 {
-    animation-delay: 500ms;
-  }
-  
-  /* Safe area for mobile devices */
-  .safe-top {
-    padding-top: env(safe-area-inset-top);
-  }
-  
-  .safe-bottom {
-    padding-bottom: env(safe-area-inset-bottom);
-  }
-}
-
-/* Gradient Text Helper */
-.gradient-text {
-  @apply text-transparent bg-clip-text bg-gradient-to-r from-signal-500 to-signal-400;
-}
-
-/* Dark mode gradient adjustments */
-.dark .gradient-text {
-  @apply from-signal-400 to-signal-300;
-}
-
-/* Card Hover Effects */
-.card-hover {
-  @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
-}
-
-/* Grid Pattern Enhancement */
-.bg-grid-pattern {
-  background-size: 40px 40px;
-}
-
-@media (min-width: 640px) {
-  .bg-grid-pattern {
-    background-size: 60px 60px;
-  }
+  background: #52525B;
 }
 
 /* Improve touch targets on mobile */
