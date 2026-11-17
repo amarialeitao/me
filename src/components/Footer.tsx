@@ -34,7 +34,7 @@ export default function Footer() {
             </span>
 
             <a
-              href="https://www.linkedin.com/in/marialeitaoo/"
+              href="https://www.linkedin.com/in/amarialeitao/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-1.5 sm:p-2 text-graphite-500 dark:text-graphite-400 hover:text-signal-600 dark:hover:text-signal-400 transition-colors"

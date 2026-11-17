@@ -134,7 +134,7 @@ export default function Hero() {
           {/* Social Links */}
           <div className="flex items-center justify-center gap-3 sm:gap-4">
             <a
-              href="https://www.linkedin.com/in/marialeitaoo/"
+              href="https://www.linkedin.com/in/amarialeitao/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2.5 sm:p-3 text-graphite-500 dark:text-graphite-400 hover:text-signal-600 dark:hover:text-signal-400 bg-graphite-100 dark:bg-graphite-800 hover:bg-graphite-200 dark:hover:bg-graphite-700 rounded-lg transition-colors duration-300"

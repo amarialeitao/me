@@ -22,7 +22,7 @@ export default function Contact() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 md:gap-6 max-w-4xl mx-auto mb-8 sm:mb-12">
             {/* LinkedIn — mantém a cor de marca oficial, é identificação de plataforma, não decoração */}
             <a
-              href="https://www.linkedin.com/in/marialeitaoo/"
+              href="https://www.linkedin.com/in/amarialeitao/"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative p-4 sm:p-6 bg-white dark:bg-graphite-800/50 rounded-2xl border border-graphite-200 dark:border-graphite-700 hover:border-[#0077b5] dark:hover:border-[#0077b5] transition-colors duration-300"
@@ -36,7 +36,7 @@ export default function Contact() {
                     {t.contact.linkedin}
                   </h3>
                   <p className="text-xs sm:text-sm text-graphite-500 dark:text-graphite-400 flex items-center justify-center gap-1 font-mono">
-                    <span className="truncate">/in/marialeitaoo</span>
+                    <span className="truncate">/in/amarialeitao</span>
                     <ArrowUpRight className="w-3 h-3 sm:w-4 sm:h-4 opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0" />
                   </p>
                 </div>
@@ -91,7 +91,7 @@ export default function Contact() {
           {/* CTA Button */}
           <Magnet padding={40} magnetStrength={6} wrapperClassName="inline-block">
             <a
-              href="https://www.linkedin.com/in/marialeitaoo/"
+              href="https://www.linkedin.com/in/amarialeitao/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-signal-500 hover:bg-signal-600 text-white text-sm sm:text-base font-semibold rounded-lg transition-colors duration-300"
