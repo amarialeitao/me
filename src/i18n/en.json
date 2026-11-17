@@ -43,61 +43,72 @@
     "current": "I'm currently pursuing an MSc in Data Science at the University of Lisbon, focusing on machine learning and statistics, and I'm motivated by projects where data drives real decisions."
   },
   "skills": {
-    "title": "Strategic Competencies",
+    "title": "Skills",
     "categories": {
-      "business": {
-        "title": "Analysis & Strategy",
+      "data": {
+        "title": "Data Engineering",
         "items": [
-          "Requirements Engineering",
-          "User Stories & Acceptance Criteria",
-          "Process Mapping (BPMN)",
-          "Stakeholder Management",
-          "OKRs & Strategic Roadmaps",
-          "Cost-Benefit Analysis"
+          "Python & Pandas",
+          "SQL",
+          "ETL & Data Pipelines",
+          "DuckDB & Parquet",
+          "Data Quality Checks",
+          "Data Modeling & Warehousing"
         ]
       },
-      "data": {
-        "title": "Data & Business Intelligence",
+      "ai": {
+        "title": "AI & Automation",
         "items": [
-          "Data Modeling",
-          "Advanced SQL & Optimization",
-          "PostgreSQL & NoSQL",
-          "Power BI & Looker Studio",
-          "Executive Dashboards",
+          "Machine Learning",
+          "Statistics",
+          "LLM APIs (OpenAI)",
+          "n8n & Zapier",
+          "REST APIs & Integrations",
+          "AI-powered Workflows"
+        ]
+      },
+      "analytics": {
+        "title": "Analytics & BI",
+        "items": [
+          "Streamlit",
+          "Looker Studio",
+          "Power BI",
+          "Plotly",
+          "KPI Design",
           "Data Storytelling"
         ]
       },
-      "agile": {
-        "title": "Leadership & Agile Methods",
+      "databases": {
+        "title": "Databases & Cloud",
         "items": [
-          "Scrum Master & Product Owner",
-          "Backlog Management",
-          "Jira & Agile Tools",
-          "Workflow Automation",
-          "Kanban & Continuous Flow",
-          "Performance Metrics"
+          "PostgreSQL",
+          "MySQL",
+          "MongoDB",
+          "AWS RDS",
+          "Docker",
+          "CI/CD"
         ]
       },
       "tech": {
-        "title": "Development & Architecture",
+        "title": "Software Engineering",
         "items": [
+          "Go",
+          "TypeScript & NestJS",
           "Java & Spring Boot",
-          "NestJS & Node.js",
-          "REST APIs & Microservices",
-          "Swagger & Documentation",
-          "DevOps & CI/CD",
-          "Cloud Architecture"
+          "React & Next.js",
+          "Automated Testing",
+          "Clean Architecture"
         ]
       },
-      "leadership": {
-        "title": "Leadership & Communication",
+      "business": {
+        "title": "Business & Agile",
         "items": [
-          "Technical Leadership",
-          "Executive Communication",
-          "Mentoring & Development",
-          "Complex Problem Solving",
-          "Strategic Thinking",
-          "Change Management"
+          "Requirements Engineering",
+          "Stakeholder Management",
+          "OKRs & Roadmaps",
+          "Scrum & Kanban",
+          "Process Mapping (BPMN)",
+          "Executive Communication"
         ]
       }
     }

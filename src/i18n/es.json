@@ -43,63 +43,72 @@
     "current": "Actualmente curso el Máster en Ciencia de Datos en la Universidad de Lisboa, con foco en machine learning y estadística, y me motivan los proyectos en los que los datos guían decisiones reales."
   },
   "skills": {
-    "title": "Habilidades y Competencias",
+    "title": "Habilidades",
     "categories": {
-      "business": {
-        "title": "Análisis de Negocios",
-        "items": [
-          "Ingeniería de Requisitos",
-          "User Stories",
-          "BPMN",
-          "Casos de Uso",
-          "Gestión de Stakeholders",
-          "OKRs & Roadmaps"
-        ]
-      },
       "data": {
-        "title": "Datos & BI",
+        "title": "Ingeniería de Datos",
         "items": [
-          "Modelado de Datos",
-          "SQL Avanzado",
-          "PostgreSQL",
-          "Power BI",
-          "Looker Studio",
-          "Dashboards Estratégicos"
+          "Python & Pandas",
+          "SQL",
+          "ETL & Pipelines de Datos",
+          "DuckDB & Parquet",
+          "Controles de Calidad de Datos",
+          "Modelado de Datos & Data Warehouse"
         ]
       },
-      "agile": {
-        "title": "Gestión Ágil",
+      "ai": {
+        "title": "IA & Automatización",
         "items": [
-          "Scrum Master",
-          "Gestión de Backlog",
-          "Jira",
-          "Automatización de Workflows",
-          "Kanban",
-          "Métricas Ágiles"
+          "Machine Learning",
+          "Estadística",
+          "APIs de LLM (OpenAI)",
+          "n8n & Zapier",
+          "APIs REST & Integraciones",
+          "Workflows con IA"
+        ]
+      },
+      "analytics": {
+        "title": "Analítica & BI",
+        "items": [
+          "Streamlit",
+          "Looker Studio",
+          "Power BI",
+          "Plotly",
+          "Definición de KPIs",
+          "Data Storytelling"
+        ]
+      },
+      "databases": {
+        "title": "Bases de Datos & Cloud",
+        "items": [
+          "PostgreSQL",
+          "MySQL",
+          "MongoDB",
+          "AWS RDS",
+          "Docker",
+          "CI/CD"
         ]
       },
       "tech": {
-        "title": "Tech Stack",
+        "title": "Ingeniería de Software",
         "items": [
-          "Java",
-          "Spring Boot",
-          "NestJS",
-          "Node.js",
-          "APIs REST",
-          "Swagger",
-          "Microservicios",
-          "DevOps"
+          "Go",
+          "TypeScript & NestJS",
+          "Java & Spring Boot",
+          "React & Next.js",
+          "Pruebas Automatizadas",
+          "Clean Architecture"
         ]
       },
-      "leadership": {
-        "title": "Liderazgo y Comunicación",
+      "business": {
+        "title": "Negocio & Agilidad",
         "items": [
-          "Liderazgo Técnico",
-          "Comunicación Ejecutiva",
-          "Mentoría y Desarrollo",
-          "Resolución de Problemas Complejos",
-          "Pensamiento Estratégico",
-          "Gestión de Cambios"
+          "Ingeniería de Requisitos",
+          "Gestión de Stakeholders",
+          "OKRs & Roadmaps",
+          "Scrum & Kanban",
+          "Mapeo de Procesos (BPMN)",
+          "Comunicación Ejecutiva"
         ]
       }
     }

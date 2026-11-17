@@ -1,15 +1,16 @@
 'use client';
 
 import { useLanguage } from '@/contexts/LanguageContext';
-import { Briefcase, Database, Rocket, Code2, Heart } from 'lucide-react';
+import { Briefcase, Database, BrainCircuit, BarChart3, Layers, Code2 } from 'lucide-react';
 import SectionHeading from '@/components/SectionHeading';
 
 const categoryIcons = {
-  business: Briefcase,
   data: Database,
-  agile: Rocket,
+  ai: BrainCircuit,
+  analytics: BarChart3,
+  databases: Layers,
   tech: Code2,
-  leadership: Heart,
+  business: Briefcase,
 };
 
 type CategoryKey = keyof typeof categoryIcons;

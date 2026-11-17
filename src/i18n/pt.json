@@ -43,61 +43,72 @@
     "current": "Atualmente faço o Mestrado em Ciência de Dados na Universidade de Lisboa, com foco em machine learning e estatística, e me motivam projetos em que os dados orientam decisões reais."
   },
   "skills": {
-    "title": "Competências Estratégicas",
+    "title": "Competências",
     "categories": {
-      "business": {
-        "title": "Análise & Estratégia",
+      "data": {
+        "title": "Engenharia de Dados",
         "items": [
-          "Engenharia de Requisitos",
-          "User Stories & Critérios de Aceite",
-          "Mapeamento de Processos (BPMN)",
-          "Gestão de Stakeholders",
-          "OKRs & Roadmaps Estratégicos",
-          "Análise de Custo-Benefício"
+          "Python & Pandas",
+          "SQL",
+          "ETL & Pipelines de Dados",
+          "DuckDB & Parquet",
+          "Verificações de Qualidade de Dados",
+          "Modelagem de Dados & Data Warehouse"
         ]
       },
-      "data": {
-        "title": "Dados & Business Intelligence",
+      "ai": {
+        "title": "IA & Automação",
         "items": [
-          "Modelagem de Dados",
-          "SQL Avançado & Otimização",
-          "PostgreSQL & NoSQL",
-          "Power BI & Looker Studio",
-          "Dashboards Executivos",
+          "Machine Learning",
+          "Estatística",
+          "APIs de LLM (OpenAI)",
+          "n8n & Zapier",
+          "APIs REST & Integrações",
+          "Workflows com IA"
+        ]
+      },
+      "analytics": {
+        "title": "Analytics & BI",
+        "items": [
+          "Streamlit",
+          "Looker Studio",
+          "Power BI",
+          "Plotly",
+          "Definição de KPIs",
           "Data Storytelling"
         ]
       },
-      "agile": {
-        "title": "Liderança & Métodos Ágeis",
+      "databases": {
+        "title": "Bancos de Dados & Cloud",
         "items": [
-          "Scrum Master & Product Owner",
-          "Gestão de Backlog",
-          "Jira & Ferramentas Ágeis",
-          "Automação de Workflows",
-          "Kanban & Fluxo Contínuo",
-          "Métricas de Performance"
+          "PostgreSQL",
+          "MySQL",
+          "MongoDB",
+          "AWS RDS",
+          "Docker",
+          "CI/CD"
         ]
       },
       "tech": {
-        "title": "Desenvolvimento & Arquitetura",
+        "title": "Engenharia de Software",
         "items": [
+          "Go",
+          "TypeScript & NestJS",
           "Java & Spring Boot",
-          "NestJS & Node.js",
-          "REST APIs & Microserviços",
-          "Swagger & Documentação",
-          "DevOps & CI/CD",
-          "Cloud Architecture"
+          "React & Next.js",
+          "Testes Automatizados",
+          "Clean Architecture"
         ]
       },
-      "leadership": {
-        "title": "Liderança & Comunicação",
+      "business": {
+        "title": "Negócios & Agilidade",
         "items": [
-          "Liderança Técnica",
-          "Comunicação Executiva",
-          "Mentoria & Desenvolvimento",
-          "Resolução de Problemas Complexos",
-          "Pensamento Estratégico",
-          "Gestão de Mudanças"
+          "Engenharia de Requisitos",
+          "Gestão de Stakeholders",
+          "OKRs & Roadmaps",
+          "Scrum & Kanban",
+          "Mapeamento de Processos (BPMN)",
+          "Comunicação Executiva"
         ]
       }
     }
