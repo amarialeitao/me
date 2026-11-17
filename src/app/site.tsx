@@ -67,6 +67,9 @@ export function buildMetadata(locale: Locale): Metadata {
       description: t.hero.subtitle,
       images: [OG_IMAGE],
     },
+    verification: {
+      google: 'm28nwVfpcS4oK8zmPLl2gI-a5aJpowHLeIwGKZhyuf0',
+    },
     robots: {
       index: true,
       follow: true,
