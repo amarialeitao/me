@@ -682,11 +682,19 @@
       },
       {
         "name": "Inglés",
-        "level": "Fluido"
+        "level": "Competencia profesional"
       },
       {
         "name": "Español",
-        "level": "Intermedio"
+        "level": "Competencia profesional"
+      },
+      {
+        "name": "Francés",
+        "level": "Básico"
+      },
+      {
+        "name": "Alemán",
+        "level": "Básico"
       }
     ]
   },

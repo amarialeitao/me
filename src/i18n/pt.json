@@ -680,11 +680,19 @@
       },
       {
         "name": "Inglês",
-        "level": "Fluente"
+        "level": "Proficiência profissional"
       },
       {
         "name": "Espanhol",
-        "level": "Intermediário"
+        "level": "Proficiência profissional"
+      },
+      {
+        "name": "Francês",
+        "level": "Básico"
+      },
+      {
+        "name": "Alemão",
+        "level": "Básico"
       }
     ]
   },

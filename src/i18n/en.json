@@ -554,11 +554,19 @@
       },
       {
         "name": "English",
-        "level": "Fluent"
+        "level": "Professional working proficiency"
       },
       {
         "name": "Spanish",
-        "level": "Intermediate"
+        "level": "Professional working proficiency"
+      },
+      {
+        "name": "French",
+        "level": "Elementary"
+      },
+      {
+        "name": "German",
+        "level": "Elementary"
       }
     ]
   },
