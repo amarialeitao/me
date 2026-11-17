@@ -106,99 +106,110 @@
     "title": "Professional Experience",
     "positions": [
       {
-        "title": "Tech Lead",
+        "title": "Data Engineer",
         "company": "Instituto Semear",
         "period": "Dec 2025 - Present",
         "location": "Remote",
-        "description": "I lead the strategic connection between the Board and engineering, ensuring every technological decision directly drives the organization's business objectives.",
+        "description": "I own the data solutions behind the institute's scholarship selection and mentoring programs.",
         "highlights": [
-          "Optimized performance KPIs resulting in 25% improvement in operational efficiency",
-          "Transformed raw data into actionable insights that guided 3 strategic Board decisions",
-          "Built and led high-performance team with 100% talent retention"
+          "Built a People Analytics platform (Python, Streamlit) centralizing 10,000+ scholarship applications from 5 years, with automated cleaning, consolidation and aggregation pipelines.",
+          "Delivered interactive dashboards with automated KPIs and executive reports, replacing a process that had no centralized analysis tool and letting leadership track trends and potential bias across selection cycles.",
+          "Designed and modeled data warehouse tables, integrating Google Sheets and AWS RDS/MySQL.",
+          "Built an AI-powered HR pipeline that extracts and categorizes candidate data from CVs into structured datasets, saving ~$1,000/year in recruitment platform costs.",
+          "Automated data workflows with n8n, Zapier, Typeform, GetResponse and Salesforce NPSP."
+        ],
+        "stack": [
+          "Python",
+          "Pandas",
+          "SQL",
+          "MySQL",
+          "AWS RDS",
+          "Streamlit",
+          "YData Profiling",
+          "n8n",
+          "Docker"
         ]
       },
       {
-        "title": "Scrum Master",
+        "title": "Software Engineer",
         "company": "Instituto Semear",
-        "period": "Dec 2024 - Present",
+        "period": "Nov 2024 - Nov 2025",
         "location": "Remote",
-        "description": "Built an agile culture from scratch that transformed complex requirements into a predictable, transparent, and results-oriented workflow.",
+        "description": "Led the development of the institute's mentoring platform, from requirements to production.",
         "highlights": [
-          "Implemented agile methodology that reduced cycle time by 30%",
-          "Facilitated Scrum ceremonies with 95% team participation and engagement",
-          "Established agile KPIs that increased delivery predictability by 40%"
+          "Designed and built an internal mentorship and feedback platform serving 3,000+ users, including a migration from an existing MySQL database on AWS RDS with zero data loss.",
+          "Designed the data model and backend services behind the platform's workflows and reporting.",
+          "Led requirements analysis for the 2025 MVP, delivering 100% of the essential scope aligned with the organization's OKRs.",
+          "Set up a CI/CD testing pipeline reaching 90% unit test coverage (target: 80%)."
+        ],
+        "stack": [
+          "TypeScript",
+          "NestJS",
+          "Next.js",
+          "React",
+          "MySQL",
+          "AWS RDS",
+          "Docker",
+          "CI/CD"
         ]
       },
       {
-        "title": "Fullstack Development Lead",
-        "company": "Instituto Semear",
-        "period": "Nov 2024 - Dec 2025",
-        "location": "Remote",
-        "description": "I led the digital transformation of the corporate platform, aligning every technical decision with strategic objectives and optimizing processes to maximize business value.",
-        "highlights": [
-          "Delivered 100% of MVP 2025 essential scope ahead of schedule",
-          "Achieved 90% test coverage (target: 80%), reducing production bugs",
-          "Prioritized features based on OKRs that generated 35% increase in user engagement"
-        ]
-      },
-      {
-        "title": "Fullstack Developer",
+        "title": "Full Stack Developer",
         "company": "DO Telematics",
         "period": "Jul 2024 - Oct 2024",
-        "location": "Florianópolis, Brazil",
-        "description": "I acted as the translator between business needs and technical solutions, creating robust documentation that eliminated communication bottlenecks between teams.",
+        "location": "Florianópolis, Brazil · On-site",
+        "description": "Worked on the services that process GPS tracker data for a vehicle telematics platform.",
         "highlights": [
-          "Modeled solutions with DDD and Clean Architecture that reduced development time by 40%",
-          "Implemented automated tests that decreased production bugs by 60%",
-          "Facilitated Product-Engineering communication that increased delivery speed by 25%"
+          "Built and maintained Go microservices that parse and encode GPS tracker data in a distributed processing workflow.",
+          "Used RabbitMQ for asynchronous messaging between services, and MongoDB and Redis for storage, querying and caching.",
+          "Delivered features and production fixes in a NestJS monolith using DDD, Clean Architecture and TDD.",
+          "Fixed 70+ bugs and wrote 120+ automated tests, improving system reliability."
+        ],
+        "stack": [
+          "Go",
+          "NestJS",
+          "React",
+          "MongoDB",
+          "Redis",
+          "RabbitMQ",
+          "Docker",
+          "Linux"
         ]
       },
       {
-        "title": "Software Development Intern",
+        "title": "Software Developer (Internship)",
         "company": "DO Telematics",
         "period": "May 2024 - Jun 2024",
-        "location": "Florianópolis, Brazil",
-        "description": "Actively contributed to creating Jira workflow automations, eliminating repetitive manual tasks and improving the team's cycle time.",
+        "location": "Florianópolis, Brazil · On-site",
+        "description": "Joined the MVP team of an AI-powered telematics platform (fleet tracking, fuel management and vehicle diagnostics).",
         "highlights": [
-          "Jira workflow automations",
-          "Backlog refinement sessions participation",
-          "Support in automated testing implementation"
+          "Documented 3 Go microservices with Swagger/OpenAPI, standardizing the specs of internal tracking-data services.",
+          "Wrote unit tests and shipped bug fixes across the API and frontend."
+        ],
+        "stack": [
+          "Go",
+          "NestJS",
+          "React",
+          "Swagger/OpenAPI",
+          "Jira"
         ]
       },
       {
-        "title": "Virtual Business Intelligence Internship",
-        "company": "PwC Switzerland",
-        "period": "Apr 2024",
-        "location": "Remote",
-        "description": "Developed interactive Power BI dashboards to monitor critical Call Center KPIs (retention) and Diversity & Inclusion metrics.",
-        "highlights": [
-          "Interactive Power BI dashboards",
-          "Data extraction and modeling with SQL and Power Query",
-          "Data Storytelling to influence management decisions"
-        ]
-      },
-      {
-        "title": "Virtual Software Engineering Internship",
-        "company": "JPMorgan Chase",
-        "period": "Mar 2024 - Apr 2024",
-        "location": "Remote",
-        "description": "Development of data visualization tools to help traders monitor real-time stock prices.",
-        "highlights": [
-          "Financial data visualization tools",
-          "Python scripts to process data feeds",
-          "Focus on performance and information accuracy"
-        ]
-      },
-      {
-        "title": "IT Intern",
-        "company": "Clínica Gástrica Usuy",
+        "title": "Data Analyst (Internship)",
+        "company": "Usuy Medical Center",
         "period": "May 2023 - Sep 2023",
-        "location": "São José, Brazil",
-        "description": "Responsible for digital transformation of administrative processes and clinic indicator analysis.",
+        "location": "Santa Catarina, Brazil",
+        "description": "Built the clinic's first centralized KPI dashboards for management.",
         "highlights": [
-          "Operational bottleneck identification",
-          "Google Apps Script/JavaScript scripts",
-          "60% reduction in manual work time"
+          "Replaced a spreadsheet that took ~20 minutes to load with a Looker Studio dashboard used by 20+ administrative staff.",
+          "Collected, cleaned and consolidated data from multiple Google Sheets sources to calculate operational KPIs such as NPS and response time.",
+          "Automated data preparation and recurring reports with Google Apps Script."
+        ],
+        "stack": [
+          "Google Looker Studio",
+          "Google Apps Script",
+          "Google Sheets",
+          "JavaScript"
         ]
       }
     ]

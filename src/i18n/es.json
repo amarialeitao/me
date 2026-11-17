@@ -108,101 +108,110 @@
     "title": "Experiencia Profesional",
     "positions": [
       {
-        "title": "Tech Lead",
+        "title": "Data Engineer",
         "company": "Instituto Semear",
         "period": "Dic 2025 - Presente",
         "location": "Remoto",
-        "description": "Actúo como el puente principal entre la estrategia de negocios (Dirección) y la ejecución técnica, garantizando que la tecnología impulse los objetivos organizacionales.",
+        "description": "Soy responsable de las soluciones de datos detrás de los programas de selección de becarios y de mentoría del instituto.",
         "highlights": [
-          "Monitoreo de KPIs de rendimiento y eficiencia de la aplicación",
-          "Transformación de datos en insights accionables para stakeholders",
-          "Liderazgo de equipos de alto rendimiento"
+          "Construí una plataforma de People Analytics (Python, Streamlit) que centraliza más de 10.000 postulaciones a becas de 5 años, con pipelines automatizados de limpieza, consolidación y agregación.",
+          "Entregué dashboards interactivos con KPIs automatizados e informes ejecutivos, reemplazando un proceso sin herramienta centralizada de análisis y permitiendo al liderazgo seguir tendencias y posibles sesgos entre ciclos de selección.",
+          "Diseñé y modelé tablas de data warehouse, integrando Google Sheets y AWS RDS/MySQL.",
+          "Construí un pipeline de RR. HH. con IA que extrae y categoriza datos de candidatos a partir de currículums en datasets estructurados, ahorrando cerca de US$ 1.000/año en costos de plataforma de reclutamiento.",
+          "Automaticé flujos de datos con n8n, Zapier, Typeform, GetResponse y Salesforce NPSP."
+        ],
+        "stack": [
+          "Python",
+          "Pandas",
+          "SQL",
+          "MySQL",
+          "AWS RDS",
+          "Streamlit",
+          "YData Profiling",
+          "n8n",
+          "Docker"
         ]
       },
       {
-        "title": "Scrum Master",
+        "title": "Software Engineer",
         "company": "Instituto Semear",
-        "period": "Dic 2024 - Presente",
+        "period": "Nov 2024 - Nov 2025",
         "location": "Remoto",
-        "description": "Responsable de estructurar la cultura ágil desde cero, transformando requisitos complejos en un flujo de trabajo predecible y transparente.",
+        "description": "Lideré el desarrollo de la plataforma de mentoría del instituto, desde los requisitos hasta producción.",
         "highlights": [
-          "Implementación de metodologías ágiles",
-          "Gestión de ceremonias Scrum",
-          "Mejora continua de procesos"
+          "Diseñé y construí una plataforma interna de mentoría y feedback con más de 3.000 usuarios, incluida la migración de una base MySQL existente en AWS RDS sin pérdida de datos.",
+          "Diseñé el modelo de datos y los servicios de backend detrás de los flujos y reportes de la plataforma.",
+          "Lideré el análisis de requisitos del MVP 2025, entregando el 100% del alcance esencial alineado con los OKRs de la organización.",
+          "Configuré un pipeline de pruebas en CI/CD con 90% de cobertura de pruebas unitarias (meta: 80%)."
+        ],
+        "stack": [
+          "TypeScript",
+          "NestJS",
+          "Next.js",
+          "React",
+          "MySQL",
+          "AWS RDS",
+          "Docker",
+          "CI/CD"
         ]
       },
       {
-        "title": "Líder de Desarrollo Fullstack",
-        "company": "Instituto Semear",
-        "period": "Nov 2024 - Dic 2025",
-        "location": "Remoto",
-        "description": "Liderazgo técnico en la transformación digital de la plataforma corporativa, con enfoque en alineación estratégica y optimización de procesos.",
-        "highlights": [
-          "100% de entrega del alcance esencial del MVP 2025",
-          "Cobertura de tests del 90% (meta: 80%)",
-          "Análisis de requisitos y priorización de funcionalidades",
-          "Alineación con OKRs estratégicos de la organización"
-        ]
-      },
-      {
-        "title": "Desarrolladora Fullstack",
+        "title": "Full Stack Developer",
         "company": "DO Telematics",
         "period": "Jul 2024 - Oct 2024",
-        "location": "Florianópolis, Brasil",
-        "description": "Trabajé en la elicitación de requisitos funcionales y no funcionales, creando documentación técnica robusta (Swagger/OpenAPI y diagramas de arquitectura).",
+        "location": "Florianópolis, Brasil · Presencial",
+        "description": "Trabajé en los servicios que procesan datos de rastreadores GPS de una plataforma de telemática vehicular.",
         "highlights": [
-          "Modelado de soluciones con DDD y Clean Architecture",
-          "Implementación de tests automatizados (unitarios e integración)",
-          "Reducción de bugs en producción",
-          "Comunicación efectiva entre Producto e Ingeniería"
+          "Construí y mantuve microservicios en Go que interpretan y codifican datos de rastreadores GPS en un flujo de procesamiento distribuido.",
+          "Usé RabbitMQ para mensajería asíncrona entre servicios, y MongoDB y Redis para almacenamiento, consultas y caché.",
+          "Entregué funcionalidades y correcciones en producción en un monolito NestJS con DDD, Clean Architecture y TDD.",
+          "Corregí más de 70 bugs y escribí más de 120 pruebas automatizadas, mejorando la confiabilidad del sistema."
+        ],
+        "stack": [
+          "Go",
+          "NestJS",
+          "React",
+          "MongoDB",
+          "Redis",
+          "RabbitMQ",
+          "Docker",
+          "Linux"
         ]
       },
       {
-        "title": "Pasante de Desarrollo de Software",
+        "title": "Software Developer (Prácticas)",
         "company": "DO Telematics",
         "period": "May 2024 - Jun 2024",
-        "location": "Florianópolis, Brasil",
-        "description": "Contribuí activamente a la creación de automatizaciones de flujo en Jira, eliminando tareas manuales repetitivas y mejorando el cycle time del equipo.",
+        "location": "Florianópolis, Brasil · Presencial",
+        "description": "Me incorporé al equipo del MVP de una plataforma de telemática con IA (rastreo de flotas, gestión de combustible y diagnóstico vehicular).",
         "highlights": [
-          "Automatizaciones de flujo en Jira",
-          "Participación en refinamientos de backlog",
-          "Apoyo en implementación de tests automatizados"
+          "Documenté 3 microservicios en Go con Swagger/OpenAPI, estandarizando las especificaciones de los servicios internos de datos de rastreo.",
+          "Escribí pruebas unitarias y entregué correcciones de bugs en la API y el frontend."
+        ],
+        "stack": [
+          "Go",
+          "NestJS",
+          "React",
+          "Swagger/OpenAPI",
+          "Jira"
         ]
       },
       {
-        "title": "Pasantía Virtual en Business Intelligence",
-        "company": "PwC Switzerland",
-        "period": "Abr 2024",
-        "location": "Remoto",
-        "description": "Desarrollé dashboards interactivos en Power BI para monitorear KPIs críticos de Call Center (retención) y Diversidad e Inclusión.",
-        "highlights": [
-          "Dashboards interactivos en Power BI",
-          "Extracción y modelado de datos con SQL y Power Query",
-          "Data Storytelling para influir en decisiones gerenciales"
-        ]
-      },
-      {
-        "title": "Pasantía Virtual en Ingeniería de Software",
-        "company": "JPMorgan Chase",
-        "period": "Mar 2024 - Abr 2024",
-        "location": "Remoto",
-        "description": "Desarrollo de herramientas de visualización de datos para ayudar a traders en el monitoreo de precios de acciones en tiempo real.",
-        "highlights": [
-          "Herramientas de visualización de datos financieros",
-          "Scripts en Python para procesar feeds de datos",
-          "Enfoque en rendimiento y precisión de la información"
-        ]
-      },
-      {
-        "title": "Pasante de TI",
-        "company": "Clínica Gástrica Usuy",
+        "title": "Data Analyst (Prácticas)",
+        "company": "Usuy Medical Center",
         "period": "May 2023 - Sep 2023",
-        "location": "São José, Brasil",
-        "description": "Responsable de la transformación digital de procesos administrativos y análisis de indicadores de la clínica.",
+        "location": "Santa Catarina, Brasil",
+        "description": "Construí los primeros dashboards centralizados de KPIs de la clínica para la gerencia.",
         "highlights": [
-          "Identificación de cuellos de botella operacionales",
-          "Scripts en Google Apps Script/JavaScript",
-          "Reducción del 60% en tiempo de trabajo manual"
+          "Reemplacé una hoja de cálculo que tardaba unos 20 minutos en cargar por un dashboard en Looker Studio usado por más de 20 personas del equipo administrativo.",
+          "Recopilé, limpié y consolidé datos de varias fuentes en Google Sheets para calcular KPIs operativos como NPS y tiempo de respuesta.",
+          "Automaticé la preparación de datos y los informes recurrentes con Google Apps Script."
+        ],
+        "stack": [
+          "Google Looker Studio",
+          "Google Apps Script",
+          "Google Sheets",
+          "JavaScript"
         ]
       }
     ]

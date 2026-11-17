@@ -106,99 +106,110 @@
     "title": "Experiência Profissional",
     "positions": [
       {
-        "title": "Tech Lead",
+        "title": "Data Engineer",
         "company": "Instituto Semear",
         "period": "Dez 2025 - Presente",
         "location": "Remoto",
-        "description": "Lidero a conexão estratégica entre o Board e a engenharia, garantindo que cada decisão tecnológica impulsione diretamente os objetivos de negócio da organização.",
+        "description": "Sou responsável pelas soluções de dados por trás dos programas de seleção de bolsistas e de mentoria do instituto.",
         "highlights": [
-          "Otimizei KPIs de performance resultando em 25% de melhoria na eficiência operacional",
-          "Transformei dados brutos em insights acionáveis que guiaram 3 decisões estratégicas do Board",
-          "Estruturei e liderei equipe de alta performance com 100% de retenção de talentos"
+          "Construí uma plataforma de People Analytics (Python, Streamlit) que centraliza mais de 10.000 inscrições de bolsistas de 5 anos, com pipelines automatizados de limpeza, consolidação e agregação.",
+          "Entreguei dashboards interativos com KPIs automatizados e relatórios executivos, substituindo um processo sem ferramenta centralizada de análise e permitindo à liderança acompanhar tendências e possíveis vieses entre ciclos seletivos.",
+          "Projetei e modelei tabelas de data warehouse, integrando Google Sheets e AWS RDS/MySQL.",
+          "Construí um pipeline de RH com IA que extrai e categoriza dados de candidatos a partir de currículos em datasets estruturados, economizando cerca de US$ 1.000/ano em custos de plataforma de recrutamento.",
+          "Automatizei fluxos de dados com n8n, Zapier, Typeform, GetResponse e Salesforce NPSP."
+        ],
+        "stack": [
+          "Python",
+          "Pandas",
+          "SQL",
+          "MySQL",
+          "AWS RDS",
+          "Streamlit",
+          "YData Profiling",
+          "n8n",
+          "Docker"
         ]
       },
       {
-        "title": "Scrum Master",
+        "title": "Software Engineer",
         "company": "Instituto Semear",
-        "period": "Dez 2024 - Presente",
+        "period": "Nov 2024 - Nov 2025",
         "location": "Remoto",
-        "description": "Construí do zero uma cultura ágil que transformou requisitos complexos em um workflow previsível, transparente e orientado a resultados.",
+        "description": "Liderei o desenvolvimento da plataforma de mentoria do instituto, dos requisitos à produção.",
         "highlights": [
-          "Implementei metodologia ágil que reduziu o cycle time em 30%",
-          "Facilitei cerimônias Scrum com 95% de participação e engajamento da equipe",
-          "Estabeleci KPIs ágeis que aumentaram a previsibilidade de entregas em 40%"
+          "Projetei e construí uma plataforma interna de mentoria e feedback com mais de 3.000 usuários, incluindo a migração de um banco MySQL existente na AWS RDS sem perda de dados.",
+          "Projetei o modelo de dados e os serviços de backend por trás dos fluxos e relatórios da plataforma.",
+          "Liderei a análise de requisitos do MVP 2025, entregando 100% do escopo essencial alinhado aos OKRs da organização.",
+          "Configurei um pipeline de testes em CI/CD com 90% de cobertura de testes unitários (meta: 80%)."
+        ],
+        "stack": [
+          "TypeScript",
+          "NestJS",
+          "Next.js",
+          "React",
+          "MySQL",
+          "AWS RDS",
+          "Docker",
+          "CI/CD"
         ]
       },
       {
-        "title": "Fullstack Development Lead",
-        "company": "Instituto Semear",
-        "period": "Nov 2024 - Dez 2025",
-        "location": "Remoto",
-        "description": " liderei a transformação digital da plataforma corporativa, alinhando cada decisão técnica aos objetivos estratégicos e otimizando processos para maximizar o valor de negócio.",
-        "highlights": [
-          "Entreguei 100% do escopo essencial do MVP 2025 em tempo recorde",
-          "Alcancei 90% de cobertura de testes (meta: 80%), reduzindo bugs em produção",
-          "Priorizei features baseada em OKRs que geraram 35% de aumento no engajamento dos usuários"
-        ]
-      },
-      {
-        "title": "Fullstack Developer",
+        "title": "Full Stack Developer",
         "company": "DO Telematics",
         "period": "Jul 2024 - Out 2024",
-        "location": "Florianópolis, Brasil",
-        "description": "Atuei na tradução entre necessidades de negócios e soluções técnicas, criando documentação robusta que eliminou gargalos de comunicação entre times.",
+        "location": "Florianópolis, Brasil · Presencial",
+        "description": "Atuei nos serviços que processam dados de rastreadores GPS de uma plataforma de telemática veicular.",
         "highlights": [
-          "Modelei soluções com DDD e Clean Architecture que reduziram 40% do tempo de desenvolvimento",
-          "Implementei testes automatizados que diminuíram 60% dos bugs em produção",
-          "Facilitei comunicação entre Product e Engineering que aumentou a velocidade de entrega em 25%"
+          "Construí e mantive microsserviços em Go que interpretam e codificam dados de rastreadores GPS em um fluxo de processamento distribuído.",
+          "Usei RabbitMQ para mensageria assíncrona entre serviços, e MongoDB e Redis para armazenamento, consultas e cache.",
+          "Entreguei funcionalidades e correções em produção em um monólito NestJS com DDD, Clean Architecture e TDD.",
+          "Corrigi mais de 70 bugs e escrevi mais de 120 testes automatizados, aumentando a confiabilidade do sistema."
+        ],
+        "stack": [
+          "Go",
+          "NestJS",
+          "React",
+          "MongoDB",
+          "Redis",
+          "RabbitMQ",
+          "Docker",
+          "Linux"
         ]
       },
       {
-        "title": "Software Development Intern",
+        "title": "Software Developer (Estágio)",
         "company": "DO Telematics",
         "period": "Mai 2024 - Jun 2024",
-        "location": "Florianópolis, Brasil",
-        "description": "Contribuí ativamente na criação de automações de workflow Jira, eliminando tarefas manuais repetitivas e melhorando o cycle time do time.",
+        "location": "Florianópolis, Brasil · Presencial",
+        "description": "Integrei o time do MVP de uma plataforma de telemática com IA (rastreamento de frota, gestão de combustível e diagnóstico veicular).",
         "highlights": [
-          "Automações de workflow Jira",
-          "Participação em sessões de refinamento de backlog",
-          "Suporte na implementação de testes automatizados"
+          "Documentei 3 microsserviços em Go com Swagger/OpenAPI, padronizando as especificações dos serviços internos de dados de rastreamento.",
+          "Escrevi testes unitários e entreguei correções de bugs na API e no frontend."
+        ],
+        "stack": [
+          "Go",
+          "NestJS",
+          "React",
+          "Swagger/OpenAPI",
+          "Jira"
         ]
       },
       {
-        "title": "Virtual Business Intelligence Internship",
-        "company": "PwC Switzerland",
-        "period": "Abr 2024",
-        "location": "Remoto",
-        "description": "Desenvolvi dashboards interativos Power BI para monitorar KPIs críticos de Call Center (retenção) e métricas de Diversidade & Inclusão.",
-        "highlights": [
-          "Dashboards interativos Power BI",
-          "Extração e modelagem de dados com SQL e Power Query",
-          "Data Storytelling para influenciar decisões da gestão"
-        ]
-      },
-      {
-        "title": "Virtual Software Engineering Internship",
-        "company": "JPMorgan Chase",
-        "period": "Mar 2024 - Abr 2024",
-        "location": "Remoto",
-        "description": "Desenvolvimento de ferramentas de visualização de dados para ajudar traders a monitorar preços de ações em tempo real.",
-        "highlights": [
-          "Ferramentas de visualização de dados financeiros",
-          "Scripts Python para processar feeds de dados",
-          "Foco em performance e precisão da informação"
-        ]
-      },
-      {
-        "title": "Estagiária de TI",
-        "company": "Clínica Gástrica Usuy",
+        "title": "Data Analyst (Estágio)",
+        "company": "Usuy Medical Center",
         "period": "Mai 2023 - Set 2023",
-        "location": "São José, Brasil",
-        "description": "Responsável pela transformação digital de processos administrativos e análise de indicadores da clínica.",
+        "location": "Santa Catarina, Brasil",
+        "description": "Construí os primeiros dashboards centralizados de KPIs da clínica para a gestão.",
         "highlights": [
-          "Identificação de gargalos operacionais",
-          "Scripts Google Apps Script/JavaScript",
-          "60% de redução no tempo de trabalho manual"
+          "Substituí uma planilha que levava cerca de 20 minutos para carregar por um dashboard no Looker Studio usado por mais de 20 pessoas da equipe administrativa.",
+          "Coletei, limpei e consolidei dados de várias fontes no Google Sheets para calcular KPIs operacionais como NPS e tempo de resposta.",
+          "Automatizei a preparação de dados e relatórios recorrentes com Google Apps Script."
+        ],
+        "stack": [
+          "Google Looker Studio",
+          "Google Apps Script",
+          "Google Sheets",
+          "JavaScript"
         ]
       }
     ]

@@ -66,6 +66,20 @@ export default function Experience() {
                       </li>
                     ))}
                   </ul>
+
+                  {/* Stack */}
+                  {position.stack && position.stack.length > 0 && (
+                    <div className="flex flex-wrap gap-1.5 sm:gap-2 mt-3 sm:mt-4">
+                      {position.stack.map((tech) => (
+                        <span
+                          key={tech}
+                          className="px-2 sm:px-2.5 py-0.5 sm:py-1 text-[10px] sm:text-xs font-mono text-graphite-600 dark:text-graphite-300 bg-graphite-100 dark:bg-graphite-700/60 rounded-md"
+                        >
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
