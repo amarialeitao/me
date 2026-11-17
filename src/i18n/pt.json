@@ -389,7 +389,7 @@
     "title": "Formação & Certificações",
     "subtitles": {
       "graduation": "Graduação",
-      "postgraduate": "Pós-Graduação",
+      "postgraduate": "Mestrado e Pós-Graduação",
       "certifications": "Certificações",
       "courses": "Cursos Complementares",
       "awards": "Prêmios"
@@ -407,6 +407,12 @@
       ]
     },
     "degrees": [
+      {
+        "title": "Mestrado em Ciência de Dados",
+        "institution": "Faculdade de Ciências da Universidade de Lisboa",
+        "status": "Em andamento",
+        "description": "Machine learning, deep learning, estatística, mineração de dados, bancos de dados, engenharia de dados, visualização de dados e computação em nuvem, com foco em modelagem preditiva e métodos quantitativos para problemas reais."
+      },
       {
         "title": "Pós-Graduação em Linguagens de Programação",
         "institution": "GRAN",
@@ -585,6 +591,14 @@
       }
     ],
     "courseGroups": [
+      {
+        "institution": "Faculdade de Ciências da Universidade de Lisboa",
+        "courses": [
+          "Machine Learning",
+          "Análise Exploratória de Dados",
+          "Métodos Estatísticos"
+        ]
+      },
       {
         "institution": "Senac Santa Catarina",
         "courses": [

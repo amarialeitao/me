@@ -389,7 +389,7 @@
     "title": "Education & Certifications",
     "subtitles": {
       "graduation": "Bachelor's Degree",
-      "postgraduate": "Postgraduate",
+      "postgraduate": "Graduate Studies",
       "certifications": "Certifications",
       "courses": "Complementary Courses",
       "awards": "Awards"
@@ -407,6 +407,12 @@
       ]
     },
     "degrees": [
+      {
+        "title": "MSc in Data Science",
+        "institution": "Faculdade de Ciências da Universidade de Lisboa",
+        "status": "In progress",
+        "description": "Machine learning, deep learning, statistics, data mining, databases, data engineering, data visualization and cloud computing, with a focus on predictive modeling and quantitative methods for real-world problems."
+      },
       {
         "title": "Postgraduate in Programming Languages",
         "institution": "GRAN",
@@ -459,6 +465,14 @@
       }
     ],
     "courseGroups": [
+      {
+        "institution": "Faculdade de Ciências da Universidade de Lisboa",
+        "courses": [
+          "Machine Learning",
+          "Exploratory Data Analysis",
+          "Statistical Methods"
+        ]
+      },
       {
         "institution": "Senac Santa Catarina",
         "courses": [

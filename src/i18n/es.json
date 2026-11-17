@@ -391,7 +391,7 @@
     "title": "Formación y Certificaciones",
     "subtitles": {
       "graduation": "Grado",
-      "postgraduate": "Posgrado",
+      "postgraduate": "Máster y Posgrado",
       "certifications": "Certificaciones",
       "courses": "Cursos Complementarios",
       "awards": "Premios"
@@ -409,6 +409,12 @@
       ]
     },
     "degrees": [
+      {
+        "title": "Máster en Ciencia de Datos",
+        "institution": "Faculdade de Ciências da Universidade de Lisboa",
+        "status": "En curso",
+        "description": "Machine learning, deep learning, estadística, minería de datos, bases de datos, ingeniería de datos, visualización de datos y computación en la nube, con foco en modelado predictivo y métodos cuantitativos para problemas reales."
+      },
       {
         "title": "Posgrado en Lenguajes de Programación",
         "institution": "GRAN",
@@ -587,6 +593,14 @@
       }
     ],
     "courseGroups": [
+      {
+        "institution": "Faculdade de Ciências da Universidade de Lisboa",
+        "courses": [
+          "Machine Learning",
+          "Análisis Exploratorio de Datos",
+          "Métodos Estadísticos"
+        ]
+      },
       {
         "institution": "Senac Santa Catarina",
         "courses": [
