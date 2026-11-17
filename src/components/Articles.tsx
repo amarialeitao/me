@@ -30,13 +30,11 @@ export default function Articles() {
 
   return (
     <section className="relative py-16 sm:py-28 overflow-hidden">
-      {/* Background */}
-      <div className="absolute inset-0 bg-white dark:bg-graphite-900" />
 
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          index="05"
-          label="Artigos"
+          index="06"
+          label={t.nav.articles}
           title={t.articles?.title || 'Artigos & Publicações'}
           subtitle={t.articles?.subtitle || 'Compartilhando conhecimento sobre tecnologia e gestão'}
         />

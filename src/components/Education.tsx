@@ -173,11 +173,9 @@ export default function Education() {
 
   return (
     <section id="education" className="relative py-16 sm:py-28 overflow-x-hidden">
-      {/* Background */}
-      <div className="absolute inset-0 bg-graphite-50 dark:bg-graphite-950" />
 
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading index="06" label="Educação" title={t.education.title} />
+        <SectionHeading index="04" label={t.nav.education} title={t.education.title} />
 
         {/* Mestrado - destaque */}
         {featured && (
@@ -286,8 +284,8 @@ export default function Education() {
           {/* Carousel Container */}
           <div className="relative">
             {/* Gradient Fades */}
-            <div className={`absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-graphite-50 dark:from-graphite-950 to-transparent z-10 pointer-events-none transition-opacity duration-300 ${canScrollLeft ? 'opacity-100' : 'opacity-0'}`} />
-            <div className={`absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-graphite-50 dark:from-graphite-950 to-transparent z-10 pointer-events-none transition-opacity duration-300 ${canScrollRight ? 'opacity-100' : 'opacity-0'}`} />
+            <div className={`absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-paper dark:from-graphite-950 to-transparent z-10 pointer-events-none transition-opacity duration-300 ${canScrollLeft ? 'opacity-100' : 'opacity-0'}`} />
+            <div className={`absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-paper dark:from-graphite-950 to-transparent z-10 pointer-events-none transition-opacity duration-300 ${canScrollRight ? 'opacity-100' : 'opacity-0'}`} />
 
             {/* Scrollable Cards */}
             <div

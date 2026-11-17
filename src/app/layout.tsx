@@ -77,7 +77,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Inter:wght@100..900&family=JetBrains+Mono:wght@400;500;600&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@100..900&family=Inter:wght@100..900&family=JetBrains+Mono:wght@400;500;600&display=swap"
           rel="stylesheet"
         />
         <script
@@ -95,7 +95,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="bg-white dark:bg-graphite-950 text-graphite-900 dark:text-white antialiased transition-colors duration-300">
+      <body className="bg-paper dark:bg-graphite-950 text-ink dark:text-white antialiased transition-colors duration-300">
         <noscript>
           <div style={{ padding: '2rem', textAlign: 'center' }}>
             <h1>Maria Leitão - Portfolio</h1>

@@ -7,6 +7,8 @@ interface CountUpProps {
   from?: number;
   duration?: number;
   className?: string;
+  /** Quando informado, formata o número com separador de milhar do idioma (ex.: 10.000). */
+  locale?: string;
 }
 
 /**
@@ -14,7 +16,7 @@ interface CountUpProps {
  * Inspirado no CountUp do React Bits (https://reactbits.dev/text-animations/count-up).
  * Respeita prefers-reduced-motion mostrando o valor final direto.
  */
-export default function CountUp({ to, from = 0, duration = 1.5, className = '' }: CountUpProps) {
+export default function CountUp({ to, from = 0, duration = 1.5, className = '', locale }: CountUpProps) {
   const ref = useRef<HTMLSpanElement>(null);
   const [value, setValue] = useState(from);
   const hasAnimated = useRef(false);
@@ -67,7 +69,9 @@ export default function CountUp({ to, from = 0, duration = 1.5, className = '' }
 
   return (
     <span ref={ref} className={className}>
-      {value.toFixed(decimals)}
+      {locale
+        ? value.toLocaleString(locale, { minimumFractionDigits: decimals, maximumFractionDigits: decimals })
+        : value.toFixed(decimals)}
     </span>
   );
 }

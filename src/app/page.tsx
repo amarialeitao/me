@@ -2,17 +2,15 @@
 
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
-import About from '@/components/About';
-import Skills from '@/components/Skills';
+import Metrics from '@/components/Metrics';
+import CaseStudies from '@/components/CaseStudies';
 import Experience from '@/components/Experience';
-import Projects from '@/components/Projects';
-import Articles from '@/components/Articles';
+import Skills from '@/components/Skills';
 import Education from '@/components/Education';
-import Awards from '@/components/Awards';
-import Languages from '@/components/Languages';
+import Now from '@/components/Now';
+import Articles from '@/components/Articles';
 import Testimonials from '@/components/Testimonials';
-import Contact from '@/components/Contact';
-import Footer from '@/components/Footer';
+import ContactFooter from '@/components/ContactFooter';
 
 export default function Home() {
   return (
@@ -20,18 +18,16 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <About />
-        <Skills />
+        <Metrics />
+        <CaseStudies />
         <Experience />
-        <Projects />
-        <Articles />
+        <Skills />
         <Education />
-        <Awards />
-        <Languages />
+        <Now />
+        <Articles />
         <Testimonials />
-        <Contact />
       </main>
-      <Footer />
+      <ContactFooter />
     </>
   );
 }

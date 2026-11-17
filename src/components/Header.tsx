@@ -22,11 +22,10 @@ export default function Header() {
   }, []);
 
   const navItems = [
-    { href: '#about', label: t.nav.about },
-    { href: '#skills', label: t.nav.skills },
+    { href: '#work', label: t.nav.work },
     { href: '#experience', label: t.nav.experience },
-    { href: '#projects', label: t.nav.projects },
     { href: '#education', label: t.nav.education },
+    { href: '#now', label: t.nav.now },
     { href: '#contact', label: t.nav.contact },
   ];
 
@@ -38,18 +37,18 @@ export default function Header() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-white/80 dark:bg-graphite-950/80 backdrop-blur-lg shadow-sm border-b border-graphite-200/60 dark:border-graphite-800/60'
+          ? 'bg-paper/80 dark:bg-graphite-950/80 backdrop-blur-lg border-b border-graphite-200/60 dark:border-graphite-800/60'
           : 'bg-transparent'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-[72px]">
           {/* Logo */}
           <a
             href="#"
-            className="font-display text-lg md:text-xl font-semibold text-graphite-900 dark:text-white hover:text-signal-600 dark:hover:text-signal-400 transition-colors"
+            className="font-serif text-xl md:text-2xl text-ink dark:text-white hover:text-signal-600 dark:hover:text-signal-400 transition-colors"
           >
-            ML<span className="font-mono text-signal-500 animate-cursor-blink">_</span>
+            Maria Leitão
           </a>
 
           {/* Desktop Navigation */}
@@ -140,7 +139,7 @@ export default function Header() {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-white dark:bg-graphite-950 border-t border-graphite-200 dark:border-graphite-800 animate-fade-in">
+        <div className="md:hidden bg-paper dark:bg-graphite-950 border-t border-graphite-200 dark:border-graphite-800 animate-fade-in">
           <nav className="px-4 py-4 flex flex-col gap-1">
             {navItems.map((item) => (
               <a

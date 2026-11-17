@@ -22,11 +22,9 @@ export default function Skills() {
 
   return (
     <section id="skills" className="relative py-16 sm:py-24 overflow-hidden">
-      {/* Background */}
-      <div className="absolute inset-0 bg-graphite-50 dark:bg-graphite-950" />
 
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading index="02" label="Habilidades" title={t.skills.title} />
+        <SectionHeading index="03" label={t.nav.skills} title={t.skills.title} />
 
         {/* Skills Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">

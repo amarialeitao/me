@@ -9,38 +9,34 @@
     "experience": "Experiencia",
     "projects": "Proyectos",
     "education": "Formación",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "work": "Trabajo",
+    "now": "Ahora",
+    "articles": "Artículos",
+    "testimonials": "Recomendaciones"
   },
   "hero": {
-    "greeting": "Hola, soy",
     "name": "Maria Leitão",
-    "title": "AI Data Engineer",
-    "tagline": "Transformo datos operativos dispersos en información confiable y lista para la toma de decisiones.",
     "subtitle": "Pipelines de datos, analítica y automatización con IA, desde la ingesta hasta producción.",
     "cta": {
-      "contact": "Contactar",
-      "projects": "Ver Proyectos"
-    }
+      "projects": "Ver mi trabajo",
+      "contact": "Hablemos"
+    },
+    "meta": "AI Data Engineer · Lisboa · Máster en Ciencia de Datos @ ULisboa",
+    "headline": "Transformo datos dispersos en",
+    "headlineAccent": "decisiones.",
+    "stages": [
+      "Ingerir",
+      "Limpiar",
+      "Modelar",
+      "Decidir"
+    ]
   },
   "about": {
-    "title": "Sobre Mí",
-    "intro": "Mi especialidad: transformar <strong>datos operativos dispersos</strong> en <strong>información confiable y lista para decidir</strong>.",
     "description": [
       "Soy AI Data Engineer, con más de 3 años de experiencia entre ingeniería de datos, analítica e ingeniería de software. En el Instituto Semear construí una plataforma de People Analytics en Python y Streamlit que reunió más de 10.000 postulaciones a becas de 5 años en un solo lugar, automatizando limpieza, transformación e informes ejecutivos.",
       "Mi base en ingeniería de software (Go, Java/Spring Boot, TypeScript, Docker, CI/CD, AWS) me permite llevar una solución de datos desde la ingesta hasta producción, y mi experiencia con requisitos y equipos ágiles ayuda a que responda a la pregunta de negocio correcta."
-    ],
-    "differentials": {
-      "title": "Los dos lados de mi trabajo",
-      "business": {
-        "title": "Negocio & Estrategia",
-        "description": "Traduzco preguntas de negocio en requisitos, KPIs y modelos de datos, y comunico los resultados con claridad al liderazgo y a los stakeholders."
-      },
-      "technical": {
-        "title": "Ingeniería de Datos & IA",
-        "description": "Construyo pipelines, modelos de datos, dashboards y automatizaciones con IA usando Python, SQL, n8n y servicios en la nube, con pruebas y CI/CD para mantenerlos confiables."
-      }
-    },
-    "current": "Actualmente curso el Máster en Ciencia de Datos en la Universidad de Lisboa, con foco en machine learning y estadística, y me motivan los proyectos en los que los datos guían decisiones reales."
+    ]
   },
   "skills": {
     "title": "Habilidades",
@@ -233,9 +229,8 @@
     }
   },
   "projects": {
-    "title": "Proyectos",
+    "title": "Trabajos seleccionados",
     "subtitle": "Proyectos de datos e IA con resultados medibles",
-    "viewCode": "Ver Código",
     "items": [
       {
         "title": "Sistema de People Analytics para Proceso Selectivo",
@@ -258,7 +253,14 @@
           "Streamlit",
           "YData Profiling",
           "SQL"
-        ]
+        ],
+        "pipeline": [
+          "Formularios y hojas de cálculo",
+          "Limpieza y deduplicación",
+          "Embudo y métricas de equidad",
+          "Resumen ejecutivo"
+        ],
+        "url": "people-analytics · streamlit"
       },
       {
         "title": "Football Recruitment Analytics",
@@ -282,7 +284,17 @@
           "Plotly",
           "Pytest"
         ],
-        "github": "https://github.com/amarialeitao/football-recruitment-analytics"
+        "github": "https://github.com/amarialeitao/football-recruitment-analytics",
+        "pipeline": [
+          "Datos abiertos",
+          "DuckDB → Parquet + 14 controles",
+          "Percentiles y modelo de valor",
+          "Informe de scouting"
+        ],
+        "image": "/projects/football-market-overview.png",
+        "imageAlt": "Página Market Overview de la app Football Recruitment Analytics",
+        "url": "football-recruitment-analytics.streamlit.app",
+        "demo": "https://football-recruitment-analytics.streamlit.app"
       },
       {
         "title": "Floripa na Praia",
@@ -305,9 +317,25 @@
           "Selenium",
           "OpenAI API"
         ],
-        "github": "https://github.com/floripanapraia"
+        "github": "https://github.com/floripanapraia",
+        "pipeline": [
+          "Reportes de usuarios",
+          "API Spring Boot + PostgreSQL",
+          "Clasificación con IA generativa (OpenAI)",
+          "Mapa de condiciones de las playas"
+        ],
+        "url": "floripa-na-praia"
       }
-    ]
+    ],
+    "labels": {
+      "eyebrow": "Trabajo",
+      "problem": "Problema",
+      "result": "Resultado",
+      "stack": "Stack",
+      "code": "Ver código",
+      "demo": "Demo en vivo",
+      "pipeline": "Pipeline"
+    }
   },
   "education": {
     "title": "Formación y Certificaciones",
@@ -592,7 +620,6 @@
     "devtoUrl": "https://dev.to/marialuizaleitao"
   },
   "languages": {
-    "title": "Idiomas",
     "list": [
       {
         "name": "Portugués",
@@ -645,11 +672,9 @@
   "contact": {
     "title": "Hablemos de Datos",
     "subtitle": "Abierta a conversaciones sobre ingeniería de datos, analítica y proyectos de IA.",
-    "cta": "Contactar",
-    "linkedin": "LinkedIn",
-    "github": "GitHub",
-    "email": "Correo",
-    "location": "Lisboa, Portugal"
+    "location": "Lisboa, Portugal",
+    "copy": "Copiar correo",
+    "copied": "Copiado"
   },
   "footer": {
     "copyright": "© 2025 Maria Leitão. Todos los derechos reservados.",
@@ -660,7 +685,6 @@
     "dark": "Modo Oscuro"
   },
   "awards": {
-    "title": "Premios",
     "items": [
       {
         "title": "Reuni Game Award",
@@ -673,5 +697,38 @@
         "description": "Campeona estatal en el Campeonato Catarinense de Kung Fu 2023, con clasificación al Campeonato Brasileño y un lugar en la selección de Santa Catarina."
       }
     ]
+  },
+  "metrics": {
+    "label": "Cifras destacadas",
+    "items": [
+      {
+        "value": 10000,
+        "suffix": "+",
+        "label": "postulaciones a becas centralizadas"
+      },
+      {
+        "value": 3000,
+        "suffix": "+",
+        "label": "usuarios en la plataforma de mentoría"
+      },
+      {
+        "value": 6782,
+        "suffix": "",
+        "label": "jugadores modelados en 8 ligas"
+      },
+      {
+        "value": 90,
+        "suffix": "%",
+        "label": "de cobertura de pruebas unitarias (meta: 80%)"
+      }
+    ]
+  },
+  "now": {
+    "label": "Sobre mí",
+    "title": "Ahora",
+    "studying": "Estudiando",
+    "volunteering": "Voluntariado",
+    "recognition": "Reconocimiento",
+    "languages": "Idiomas"
   }
 }

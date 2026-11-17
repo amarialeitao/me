@@ -15,7 +15,7 @@ interface SectionHeadingProps {
  * Cabeçalho de seção: rótulo numerado em fonte mono + título.
  * Faz um fade/slide sutil na primeira vez que entra na tela.
  */
-export default function SectionHeading({ index, label, title, subtitle, align = 'center', className = '' }: SectionHeadingProps) {
+export default function SectionHeading({ index, label, title, subtitle, align = 'left', className = '' }: SectionHeadingProps) {
   const ref = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
 
@@ -51,11 +51,11 @@ export default function SectionHeading({ index, label, title, subtitle, align = 
       <p className="font-mono text-xs sm:text-sm tracking-[0.2em] uppercase text-signal-600 dark:text-signal-400 mb-2 sm:mb-3">
         {index} · {label}
       </p>
-      <h2 className="text-2xl sm:text-3xl md:text-4xl font-display font-semibold text-graphite-900 dark:text-white">
+      <h2 className="font-serif font-normal tracking-tight leading-[1.05] text-4xl sm:text-5xl md:text-6xl text-ink dark:text-white">
         {title}
       </h2>
       {subtitle && (
-        <p className="mt-3 sm:mt-4 text-base sm:text-lg text-graphite-600 dark:text-graphite-400 max-w-2xl mx-auto px-2">
+        <p className={`mt-3 sm:mt-4 text-base sm:text-lg text-graphite-600 dark:text-graphite-400 max-w-2xl ${align === 'center' ? 'mx-auto px-2' : ''}`}>
           {subtitle}
         </p>
       )}

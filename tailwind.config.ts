@@ -41,6 +41,9 @@ const config: Config = {
           secondary: '#10b981',
           tertiary: '#6366f1',
         },
+        // Papel e tinta: fundo claro levemente quente e texto quase preto
+        paper: '#F7F6F2',
+        ink: '#111113',
         // Paleta neutra
         graphite: {
           50: '#FAFAFA',
@@ -71,6 +74,7 @@ const config: Config = {
       },
       fontFamily: {
         display: ['var(--font-outfit)', 'system-ui', 'sans-serif'],
+        serif: ['var(--font-serif)', 'Georgia', 'serif'],
         body: ['var(--font-inter)', 'system-ui', 'sans-serif'],
         mono: ['var(--font-jetbrains)', 'monospace'],
       },

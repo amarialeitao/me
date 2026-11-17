@@ -8,6 +8,7 @@
   --font-outfit: 'Outfit', system-ui, sans-serif;
   --font-inter: 'Inter', system-ui, sans-serif;
   --font-jetbrains: 'JetBrains Mono', monospace;
+  --font-serif: 'Instrument Serif', Georgia, serif;
 }
 
 /* Base Styles */
@@ -31,13 +32,13 @@ html, body {
 
 /* Custom Selection */
 ::selection {
-  background-color: rgba(245, 158, 11, 0.3);
+  background-color: rgba(91, 95, 239, 0.25);
   color: inherit;
 }
 
 /* Focus Styles */
 :focus-visible {
-  outline: 2px solid #f59e0b;
+  outline: 2px solid #5B5FEF;
   outline-offset: 2px;
 }
 
