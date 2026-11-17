@@ -265,7 +265,7 @@
       {
         "title": "Football Recruitment Analytics",
         "subtitle": "App de scouting con datos abiertos y modelo de valor de jugadores",
-        "company": "Proyecto Personal",
+        "company": "Proyecto open source",
         "period": "Oct 2026",
         "description": "App de scouting bilingüe (EN/PT) en Streamlit con datos abiertos de 8 ligas y 3 temporadas (6.782 jugadores, 6.260 partidos), pensada para clubes que fichan con presupuesto ajustado y deben justificar cada decisión ante el director deportivo. Cada número muestra cuánta evidencia lo respalda.",
         "problem": "Los clubes con poco presupuesto necesitan detectar valor temprano, a menudo en ligas menos observadas, y justificar cada fichaje con datos.",
@@ -717,7 +717,7 @@
         "value": 6782,
         "suffix": "",
         "label": "jugadores evaluados",
-        "context": "8 ligas europeas en una app de scouting · Proyecto personal"
+        "context": "8 ligas europeas en una app de scouting · Proyecto open source"
       },
       {
         "value": 90,
