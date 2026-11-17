@@ -234,9 +234,32 @@
   },
   "projects": {
     "title": "Projects",
-    "subtitle": "Success cases with measurable business impact",
+    "subtitle": "Data and AI projects with measurable results",
     "viewCode": "View Code",
     "items": [
+      {
+        "title": "People Analytics System for Selection Process",
+        "subtitle": "Automated Analysis and Diversity Indicators",
+        "company": "Instituto Semear",
+        "period": "Jun 2026 - Jul 2026",
+        "description": "Five years of scholarship applications (12,000+ candidates, 2022 to 2026) were spread across spreadsheets and forms. I built a Streamlit analytics platform that answers the team's key questions on fairness, reach, conversion and evaluation quality.",
+        "problem": "No way to evaluate the selection process as a whole: data from 5 editions scattered across spreadsheets and forms, with no view of conversion, bias or evaluation consistency.",
+        "approach": [
+          "Data pipeline with automated cleaning, deduplication and consolidation of 5 editions, with built-in quality checks that flagged 928 duplicate submissions",
+          "Funnel analysis across every stage (application → group dynamic → interview → approval), finding the main bottleneck: only 22.9% of applicants reached the group dynamic",
+          "Fairness metrics: a representativeness index comparing approved vs. applicant profiles across demographic groups",
+          "Evaluation consistency: score distributions per criterion, correlation between stages and outlier detection across 75 evaluators",
+          "Auto-generated executive summary with confidence labels on each insight"
+        ],
+        "impact": "12,000+ applications from 5 editions analyzed in one place",
+        "skills": [
+          "Python",
+          "Pandas",
+          "Streamlit",
+          "YData Profiling",
+          "SQL"
+        ]
+      },
       {
         "title": "Football Recruitment Analytics",
         "subtitle": "Scouting app on open data with a player value model",
@@ -283,172 +306,6 @@
           "OpenAI API"
         ],
         "github": "https://github.com/floripanapraia"
-      },
-      {
-        "title": "People Analytics System for Selection Process",
-        "subtitle": "Automated Analysis and Diversity Indicators",
-        "company": "Instituto Semear",
-        "period": "Jun 2026 - Jul 2026",
-        "description": "Five years of scholarship applications (12,000+ candidates, 2022 to 2026) were spread across spreadsheets and forms. I built a Streamlit analytics platform that answers the team's key questions on fairness, reach, conversion and evaluation quality.",
-        "problem": "No way to evaluate the selection process as a whole: data from 5 editions scattered across spreadsheets and forms, with no view of conversion, bias or evaluation consistency.",
-        "approach": [
-          "Data pipeline with automated cleaning, deduplication and consolidation of 5 editions, with built-in quality checks that flagged 928 duplicate submissions",
-          "Funnel analysis across every stage (application → group dynamic → interview → approval), finding the main bottleneck: only 22.9% of applicants reached the group dynamic",
-          "Fairness metrics: a representativeness index comparing approved vs. applicant profiles across demographic groups",
-          "Evaluation consistency: score distributions per criterion, correlation between stages and outlier detection across 75 evaluators",
-          "Auto-generated executive summary with confidence labels on each insight"
-        ],
-        "impact": "12,000+ applications from 5 editions analyzed in one place",
-        "skills": [
-          "Python",
-          "Pandas",
-          "Streamlit",
-          "YData Profiling",
-          "SQL"
-        ]
-      },
-      {
-        "title": "Cloud Infrastructure Evaluation & Selection",
-        "subtitle": "Cost Reduction and Efficiency Improvement",
-        "company": "Instituto Semear",
-        "period": "Apr 2025",
-        "description": "Led comparative analysis between cloud solutions based on technical requirements, costs, and integration to recommend the most viable structure.",
-        "problem": "High costs with enterprise providers (AWS/Azure), need to balance performance and cost-effectiveness, lack of standardization.",
-        "approach": [
-          "Technical and financial requirements elicitation",
-          "Weighted decision matrix (MoSCoW)",
-          "Technical and financial benchmarking",
-          "Executive report with recommendations"
-        ],
-        "impact": "25% reduction in operational costs",
-        "skills": [
-          "Cloud",
-          "Requirements Analysis",
-          "Project Management"
-        ]
-      },
-      {
-        "title": "Product & Engineering Teams Integration",
-        "subtitle": "Communication Flow Redesign",
-        "company": "Instituto Semear",
-        "period": "Feb 2025",
-        "description": "Mapped and redesigned communication flow between Product Owners and Engineering to reduce misalignments and increase efficiency.",
-        "problem": "Lack of role clarity, rework due to conflicting priorities, long and informal feedback cycles.",
-        "approach": [
-          "Stakeholder Mapping",
-          "RACI Matrix",
-          "Agile governance flow design",
-          "AS-IS/TO-BE documentation"
-        ],
-        "impact": "20% reduction in feedback cycles",
-        "skills": [
-          "Business Analysis",
-          "Communication",
-          "Agile Management"
-        ]
-      },
-      {
-        "title": "Requirements Standardization in Agile Teams",
-        "subtitle": "User Stories Optimization",
-        "company": "Instituto Semear",
-        "period": "Dec 2024 - Feb 2025",
-        "description": "Analyzed user stories and refinement processes to identify rework causes. Created documentation standards and clear acceptance criteria.",
-        "problem": "Frequent rework due to unclear stories, difficulty aligning PO and technical team.",
-        "approach": [
-          "Collaborative elicitation",
-          "Requirements analysis with SMART criteria",
-          "Approval flow modeling",
-          "Standardized templates"
-        ],
-        "impact": "30% reduction in rework",
-        "skills": [
-          "Requirements Engineering",
-          "Agile Methodologies",
-          "BPMN"
-        ]
-      },
-      {
-        "title": "Jira Board Integrated with Git and Confluence",
-        "subtitle": "Automation and Agile Governance",
-        "company": "DO Telematics",
-        "period": "May - Jul 2024",
-        "description": "Structured Jira board with optimized Kanban flows, Git-integrated automations, and living documentation in Confluence.",
-        "problem": "Lack of standardization in agile flows, difficulty tracking commits and status, scattered documentation.",
-        "approach": [
-          "AS-IS and TO-BE mapping",
-          "Jira + Git transition automation",
-          "Jira/Git/Confluence integration",
-          "Governance templates"
-        ],
-        "impact": "+35% visibility on progress",
-        "skills": [
-          "Jira",
-          "Git",
-          "Confluence",
-          "Kanban"
-        ]
-      },
-      {
-        "title": "API Documentation via Swagger",
-        "subtitle": "Frontend Transparency and Autonomy",
-        "company": "DO Telematics",
-        "period": "May 2024",
-        "description": "Developed complete API documentation using Swagger, enabling frontend to validate endpoints autonomously.",
-        "problem": "Lack of centralized documentation, constant dependency between teams, difficulty for management to visualize.",
-        "approach": [
-          "Endpoint standardization",
-          "Interactive Swagger UI",
-          "Versioning pipeline integration",
-          "Cross-team alignment"
-        ],
-        "impact": "40% reduction in integration time",
-        "skills": [
-          "Swagger",
-          "REST APIs",
-          "Technical Documentation"
-        ]
-      },
-      {
-        "title": "Web Services with Spring Boot",
-        "subtitle": "Orders Microservice",
-        "company": "Senac Santa Catarina",
-        "period": "Feb - Mar 2024",
-        "description": "Microservice project focused on implementing business rules and data integrity for an orders system.",
-        "problem": "Need for robust system with data modeling, service layer, and exception handling.",
-        "approach": [
-          "JPA/Hibernate modeling",
-          "Service Layer Pattern",
-          "CRUD exception handling",
-          "Referential integrity"
-        ],
-        "impact": "Robust and reliable system",
-        "skills": [
-          "Spring Boot",
-          "JPA",
-          "Hibernate",
-          "Java"
-        ],
-        "github": "https://github.com/amarialeitao"
-      },
-      {
-        "title": "Walmart Sales Data Insights",
-        "subtitle": "Data Analysis with SQL",
-        "company": "Personal Project",
-        "period": "Dec 2023",
-        "description": "Sales data analysis (Kaggle) using advanced SQL to extract business insights and feature engineering.",
-        "problem": "Need to identify sales patterns and customer segments for marketing strategies.",
-        "approach": [
-          "Complex SQL queries",
-          "Feature engineering (COGS, VAT)",
-          "Profitability analysis by branch",
-          "Behavior patterns"
-        ],
-        "impact": "Actionable insights for decisions",
-        "skills": [
-          "SQL",
-          "Data Analysis",
-          "Business Intelligence"
-        ]
       }
     ]
   },
