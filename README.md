@@ -1,171 +1,60 @@
-# Maria Leitão - Landing Page Portfolio
+# Maria Leitão · Portfolio
 
-Uma landing page moderna, profissional e responsiva para showcase de habilidades profissionais.
+Personal portfolio of Maria Leitão, AI Data Engineer based in Lisbon and MSc in Data Science student at the University of Lisbon.
 
-![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?logo=tailwind-css)
+**Live site:** [amarialeitao.github.io/me](https://amarialeitao.github.io/me/)
 
-## ✨ Features
+![Portfolio preview](public/og-image.png)
 
-- 🌙 **Dark/Light Mode** - Toggle persistente com localStorage
-- 🌍 **Multi-idioma (i18n)** - Português, Inglês e Espanhol
-- 📱 **Responsivo** - Mobile-first design
-- ⚡ **Performance** - Otimizado para Core Web Vitals
-- ♿ **Acessibilidade** - Semântica HTML e ARIA labels
-- 🎨 **Design Moderno** - Gradientes, animações e glassmorphism
+## What's inside
 
-## 🚀 Quick Start
+- **Hero with a pipeline animation:** a canvas animation of data moving through four stages (ingest, clean, model, decide). It pauses off screen and stays still when the visitor prefers reduced motion.
+- **Case studies:** each project shows the problem, the result, the stack, a framed screenshot and a short pipeline diagram.
+- **Three languages:** Portuguese, English and Spanish, with the page language kept in sync for screen readers and search engines.
+- **Light and dark themes**, a responsive layout from mobile to wide screens, and privacy-friendly visit counting with GoatCounter (no cookies).
 
-### Pré-requisitos
+## Stack
 
-- Node.js 18+ 
-- npm, yarn ou pnpm
+- [Next.js 14](https://nextjs.org/) (App Router, static export)
+- TypeScript
+- Tailwind CSS
+- Deployed to GitHub Pages with GitHub Actions
 
-### Instalação
+## Running locally
+
+Requires Node.js 18 or later.
 
 ```bash
-# Clonar/acessar o projeto
-cd landing-page
-
-# Instalar dependências
 npm install
-
-# Rodar em desenvolvimento
 npm run dev
 ```
 
-Acesse [http://localhost:3000](http://localhost:3000)
+Then open [http://localhost:3000/me](http://localhost:3000/me). The site is served under `/me` because of the GitHub Pages base path.
 
-### Build para Produção
-
-```bash
-npm run build
-npm run start
-```
-
-## 📁 Estrutura do Projeto
-
-```
-landing-page/
-├── src/
-│   ├── app/
-│   │   ├── globals.css      # Estilos globais + Tailwind
-│   │   ├── layout.tsx       # Layout raiz + SEO
-│   │   └── page.tsx         # Página principal
-│   ├── components/
-│   │   ├── Header.tsx       # Navegação + Toggle tema/idioma
-│   │   ├── Hero.tsx         # Seção principal
-│   │   ├── About.tsx        # Sobre mim
-│   │   ├── Skills.tsx       # Habilidades técnicas
-│   │   ├── Experience.tsx   # Experiência profissional
-│   │   ├── Education.tsx    # Formação e certificações
-│   │   ├── Languages.tsx    # Idiomas
-│   │   ├── Testimonials.tsx # Recomendações
-│   │   ├── Contact.tsx      # Contato
-│   │   └── Footer.tsx       # Rodapé
-│   ├── contexts/
-│   │   ├── ThemeContext.tsx    # Contexto dark/light mode
-│   │   └── LanguageContext.tsx # Contexto i18n
-│   └── i18n/
-│       ├── index.ts         # Configuração i18n
-│       ├── pt.json          # Traduções Português
-│       ├── en.json          # Traduções Inglês
-│       └── es.json          # Traduções Espanhol
-├── public/                   # Assets estáticos
-├── tailwind.config.ts       # Configuração Tailwind
-├── next.config.js           # Configuração Next.js
-└── package.json
-```
-
-## 🎨 Personalização
-
-### Cores
-
-Edite `tailwind.config.ts` para alterar a paleta:
-
-```typescript
-colors: {
-  midnight: { ... },  // Cor base (dark theme)
-  amber: { ... },     // Cor de destaque
-}
-```
-
-### Conteúdo
-
-Edite os arquivos JSON em `src/i18n/` para atualizar textos:
-
-- `pt.json` - Português
-- `en.json` - Inglês  
-- `es.json` - Espanhol
-
-### Imagens
-
-Adicione suas imagens em `public/`:
-
-- `og-image.png` - Open Graph (1200x630)
-- `favicon.ico` - Favicon
-- `apple-touch-icon.png` - iOS icon
-
-## 🚀 Deploy
-
-### Vercel (Recomendado)
-
-1. Push para GitHub
-2. Conecte no [Vercel](https://vercel.com)
-3. Deploy automático
-
-```bash
-# Ou via CLI
-npm i -g vercel
-vercel
-```
-
-### Outras Plataformas
+To build the static site into `out/`:
 
 ```bash
 npm run build
-# Sirva a pasta .next ou exporte como estático
 ```
 
-## 🔮 Melhorias Futuras
+## Project structure
 
-### Animações Avançadas
-- [ ] Framer Motion para transições de página
-- [ ] Scroll-triggered animations
-- [ ] Cursor personalizado
-- [ ] Parallax effects
+```
+src/
+├── app/          # Root layout, metadata and page composition
+├── components/   # Page sections (Hero, CaseStudies, Experience, Now, ...)
+├── contexts/     # Language and theme providers
+├── i18n/         # Content in pt, en and es
+└── lib/          # Shared constants (base path)
+public/           # Images, certificates and the link preview image
+```
 
-### Analytics & SEO
-- [ ] Google Analytics 4
-- [ ] Structured Data (JSON-LD)
-- [ ] Sitemap.xml dinâmico
-- [ ] robots.txt otimizado
+All text lives in `src/i18n/*.json`, so content updates don't require touching the components.
 
-### Features Adicionais
-- [ ] Blog integrado (MDX)
-- [ ] Seção de projetos com modal
-- [ ] Formulário de contato funcional
-- [ ] Download de CV em PDF
-- [ ] Modo "terminal" easter egg
+## Deployment
 
-### Integrações
-- [ ] CMS headless (Contentful/Sanity)
-- [ ] Calendly embed para agendamentos
-- [ ] LinkedIn API para atualização automática
-- [ ] GitHub API para mostrar projetos
-   
-### Performance
-- [ ] Image optimization com next/image
-- [ ] Font subsetting
-- [ ] Critical CSS extraction
-- [ ] Service Worker para PWA
+Every push to `main` runs `.github/workflows/deploy.yml`, which builds the site and publishes `out/` to the `gh-pages` branch.
 
-## 📄 Licença
+## Contact
 
-MIT © Maria Leitão
-
----
-
-Desenvolvido com ❤️ usando Next.js, TypeScript e Tailwind CSS
-
+[LinkedIn](https://www.linkedin.com/in/amarialeitao/) · [GitHub](https://github.com/amarialeitao)
