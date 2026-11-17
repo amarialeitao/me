@@ -458,8 +458,7 @@
       "graduation": "Bachelor's Degree",
       "postgraduate": "Graduate Studies",
       "certifications": "Certifications",
-      "courses": "Complementary Courses",
-      "awards": "Awards"
+      "courses": "Complementary Courses"
     },
     "graduation": {
       "title": "Systems Analysis and Development",
@@ -565,16 +564,6 @@
           "Advanced Databases"
         ]
       }
-    ],
-    "awards": [
-      {
-        "title": "Reuni Game 2023 Winner",
-        "description": "Member of team Blumer, winner of Brazil's largest university entrepreneurship event. Honorable mention for the Pitch."
-      },
-      {
-        "title": "State Champion of Kung Fu 2023",
-        "description": "State champion individual and team in the regional kung fu competition."
-      }
     ]
   },
   "articles": {
@@ -679,5 +668,20 @@
   "theme": {
     "light": "Light Mode",
     "dark": "Dark Mode"
+  },
+  "awards": {
+    "title": "Awards",
+    "items": [
+      {
+        "title": "Reuni Game Award",
+        "issuer": "REUNI Challenge · Sep 2023",
+        "description": "Member of the interdisciplinary Senac team in the 7th edition of Brazil's largest university entrepreneurship competition, among 250+ participants nationwide. We built a product-mix clustering prototype for a supermarket chain, validated it with 200+ people and pitched it to an evaluation panel, winning 1st place in the Reuni Game and an honorable mention trophy."
+      },
+      {
+        "title": "State Kung Fu Champion",
+        "issuer": "Federação de Kung Fu Wushu de Santa Catarina · May 2023",
+        "description": "State champion at the 2023 Santa Catarina Kung Fu Championship, qualifying for the Brazilian National Championship and earning a spot on the Santa Catarina state team."
+      }
+    ]
   }
 }

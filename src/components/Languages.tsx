@@ -16,7 +16,7 @@ export default function Languages() {
       <div className="absolute inset-0 bg-graphite-50 dark:bg-graphite-950" />
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading index="07" label="Idiomas" title={t.languages.title} />
+        <SectionHeading index="08" label="Idiomas" title={t.languages.title} />
 
         {/* Cards de idiomas */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6">

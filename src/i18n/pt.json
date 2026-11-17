@@ -458,8 +458,7 @@
       "graduation": "Graduação",
       "postgraduate": "Mestrado e Pós-Graduação",
       "certifications": "Certificações",
-      "courses": "Cursos Complementares",
-      "awards": "Prêmios"
+      "courses": "Cursos Complementares"
     },
     "graduation": {
       "title": "Análise e Desenvolvimento de Sistemas",
@@ -691,16 +690,6 @@
           "Banco de Dados Avançado"
         ]
       }
-    ],
-    "awards": [
-      {
-        "title": "Vencedora do Reuni Game 2023",
-        "description": "Membro da equipe Blumer, vencedora do maior evento de empreendedorismo universitário do Brasil. Menção honrosa pelo Pitch."
-      },
-      {
-        "title": "Campeã Catarinense de Kung Fu 2023",
-        "description": "Campeã individual e equipe na competição regional de kung fu."
-      }
     ]
   },
   "articles": {
@@ -805,5 +794,20 @@
   "theme": {
     "light": "Modo Claro",
     "dark": "Modo Escuro"
+  },
+  "awards": {
+    "title": "Prêmios",
+    "items": [
+      {
+        "title": "Reuni Game Award",
+        "issuer": "REUNI Challenge · Set 2023",
+        "description": "Integrante da equipe interdisciplinar do Senac na 7ª edição da maior competição de empreendedorismo universitário do Brasil, entre mais de 250 participantes de todo o país. Construímos um protótipo de clusterização de mix de produtos para uma rede de supermercados, validado com mais de 200 pessoas e apresentado em pitch a uma banca avaliadora, conquistando o 1º lugar no Reuni Game e um troféu de menção honrosa."
+      },
+      {
+        "title": "Campeã Catarinense de Kung Fu",
+        "issuer": "Federação de Kung Fu Wushu de Santa Catarina · Mai 2023",
+        "description": "Campeã estadual no Campeonato Catarinense de Kung Fu 2023, com classificação para o Campeonato Brasileiro e vaga na seleção de Santa Catarina."
+      }
+    ]
   }
 }

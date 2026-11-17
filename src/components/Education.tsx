@@ -5,7 +5,6 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import {
   GraduationCap,
   Award,
-  Trophy,
   BookOpen,
   Users,
   ShieldCheck,
@@ -354,35 +353,6 @@ export default function Education() {
                 </p>
               </div>
             ))}
-
-            {/* Awards */}
-            <div className="mt-6 sm:mt-8 space-y-4">
-              <h3 className="flex items-center gap-2 text-lg sm:text-xl font-semibold text-graphite-900 dark:text-white mb-4 sm:mb-6">
-                <Trophy className="w-4 h-4 sm:w-5 sm:h-5 text-signal-500 flex-shrink-0" />
-                <span>{t.education.subtitles?.awards || 'Prêmios'}</span>
-              </h3>
-
-              {t.education.awards.map((award, index) => (
-                <div
-                  key={index}
-                  className="group relative p-4 sm:p-6 bg-white dark:bg-graphite-800/50 rounded-2xl border border-graphite-200 dark:border-graphite-700"
-                >
-                  <div className="flex items-start gap-3 sm:gap-4">
-                    <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-graphite-100 dark:bg-graphite-700 rounded-xl flex items-center justify-center">
-                      <Trophy className="w-5 h-5 sm:w-6 sm:h-6 text-graphite-700 dark:text-graphite-300" />
-                    </div>
-                    <div className="min-w-0 flex-1">
-                      <h4 className="text-base sm:text-lg font-semibold text-graphite-900 dark:text-white mb-1 sm:mb-2">
-                        {award.title}
-                      </h4>
-                      <p className="text-xs sm:text-sm text-graphite-600 dark:text-graphite-400">
-                        {award.description}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
           </div>
 
           {/* Courses by Institution */}

@@ -22,7 +22,7 @@ export default function Testimonials() {
       <div className="absolute inset-0 bg-white dark:bg-graphite-900" />
 
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading index="08" label="Depoimentos" title={t.testimonials.title} />
+        <SectionHeading index="09" label="Depoimentos" title={t.testimonials.title} />
 
         {/* Testimonials Grid - 3 columns on large screens */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">

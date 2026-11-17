@@ -8,6 +8,7 @@ import Experience from '@/components/Experience';
 import Projects from '@/components/Projects';
 import Articles from '@/components/Articles';
 import Education from '@/components/Education';
+import Awards from '@/components/Awards';
 import Languages from '@/components/Languages';
 import Testimonials from '@/components/Testimonials';
 import Contact from '@/components/Contact';
@@ -25,6 +26,7 @@ export default function Home() {
         <Projects />
         <Articles />
         <Education />
+        <Awards />
         <Languages />
         <Testimonials />
         <Contact />

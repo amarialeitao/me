@@ -458,8 +458,7 @@
       "graduation": "Grado",
       "postgraduate": "Máster y Posgrado",
       "certifications": "Certificaciones",
-      "courses": "Cursos Complementarios",
-      "awards": "Premios"
+      "courses": "Cursos Complementarios"
     },
     "graduation": {
       "title": "Análisis y Desarrollo de Sistemas",
@@ -691,16 +690,6 @@
           "Bases de Datos Avanzadas"
         ]
       }
-    ],
-    "awards": [
-      {
-        "title": "Ganadora del Reuni Game 2023",
-        "description": "Miembro del equipo Blumer, ganador del mayor evento de emprendimiento universitario de Brasil. Mención de honor por el Pitch."
-      },
-      {
-        "title": "Campeona Estadual de Kung Fu 2023",
-        "description": "Campeona individual y equipo en la competición regional de kung fu."
-      }
     ]
   },
   "articles": {
@@ -805,5 +794,20 @@
   "theme": {
     "light": "Modo Claro",
     "dark": "Modo Oscuro"
+  },
+  "awards": {
+    "title": "Premios",
+    "items": [
+      {
+        "title": "Reuni Game Award",
+        "issuer": "REUNI Challenge · Sep 2023",
+        "description": "Integrante del equipo interdisciplinario del Senac en la 7.ª edición de la mayor competición de emprendimiento universitario de Brasil, entre más de 250 participantes de todo el país. Construimos un prototipo de clustering de mix de productos para una cadena de supermercados, validado con más de 200 personas y presentado en un pitch ante un jurado, logrando el 1.er lugar en el Reuni Game y un trofeo de mención de honor."
+      },
+      {
+        "title": "Campeona Estatal de Kung Fu",
+        "issuer": "Federação de Kung Fu Wushu de Santa Catarina · May 2023",
+        "description": "Campeona estatal en el Campeonato Catarinense de Kung Fu 2023, con clasificación al Campeonato Brasileño y un lugar en la selección de Santa Catarina."
+      }
+    ]
   }
 }

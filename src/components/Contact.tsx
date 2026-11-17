@@ -16,7 +16,7 @@ export default function Contact() {
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Content */}
         <div className="text-center">
-          <SectionHeading index="09" label="Contato" title={t.contact.title} subtitle={t.contact.subtitle} />
+          <SectionHeading index="10" label="Contato" title={t.contact.title} subtitle={t.contact.subtitle} />
 
           {/* Localização */}
           <p className="-mt-4 sm:-mt-6 mb-8 sm:mb-10 inline-flex items-center gap-1.5 font-mono text-xs sm:text-sm text-graphite-500 dark:text-graphite-400">
