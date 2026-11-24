@@ -35,7 +35,7 @@
   },
   "about": {
     "description": [
-      "Soy AI Data Engineer, con más de 3 años de experiencia entre ingeniería de datos, analítica e ingeniería de software. En el Instituto Semear construí una plataforma de People Analytics en Python y Streamlit que reunió más de 10.000 postulaciones a becas de 5 años en un solo lugar, automatizando limpieza, transformación e informes ejecutivos.",
+      "Soy Junior AI/ML Engineer en Accenture Portugal, donde desarrollo soluciones de machine learning e IA generativa para Belfius, grupo bancario y asegurador belga. Tengo más de 3 años de experiencia entre ingeniería de datos, analítica e ingeniería de software. En el Instituto Semear construí una plataforma de People Analytics en Python y Streamlit que reunió más de 10.000 postulaciones a becas de 5 años en un solo lugar, automatizando limpieza, transformación e informes ejecutivos.",
       "Mi base en ingeniería de software (Go, Java/Spring Boot, TypeScript, Docker, CI/CD, AWS) me permite llevar una solución de datos desde la ingesta hasta producción, y mi experiencia con requisitos y equipos ágiles ayuda a que responda a la pregunta de negocio correcta."
     ]
   },
@@ -114,11 +114,23 @@
     "title": "Experiencia Profesional",
     "positions": [
       {
+        "title": "Junior AI/ML Engineer",
+        "company": "Accenture Portugal · Belfius",
+        "period": "Dic 2026 - Presente",
+        "location": "Lisboa, Portugal",
+        "description": "Desarrollo e implemento soluciones de IA y machine learning para Belfius, grupo bancario y asegurador líder en Bélgica, a través de la joint venture Belfius-Accenture. Trabajo con equipos multidisciplinarios de IA y Datos en sistemas inteligentes para la prevención de delitos financieros, la gestión del conocimiento corporativo y la automatización de negocio con IA, usando machine learning e IA generativa.",
+        "highlights": [],
+        "stack": [
+          "Machine Learning",
+          "Generative AI"
+        ]
+      },
+      {
         "title": "Data Engineer",
         "company": "Instituto Semear",
-        "period": "Dic 2025 - Presente",
+        "period": "Dic 2025 - Nov 2026",
         "location": "Remoto",
-        "description": "Soy responsable de las soluciones de datos detrás de los programas de selección de becarios y de mentoría del instituto.",
+        "description": "Fui responsable de las soluciones de datos detrás de los programas de selección de becarios y de mentoría del instituto.",
         "highlights": [
           "Construí una plataforma de People Analytics (Python, Streamlit) que centraliza más de 10.000 postulaciones a becas de 5 años, con pipelines automatizados de limpieza, consolidación y agregación.",
           "Entregué dashboards interactivos con KPIs automatizados e informes ejecutivos, reemplazando un proceso sin herramienta centralizada de análisis y permitiendo al liderazgo seguir tendencias y posibles sesgos entre ciclos de selección.",

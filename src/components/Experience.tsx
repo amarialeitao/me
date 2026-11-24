@@ -53,11 +53,13 @@ export default function Experience() {
                   <div className="overflow-hidden">
                     <div className="pb-8 md:pl-[calc(11rem+1.5rem)] max-w-4xl">
                       <p className="text-graphite-700 dark:text-graphite-300">{position.description}</p>
-                      <ul className="mt-4 space-y-2 list-disc pl-5 marker:text-graphite-400 text-sm text-graphite-600 dark:text-graphite-400">
-                        {position.highlights.map((highlight) => (
-                          <li key={highlight}>{highlight}</li>
-                        ))}
-                      </ul>
+                      {position.highlights.length > 0 && (
+                        <ul className="mt-4 space-y-2 list-disc pl-5 marker:text-graphite-400 text-sm text-graphite-600 dark:text-graphite-400">
+                          {position.highlights.map((highlight) => (
+                            <li key={highlight}>{highlight}</li>
+                          ))}
+                        </ul>
+                      )}
                       {position.stack && (
                         <ul className="mt-5 flex flex-wrap gap-2">
                           {position.stack.map((tech) => (

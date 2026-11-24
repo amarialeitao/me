@@ -93,7 +93,7 @@ const personJsonLd = {
   image: `${SITE_URL}/profile.webp`,
   email: 'mailto:malufln.99@gmail.com',
   address: { '@type': 'PostalAddress', addressLocality: 'Lisbon', addressCountry: 'PT' },
-  worksFor: { '@type': 'Organization', name: 'Instituto Semear' },
+  worksFor: { '@type': 'Organization', name: 'Accenture Portugal' },
   alumniOf: [
     { '@type': 'CollegeOrUniversity', name: 'Faculdade de Ciências da Universidade de Lisboa' },
     { '@type': 'CollegeOrUniversity', name: 'Senac Santa Catarina' },

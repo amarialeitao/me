@@ -35,7 +35,7 @@
   },
   "about": {
     "description": [
-      "I'm an AI Data Engineer with 3+ years across data engineering, analytics and software engineering. At Instituto Semear, I built a People Analytics platform in Python and Streamlit that brought 10,000+ scholarship applications from 5 years into one place, automating cleaning, transformation and executive reporting.",
+      "I'm a Junior AI/ML Engineer at Accenture Portugal, building machine learning and generative AI solutions for Belfius, a Belgian banking and insurance group. I have 3+ years across data engineering, analytics and software engineering. At Instituto Semear, I built a People Analytics platform in Python and Streamlit that brought 10,000+ scholarship applications from 5 years into one place, automating cleaning, transformation and executive reporting.",
       "My software engineering background (Go, Java/Spring Boot, TypeScript, Docker, CI/CD, AWS) means I can take a data solution from ingestion all the way to production, and my experience with requirements and agile teams helps make sure it answers the right business question."
     ]
   },
@@ -114,11 +114,23 @@
     "title": "Professional Experience",
     "positions": [
       {
+        "title": "Junior AI/ML Engineer",
+        "company": "Accenture Portugal · Belfius",
+        "period": "Dec 2026 - Present",
+        "location": "Lisbon, Portugal",
+        "description": "I build and implement AI and machine learning solutions for Belfius, a leading Belgian banking and insurance group, through the Belfius-Accenture joint venture. I work with multidisciplinary AI & Data teams on intelligent systems for financial crime prevention, enterprise knowledge management and AI-driven business automation, using machine learning and generative AI.",
+        "highlights": [],
+        "stack": [
+          "Machine Learning",
+          "Generative AI"
+        ]
+      },
+      {
         "title": "Data Engineer",
         "company": "Instituto Semear",
-        "period": "Dec 2025 - Present",
+        "period": "Dec 2025 - Nov 2026",
         "location": "Remote",
-        "description": "I own the data solutions behind the institute's scholarship selection and mentoring programs.",
+        "description": "I owned the data solutions behind the institute's scholarship selection and mentoring programs.",
         "highlights": [
           "Built a People Analytics platform (Python, Streamlit) centralizing 10,000+ scholarship applications from 5 years, with automated cleaning, consolidation and aggregation pipelines.",
           "Delivered interactive dashboards with automated KPIs and executive reports, replacing a process that had no centralized analysis tool and letting leadership track trends and potential bias across selection cycles.",
