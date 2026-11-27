@@ -368,7 +368,7 @@
       "highlights": [
         "Machine learning, deep learning, statistics and data mining",
         "Data engineering, databases, data visualization and cloud computing",
-        "Courses: Machine Learning, Exploratory Data Analysis, Statistical Methods"
+        "Courses: Machine Learning, Cloud Computing, Design and Analysis of Algorithms, Human-AI Interaction, Data Mining, Regression and Analysis of Variance, Exploratory Data Analysis, Statistical Methods"
       ]
     },
     "degrees": [
@@ -440,6 +440,11 @@
         "institution": "Faculdade de Ciências da Universidade de Lisboa",
         "courses": [
           "Machine Learning",
+          "Cloud Computing",
+          "Design and Analysis of Algorithms",
+          "Human-AI Interaction",
+          "Data Mining",
+          "Regression and Analysis of Variance",
           "Exploratory Data Analysis",
           "Statistical Methods"
         ]

@@ -368,7 +368,7 @@
       "highlights": [
         "Machine learning, deep learning, estatística e mineração de dados",
         "Engenharia de dados, bancos de dados, visualização de dados e computação em nuvem",
-        "Disciplinas: Machine Learning, Análise Exploratória de Dados, Métodos Estatísticos"
+        "Disciplinas: Machine Learning, Computação em Nuvem, Desenho e Análise de Algoritmos, Interação Humano-AI, Data Mining, Regressão e Análise da Variância, Análise Exploratória de Dados, Métodos Estatísticos"
       ]
     },
     "degrees": [
@@ -566,6 +566,11 @@
         "institution": "Faculdade de Ciências da Universidade de Lisboa",
         "courses": [
           "Machine Learning",
+          "Computação em Nuvem",
+          "Desenho e Análise de Algoritmos",
+          "Interação Humano-AI",
+          "Data Mining",
+          "Regressão e Análise da Variância",
           "Análise Exploratória de Dados",
           "Métodos Estatísticos"
         ]
