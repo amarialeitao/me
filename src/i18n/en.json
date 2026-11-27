@@ -373,20 +373,12 @@
     },
     "degrees": [
       {
-        "title": "Technology in Systems Analysis and Development",
-        "institution": "Senac Santa Catarina",
-        "period": "Feb 2023 - Sep 2025",
-        "status": "Completed",
-        "completed": true,
-        "description": "Software engineering, databases and systems architecture. Capstone: Floripa na Praia, a full-stack Java/Spring Boot and React platform load-tested for 70,000 concurrent users."
-      },
-      {
-        "title": "Postgraduate in Programming Languages",
-        "institution": "GRAN",
-        "status": "Completed",
-        "description": "Deep dive into Design Patterns, Modeling and Development, Data Structures.",
-        "period": "Sep 2025 - May 2026",
-        "completed": true
+        "title": "Full Stack Data Program",
+        "institution": "PoD Academy",
+        "status": "In progress",
+        "description": "Spark and Airflow orchestration, data platforms on GCP (BigQuery, Vertex AI) and AWS (SageMaker, Redshift), MLOps with model monitoring in production, generative AI with RAG and agents, and credit and fraud prevention models.",
+        "completed": false,
+        "period": "Nov 2026 - May 2028"
       },
       {
         "title": "Postgraduate in Information Security",
@@ -397,12 +389,20 @@
         "completed": true
       },
       {
-        "title": "Full Stack Data Program",
-        "institution": "PoD Academy",
-        "status": "In progress",
-        "description": "Spark and Airflow orchestration, data platforms on GCP (BigQuery, Vertex AI) and AWS (SageMaker, Redshift), MLOps with model monitoring in production, generative AI with RAG and agents, and credit and fraud prevention models.",
-        "completed": false,
-        "period": "Nov 2026 - May 2028"
+        "title": "Postgraduate in Programming Languages",
+        "institution": "GRAN",
+        "status": "Completed",
+        "description": "Deep dive into Design Patterns, Modeling and Development, Data Structures.",
+        "period": "Sep 2025 - May 2026",
+        "completed": true
+      },
+      {
+        "title": "Technology in Systems Analysis and Development",
+        "institution": "Senac Santa Catarina",
+        "period": "Feb 2023 - Sep 2025",
+        "status": "Completed",
+        "completed": true,
+        "description": "Software engineering, databases and systems architecture. Capstone: Floripa na Praia, a full-stack Java/Spring Boot and React platform load-tested for 70,000 concurrent users."
       }
     ],
     "mainCertifications": [

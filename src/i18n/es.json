@@ -373,20 +373,12 @@
     },
     "degrees": [
       {
-        "title": "Tecnología en Análisis y Desarrollo de Sistemas",
-        "institution": "Senac Santa Catarina",
-        "period": "Feb 2023 - Sep 2025",
-        "status": "Completado",
-        "completed": true,
-        "description": "Ingeniería de software, bases de datos y arquitectura de sistemas. Proyecto final: Floripa na Praia, plataforma full stack en Java/Spring Boot y React validada en pruebas de carga con 70.000 usuarios simultáneos."
-      },
-      {
-        "title": "Posgrado en Lenguajes de Programación",
-        "institution": "GRAN",
-        "status": "Completado",
-        "description": "Profundización en Patrones de Diseño, Modelado y Desarrollo, Estructuras de Datos.",
-        "period": "Sep 2025 - May 2026",
-        "completed": true
+        "title": "Programa Full Stack de Datos",
+        "institution": "PoD Academy",
+        "status": "En curso",
+        "description": "Spark y orquestación con Airflow, plataformas de datos en GCP (BigQuery, Vertex AI) y AWS (SageMaker, Redshift), MLOps con monitoreo de modelos en producción, IA generativa con RAG y agentes, y modelos de crédito y prevención de fraude.",
+        "completed": false,
+        "period": "Nov 2026 - May 2028"
       },
       {
         "title": "Posgrado en Seguridad de la Información",
@@ -397,12 +389,20 @@
         "completed": true
       },
       {
-        "title": "Programa Full Stack de Datos",
-        "institution": "PoD Academy",
-        "status": "En curso",
-        "description": "Spark y orquestación con Airflow, plataformas de datos en GCP (BigQuery, Vertex AI) y AWS (SageMaker, Redshift), MLOps con monitoreo de modelos en producción, IA generativa con RAG y agentes, y modelos de crédito y prevención de fraude.",
-        "completed": false,
-        "period": "Nov 2026 - May 2028"
+        "title": "Posgrado en Lenguajes de Programación",
+        "institution": "GRAN",
+        "status": "Completado",
+        "description": "Profundización en Patrones de Diseño, Modelado y Desarrollo, Estructuras de Datos.",
+        "period": "Sep 2025 - May 2026",
+        "completed": true
+      },
+      {
+        "title": "Tecnología en Análisis y Desarrollo de Sistemas",
+        "institution": "Senac Santa Catarina",
+        "period": "Feb 2023 - Sep 2025",
+        "status": "Completado",
+        "completed": true,
+        "description": "Ingeniería de software, bases de datos y arquitectura de sistemas. Proyecto final: Floripa na Praia, plataforma full stack en Java/Spring Boot y React validada en pruebas de carga con 70.000 usuarios simultáneos."
       }
     ],
     "mainCertifications": [

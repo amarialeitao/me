@@ -373,20 +373,12 @@
     },
     "degrees": [
       {
-        "title": "Tecnologia em Análise e Desenvolvimento de Sistemas",
-        "institution": "Senac Santa Catarina",
-        "period": "Fev 2023 - Set 2025",
-        "status": "Concluída",
-        "completed": true,
-        "description": "Engenharia de software, bancos de dados e arquitetura de sistemas. TCC: Floripa na Praia, plataforma full stack em Java/Spring Boot e React validada em teste de carga com 70.000 usuários simultâneos."
-      },
-      {
-        "title": "Pós-Graduação em Linguagens de Programação",
-        "institution": "GRAN",
-        "status": "Concluída",
-        "description": "Aprofundamento em Padrões de Projeto, Modelagem e Desenvolvimento, Estrutura de Dados.",
-        "period": "Set 2025 - Mai 2026",
-        "completed": true
+        "title": "Fullstack em Dados",
+        "institution": "PoD Academy",
+        "status": "Em andamento",
+        "description": "Spark e orquestração com Airflow, plataformas de dados em GCP (BigQuery, Vertex AI) e AWS (SageMaker, Redshift), MLOps com monitoramento de modelos em produção, IA generativa com RAG e agentes, e modelos de crédito e prevenção a fraudes.",
+        "completed": false,
+        "period": "Nov 2026 - Mai 2028"
       },
       {
         "title": "Pós-Graduação em Segurança da Informação",
@@ -397,12 +389,20 @@
         "completed": true
       },
       {
-        "title": "Fullstack em Dados",
-        "institution": "PoD Academy",
-        "status": "Em andamento",
-        "description": "Spark e orquestração com Airflow, plataformas de dados em GCP (BigQuery, Vertex AI) e AWS (SageMaker, Redshift), MLOps com monitoramento de modelos em produção, IA generativa com RAG e agentes, e modelos de crédito e prevenção a fraudes.",
-        "completed": false,
-        "period": "Nov 2026 - Mai 2028"
+        "title": "Pós-Graduação em Linguagens de Programação",
+        "institution": "GRAN",
+        "status": "Concluída",
+        "description": "Aprofundamento em Padrões de Projeto, Modelagem e Desenvolvimento, Estrutura de Dados.",
+        "period": "Set 2025 - Mai 2026",
+        "completed": true
+      },
+      {
+        "title": "Tecnologia em Análise e Desenvolvimento de Sistemas",
+        "institution": "Senac Santa Catarina",
+        "period": "Fev 2023 - Set 2025",
+        "status": "Concluída",
+        "completed": true,
+        "description": "Engenharia de software, bancos de dados e arquitetura de sistemas. TCC: Floripa na Praia, plataforma full stack em Java/Spring Boot e React validada em teste de carga com 70.000 usuários simultâneos."
       }
     ],
     "mainCertifications": [
