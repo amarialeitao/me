@@ -401,7 +401,8 @@
         "institution": "PoD Academy",
         "status": "Em andamento",
         "description": "Spark e orquestração com Airflow, plataformas de dados em GCP (BigQuery, Vertex AI) e AWS (SageMaker, Redshift), MLOps com monitoramento de modelos em produção, IA generativa com RAG e agentes, e modelos de crédito e prevenção a fraudes.",
-        "completed": false
+        "completed": false,
+        "period": "Out 2026 - Abr 2028"
       }
     ],
     "mainCertifications": [
