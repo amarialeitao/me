@@ -395,6 +395,13 @@
         "description": "Focus on Security Management, ISO 27001/27002/27005 Standards, Computer Forensics and Digital Legislation.",
         "period": "Sep 2025 - Mar 2027",
         "completed": false
+      },
+      {
+        "title": "Full Stack Data Program",
+        "institution": "PoD Academy",
+        "status": "In progress",
+        "description": "Spark and Airflow orchestration, data platforms on GCP (BigQuery, Vertex AI) and AWS (SageMaker, Redshift), MLOps with model monitoring in production, generative AI with RAG and agents, and credit and fraud prevention models.",
+        "completed": false
       }
     ],
     "mainCertifications": [
