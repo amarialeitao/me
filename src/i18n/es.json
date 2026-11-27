@@ -391,10 +391,10 @@
       {
         "title": "Posgrado en Seguridad de la Información",
         "institution": "GRAN",
-        "status": "En curso",
+        "status": "Completado",
         "description": "Enfoque en Gestión de Seguridad, Normas ISO 27001/27002/27005, Informática Forense y Legislación Digital.",
-        "period": "Sep 2025 - Mar 2027",
-        "completed": false
+        "period": "Sep 2025 - Nov 2026",
+        "completed": true
       },
       {
         "title": "Programa Full Stack de Datos",
@@ -402,7 +402,7 @@
         "status": "En curso",
         "description": "Spark y orquestación con Airflow, plataformas de datos en GCP (BigQuery, Vertex AI) y AWS (SageMaker, Redshift), MLOps con monitoreo de modelos en producción, IA generativa con RAG y agentes, y modelos de crédito y prevención de fraude.",
         "completed": false,
-        "period": "Oct 2026 - Abr 2028"
+        "period": "Nov 2026 - May 2028"
       }
     ],
     "mainCertifications": [
